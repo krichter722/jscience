@@ -178,12 +178,12 @@
 												<UML:TaggedValue tag="privatedata2" value="retval=void;"/>
 												<UML:TaggedValue tag="privatedata3" value="Call"/>
 												<UML:TaggedValue tag="privatedata4" value="0"/>
-												<UML:TaggedValue tag="ea_localid" value="11545"/>
+												<UML:TaggedValue tag="ea_localid" value="11787"/>
 												<UML:TaggedValue tag="ea_sourceName" value="Personal Travel Companion Controller"/>
 												<UML:TaggedValue tag="ea_targetName" value="Location"/>
 												<UML:TaggedValue tag="ea_sourceType" value="Component"/>
 												<UML:TaggedValue tag="ea_targetType" value="Package"/>
-												<UML:TaggedValue tag="ea_sourceID" value="11061"/>
+												<UML:TaggedValue tag="ea_sourceID" value="11226"/>
 												<UML:TaggedValue tag="ea_targetID" value="11009"/>
 												<UML:TaggedValue tag="src_visibility" value="Public"/>
 												<UML:TaggedValue tag="src_isOrdered" value="false"/>
@@ -214,7 +214,7 @@
 						</UML:Collaboration>
 						<UML:Package name="Anonymiser" xmi.id="EAPK_C6DABFBE_11E8_47b9_9838_0663C857BE28" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_64F45C9D_DA7F_4688_9F29_82EDF0FFA985"/>
+								<UML:Stereotype xmi.idref="EAID_DF88432E_4C42_4f37_87ED_C787AFC26ACF"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="parent" value="EAPK_F3E4E281_4442_4a86_80F6_9B5141F7F30C"/>
@@ -240,7 +240,7 @@
 						</UML:Package>
 						<UML:Package name="Location" xmi.id="EAPK_ACF5DACD_DBB8_442a_970F_17C91A07AF37" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_64F45C9D_DA7F_4688_9F29_82EDF0FFA985"/>
+								<UML:Stereotype xmi.idref="EAID_DF88432E_4C42_4f37_87ED_C787AFC26ACF"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="parent" value="EAPK_F3E4E281_4442_4a86_80F6_9B5141F7F30C"/>
@@ -266,7 +266,7 @@
 						</UML:Package>
 						<UML:Package name="Publish Subscribe Broker" xmi.id="EAPK_94E2FB93_84D1_4bfc_9EF0_46A0CA5EEA37" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_64F45C9D_DA7F_4688_9F29_82EDF0FFA985"/>
+								<UML:Stereotype xmi.idref="EAID_DF88432E_4C42_4f37_87ED_C787AFC26ACF"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="parent" value="EAPK_F3E4E281_4442_4a86_80F6_9B5141F7F30C"/>
@@ -292,7 +292,7 @@
 						</UML:Package>
 						<UML:Package name="QueryBroker" xmi.id="EAPK_CA984ADD_A722_457f_B459_8C1DB5351611" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_64F45C9D_DA7F_4688_9F29_82EDF0FFA985"/>
+								<UML:Stereotype xmi.idref="EAID_DF88432E_4C42_4f37_87ED_C787AFC26ACF"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="parent" value="EAPK_F3E4E281_4442_4a86_80F6_9B5141F7F30C"/>
@@ -318,7 +318,7 @@
 						</UML:Package>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_64F45C9D_DA7F_4688_9F29_82EDF0FFA985" name="FI-WARE" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_DF88432E_4C42_4f37_87ED_C787AFC26ACF" name="FI-WARE" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 			</UML:Namespace.ownedElement>
