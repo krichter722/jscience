@@ -39,6 +39,31 @@
 					<UML:Namespace.ownedElement>
 						<UML:Collaboration xmi.id="EAID_F3E4E281_4442_4a86_80F6_9B5141F7F30C_Collaboration" name="Collaborations">
 							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="Data" xmi.id="EAID_9006F28C_B77A_4a91_A2DE_FB4D0987B364" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_F3E4E281_4442_4a86_80F6_9B5141F7F30C"/>
+										<UML:TaggedValue tag="date_created" value="2012-04-12 12:25:13"/>
+										<UML:TaggedValue tag="date_modified" value="2012-04-12 12:25:13"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_9006F28C_B77A_4a91_A2DE_FB4D0987B364"/>
+										<UML:TaggedValue tag="package_name" value="FI-Ware"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Thales"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="1902"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
 								<UML:ClassifierRole name="Publish Subscribe Broker" xmi.id="EAID_94E2FB93_84D1_4bfc_9EF0_46A0CA5EEA37" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
 									<UML:ModelElement.stereotype>
 										<UML:Stereotype name="FI-WARE"/>
@@ -159,6 +184,31 @@
 										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={202F81B3-CB8F-46e9-9F85-96B003D1F4C9}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=FI-WARE;GUID={E72B9A65-373D-4be9-AD58-708CA94360CA};@ENDSTEREO;$DES;$CLT={CA984ADD-A722-457f-B459-8C1DB5351611}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 									</UML:ModelElement.taggedValue>
 								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Cloud" xmi.id="EAID_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_F3E4E281_4442_4a86_80F6_9B5141F7F30C"/>
+										<UML:TaggedValue tag="date_created" value="2012-04-12 12:24:45"/>
+										<UML:TaggedValue tag="date_modified" value="2012-04-12 12:24:45"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630"/>
+										<UML:TaggedValue tag="package_name" value="FI-Ware"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Thales"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="1901"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
 							</UML:Namespace.ownedElement>
 							<UML:Collaboration.interaction>
 								<UML:Interaction xmi.id="EAID_F3E4E281_4442_4a86_80F6_9B5141F7F30C_INT" name="EAID_F3E4E281_4442_4a86_80F6_9B5141F7F30C_INT">
@@ -214,7 +264,7 @@
 						</UML:Collaboration>
 						<UML:Package name="Anonymiser" xmi.id="EAPK_C6DABFBE_11E8_47b9_9838_0663C857BE28" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_DF88432E_4C42_4f37_87ED_C787AFC26ACF"/>
+								<UML:Stereotype xmi.idref="EAID_A02C8580_97D6_497a_B2D0_332F97FDC136"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="parent" value="EAPK_F3E4E281_4442_4a86_80F6_9B5141F7F30C"/>
@@ -238,9 +288,895 @@
 							</UML:ModelElement.taggedValue>
 							<UML:Namespace.ownedElement/>
 						</UML:Package>
+						<UML:Package name="Cloud" xmi.id="EAPK_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_F3E4E281_4442_4a86_80F6_9B5141F7F30C"/>
+								<UML:TaggedValue tag="created" value="2012-04-12 12:24:45"/>
+								<UML:TaggedValue tag="modified" value="2012-04-12 12:24:45"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Thales"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Collaboration xmi.id="EAID_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630_Collaboration" name="Collaborations">
+									<UML:Namespace.ownedElement>
+										<UML:ClassifierRole name="Core GEs" xmi.id="EAID_10537F97_06A2_4984_A86B_5939C1D1B95B" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630"/>
+												<UML:TaggedValue tag="date_created" value="2012-04-12 10:49:40"/>
+												<UML:TaggedValue tag="date_modified" value="2012-04-12 10:50:17"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Cloud"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Thales"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="11332"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Ecosystem GEs" xmi.id="EAID_5A7453D4_EA30_47f1_A0AA_AF388F80E8C3" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630"/>
+												<UML:TaggedValue tag="date_created" value="2012-04-12 11:01:49"/>
+												<UML:TaggedValue tag="date_modified" value="2012-04-12 11:02:11"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Cloud"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Thales"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="11338"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Data Center Resource Management (DCRM) GE" xmi.id="EAID_66891BE4_E48D_4410_B8B3_5AB29F2EF22E" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;Data Center Resource Maangement (DCRM) GE&lt;/b&gt;, offering provisioning and life cycle management of virtualized resources (compute, storage, network) associated with virtual machines."/>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="20"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630"/>
+												<UML:TaggedValue tag="date_created" value="2012-04-12 10:51:20"/>
+												<UML:TaggedValue tag="date_modified" value="2012-04-12 12:25:47"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_66891BE4_E48D_4410_B8B3_5AB29F2EF22E"/>
+												<UML:TaggedValue tag="package_name" value="Cloud"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Thales"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="1889"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Service Management (SM) GE" xmi.id="EAID_8DEC0D69_AE2B_42e3_99FD_D756BD026A26" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;Service Management GE&lt;/b&gt;, offering provisioning and life cycle management of composite services comprising several resources provided by on of the above GEs. In the first release of FI-WARE, Service Management GE&#xA;will consume resources provided by Data Center Resource Management GE, via the corresponding APIs."/>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="20"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630"/>
+												<UML:TaggedValue tag="date_created" value="2012-04-12 11:47:58"/>
+												<UML:TaggedValue tag="date_modified" value="2012-04-12 12:25:47"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_8DEC0D69_AE2B_42e3_99FD_D756BD026A26"/>
+												<UML:TaggedValue tag="package_name" value="Cloud"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Thales"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="1896"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Identity Management GE" xmi.id="EAID_92720692_1CA4_461c_8E84_5C7426ED2BEC" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;Identity Management GE&lt;/b&gt;, providing a unified management of users, roles and tokens, that can be used by other GEs for authentication and authorization purposes."/>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="20"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630"/>
+												<UML:TaggedValue tag="date_created" value="2012-04-12 10:48:07"/>
+												<UML:TaggedValue tag="date_modified" value="2012-04-12 12:25:47"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_92720692_1CA4_461c_8E84_5C7426ED2BEC"/>
+												<UML:TaggedValue tag="package_name" value="Cloud"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Thales"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="1887"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Object Storage GE" xmi.id="EAID_A6B781EA_54E2_4e38_A71D_0AE15833B94D" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;Object Storage GE&lt;/b&gt;, offering provisioning and life cycle management of object-based storage containers and elements."/>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="20"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630"/>
+												<UML:TaggedValue tag="date_created" value="2012-04-12 10:51:48"/>
+												<UML:TaggedValue tag="date_modified" value="2012-04-12 12:25:47"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_A6B781EA_54E2_4e38_A71D_0AE15833B94D"/>
+												<UML:TaggedValue tag="package_name" value="Cloud"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Thales"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="1890"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Cloud Broker GE" xmi.id="EAID_AF3BD688_9C22_463d_A9FF_01568CD510F8" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;Cloud Broker GE&lt;/b&gt;, allowing to leverage GEs deployed in another Cloud in a federated or hybrid fashion."/>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="20"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630"/>
+												<UML:TaggedValue tag="date_created" value="2012-04-12 11:06:26"/>
+												<UML:TaggedValue tag="date_modified" value="2012-04-12 12:25:47"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_AF3BD688_9C22_463d_A9FF_01568CD510F8"/>
+												<UML:TaggedValue tag="package_name" value="Cloud"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Thales"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="1895"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="PaaS Management GE" xmi.id="EAID_B9940725_A310_4bb7_AA33_55CF4903D684" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;PaaS Management GE&lt;/b&gt;, offering provisioning and life cycle management of middleware-level containers, such as Web, Database, etc."/>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="20"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630"/>
+												<UML:TaggedValue tag="date_created" value="2012-04-12 11:00:35"/>
+												<UML:TaggedValue tag="date_modified" value="2012-04-12 12:25:47"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_B9940725_A310_4bb7_AA33_55CF4903D684"/>
+												<UML:TaggedValue tag="package_name" value="Cloud"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Thales"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="1892"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Audit GE" xmi.id="EAID_C383C1A5_0C0C_4d92_B41A_4341E66F291B" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;Audit GE&lt;/b&gt;, allowing to keep track of all the activities in the cloud for auditing purposes."/>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="20"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630"/>
+												<UML:TaggedValue tag="date_created" value="2012-04-12 11:05:47"/>
+												<UML:TaggedValue tag="date_modified" value="2012-04-12 12:25:47"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_C383C1A5_0C0C_4d92_B41A_4341E66F291B"/>
+												<UML:TaggedValue tag="package_name" value="Cloud"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Thales"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="1894"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Cloud Edge Resource Management GE" xmi.id="EAID_D59B6BA1_34D0_46cf_BC5B_F62CBDD7776F" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;Cloud Edge Resource Management GE&lt;/b&gt;, enabling end-to-end provisioning and life cycle management of cloud applications which comprise run-time components designed to run on Cloud Edge devices. The hosting&#xA;capabilities on such Cloud Edge devices are provided by &lt;b&gt;Cloud Proxy GE.&lt;/b&gt;"/>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="20"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630"/>
+												<UML:TaggedValue tag="date_created" value="2012-04-12 10:58:09"/>
+												<UML:TaggedValue tag="date_modified" value="2012-04-12 12:25:47"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_D59B6BA1_34D0_46cf_BC5B_F62CBDD7776F"/>
+												<UML:TaggedValue tag="package_name" value="Cloud"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Thales"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="1891"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Accounting GE" xmi.id="EAID_DC81B6CB_8CE2_4af5_AD57_34F4D4F26D91" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;Accounting GE&lt;/b&gt;, allowing to keep records about resource usage, which can be then used for billing purposes."/>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="20"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630"/>
+												<UML:TaggedValue tag="date_created" value="2012-04-12 11:04:54"/>
+												<UML:TaggedValue tag="date_modified" value="2012-04-12 12:25:47"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_DC81B6CB_8CE2_4af5_AD57_34F4D4F26D91"/>
+												<UML:TaggedValue tag="package_name" value="Cloud"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Thales"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="1893"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Monitoring GE" xmi.id="EAID_EBC4E89A_C94C_46e3_B65C_CE0B6E742829" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;Monitoring GE&lt;/b&gt;, collecting metrics associated with each of the Core GEs, and offering them to GEs which are interested to consume such metrics. For example, Service Management GE consumes metrics associated with&#xA;KPIs of the various service components in order to drive auto-scaling decisions. In the future, more advanced metrics-related capabilities will be provided, such as processing (before it is delivered to the consumer), archival and analysis of metrics."/>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="20"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630"/>
+												<UML:TaggedValue tag="date_created" value="2012-04-12 10:48:48"/>
+												<UML:TaggedValue tag="date_modified" value="2012-04-12 12:25:47"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_EBC4E89A_C94C_46e3_B65C_CE0B6E742829"/>
+												<UML:TaggedValue tag="package_name" value="Cloud"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Thales"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="1888"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+									</UML:Namespace.ownedElement>
+									<UML:Collaboration.interaction/>
+								</UML:Collaboration>
+								<UML:Comment xmi.id="EAID_FE4A2292_245D_40d3_ABAA_E69AB4747731" visibility="public" namespace="EAPK_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Inter-dependencies and Interaction Between GEs&lt;/b&gt;&#xA;While each GE comprises a set of functions and capabilities that can be used stand-alone, in a typical cloud deployment the different GEs will interact with each other, to provide a complete end-to-end solution. In particular, each of the 'Ecosystem GEs' is expected to interact with the Core GEs, via their APIs, as outlined above. To summarize, the following interaction between GEs is expected:&#xA;• Service Management (SM) GE will invoke APIs of Data Center Resource Management (DCRM) GE to perform operations on actual virtualized resources (mainly virtual machines) which comprise the services managed by SM GE. In future releases of FI-WARE, SM GE will offer services that comprise additional types of resources, and hence will also interact with additional Core GEs, such as Cloud Edge Resource Management GE and Object Storage GE.&#xA;• All the GEs will use Identity Management GE APIs for authentication and authorization purposes&#xA;• Core GEs will publish metrics via the Monitoring GE, GEs will subscribe to metrics provided by Monitoring GE"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Note"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630"/>
+										<UML:TaggedValue tag="date_created" value="2012-04-12 11:10:58"/>
+										<UML:TaggedValue tag="date_modified" value="2012-04-12 11:11:34"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Cloud"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Thales"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="11343"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Comment>
+								<UML:Package name="Accounting GE" xmi.id="EAPK_DC81B6CB_8CE2_4af5_AD57_34F4D4F26D91" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Accounting GE&lt;/b&gt;, allowing to keep records about resource usage, which can be then used for billing purposes."/>
+										<UML:TaggedValue tag="parent" value="EAPK_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630"/>
+										<UML:TaggedValue tag="created" value="2012-04-12 11:04:54"/>
+										<UML:TaggedValue tag="modified" value="2012-04-12 11:04:54"/>
+										<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="FALSE"/>
+										<UML:TaggedValue tag="usedtd" value="FALSE"/>
+										<UML:TaggedValue tag="logxml" value="FALSE"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="Thales"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement/>
+								</UML:Package>
+								<UML:Package name="Audit GE" xmi.id="EAPK_C383C1A5_0C0C_4d92_B41A_4341E66F291B" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Audit GE&lt;/b&gt;, allowing to keep track of all the activities in the cloud for auditing purposes."/>
+										<UML:TaggedValue tag="parent" value="EAPK_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630"/>
+										<UML:TaggedValue tag="created" value="2012-04-12 11:05:47"/>
+										<UML:TaggedValue tag="modified" value="2012-04-12 11:05:47"/>
+										<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="FALSE"/>
+										<UML:TaggedValue tag="usedtd" value="FALSE"/>
+										<UML:TaggedValue tag="logxml" value="FALSE"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="Thales"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement/>
+								</UML:Package>
+								<UML:Package name="Cloud Broker GE" xmi.id="EAPK_AF3BD688_9C22_463d_A9FF_01568CD510F8" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Cloud Broker GE&lt;/b&gt;, allowing to leverage GEs deployed in another Cloud in a federated or hybrid fashion."/>
+										<UML:TaggedValue tag="parent" value="EAPK_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630"/>
+										<UML:TaggedValue tag="created" value="2012-04-12 11:06:26"/>
+										<UML:TaggedValue tag="modified" value="2012-04-12 11:06:26"/>
+										<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="FALSE"/>
+										<UML:TaggedValue tag="usedtd" value="FALSE"/>
+										<UML:TaggedValue tag="logxml" value="FALSE"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="Thales"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement/>
+								</UML:Package>
+								<UML:Package name="Cloud Edge Resource Management GE" xmi.id="EAPK_D59B6BA1_34D0_46cf_BC5B_F62CBDD7776F" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Cloud Edge Resource Management GE&lt;/b&gt;, enabling end-to-end provisioning and life cycle management of cloud applications which comprise run-time components designed to run on Cloud Edge devices. The hosting&#xA;capabilities on such Cloud Edge devices are provided by &lt;b&gt;Cloud Proxy GE.&lt;/b&gt;"/>
+										<UML:TaggedValue tag="parent" value="EAPK_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630"/>
+										<UML:TaggedValue tag="created" value="2012-04-12 10:58:09"/>
+										<UML:TaggedValue tag="modified" value="2012-04-12 10:58:09"/>
+										<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="FALSE"/>
+										<UML:TaggedValue tag="usedtd" value="FALSE"/>
+										<UML:TaggedValue tag="logxml" value="FALSE"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="Thales"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement/>
+								</UML:Package>
+								<UML:Package name="Data Center Resource Management (DCRM) GE" xmi.id="EAPK_66891BE4_E48D_4410_B8B3_5AB29F2EF22E" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Data Center Resource Maangement (DCRM) GE&lt;/b&gt;, offering provisioning and life cycle management of virtualized resources (compute, storage, network) associated with virtual machines."/>
+										<UML:TaggedValue tag="parent" value="EAPK_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630"/>
+										<UML:TaggedValue tag="created" value="2012-04-12 10:51:20"/>
+										<UML:TaggedValue tag="modified" value="2012-04-12 10:51:20"/>
+										<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="FALSE"/>
+										<UML:TaggedValue tag="usedtd" value="FALSE"/>
+										<UML:TaggedValue tag="logxml" value="FALSE"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="Thales"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement/>
+								</UML:Package>
+								<UML:Package name="Identity Management GE" xmi.id="EAPK_92720692_1CA4_461c_8E84_5C7426ED2BEC" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Identity Management GE&lt;/b&gt;, providing a unified management of users, roles and tokens, that can be used by other GEs for authentication and authorization purposes."/>
+										<UML:TaggedValue tag="parent" value="EAPK_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630"/>
+										<UML:TaggedValue tag="created" value="2012-04-12 10:48:07"/>
+										<UML:TaggedValue tag="modified" value="2012-04-12 10:48:07"/>
+										<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="FALSE"/>
+										<UML:TaggedValue tag="usedtd" value="FALSE"/>
+										<UML:TaggedValue tag="logxml" value="FALSE"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="Thales"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement/>
+								</UML:Package>
+								<UML:Package name="Monitoring GE" xmi.id="EAPK_EBC4E89A_C94C_46e3_B65C_CE0B6E742829" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Monitoring GE&lt;/b&gt;, collecting metrics associated with each of the Core GEs, and offering them to GEs which are interested to consume such metrics. For example, Service Management GE consumes metrics associated with&#xA;KPIs of the various service components in order to drive auto-scaling decisions. In the future, more advanced metrics-related capabilities will be provided, such as processing (before it is delivered to the consumer), archival and analysis of metrics."/>
+										<UML:TaggedValue tag="parent" value="EAPK_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630"/>
+										<UML:TaggedValue tag="created" value="2012-04-12 10:48:48"/>
+										<UML:TaggedValue tag="modified" value="2012-04-12 10:48:48"/>
+										<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="FALSE"/>
+										<UML:TaggedValue tag="usedtd" value="FALSE"/>
+										<UML:TaggedValue tag="logxml" value="FALSE"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="Thales"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement/>
+								</UML:Package>
+								<UML:Package name="Object Storage GE" xmi.id="EAPK_A6B781EA_54E2_4e38_A71D_0AE15833B94D" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Object Storage GE&lt;/b&gt;, offering provisioning and life cycle management of object-based storage containers and elements."/>
+										<UML:TaggedValue tag="parent" value="EAPK_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630"/>
+										<UML:TaggedValue tag="created" value="2012-04-12 10:51:48"/>
+										<UML:TaggedValue tag="modified" value="2012-04-12 10:51:48"/>
+										<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="FALSE"/>
+										<UML:TaggedValue tag="usedtd" value="FALSE"/>
+										<UML:TaggedValue tag="logxml" value="FALSE"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="Thales"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement>
+										<UML:Collaboration xmi.id="EAID_A6B781EA_54E2_4e38_A71D_0AE15833B94D_Collaboration" name="Collaborations">
+											<UML:Namespace.ownedElement>
+												<UML:ClassifierRole name="Update" xmi.id="EAID_2747F23C_1519_40fb_A663_A1059602218C" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="ProvidedInterface"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_A6B781EA_54E2_4e38_A71D_0AE15833B94D"/>
+														<UML:TaggedValue tag="owner" value="EAID_B7018043_057F_48ac_AA1C_0E019B463485"/>
+														<UML:TaggedValue tag="date_created" value="2012-04-12 11:36:40"/>
+														<UML:TaggedValue tag="date_modified" value="2012-04-12 11:37:11"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Object Storage GE"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Thales"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="11347"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+												<UML:ClassifierRole name="Delete" xmi.id="EAID_4C83EB71_7286_42d5_A8B6_5115BC6B6C98" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="ProvidedInterface"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_A6B781EA_54E2_4e38_A71D_0AE15833B94D"/>
+														<UML:TaggedValue tag="owner" value="EAID_B7018043_057F_48ac_AA1C_0E019B463485"/>
+														<UML:TaggedValue tag="date_created" value="2012-04-12 11:37:14"/>
+														<UML:TaggedValue tag="date_modified" value="2012-04-12 11:37:18"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Object Storage GE"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Thales"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="11348"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+												<UML:ClassifierRole name="Retrieve" xmi.id="EAID_72E7E0BA_ED55_49ac_80FC_84B5C18C1F2E" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="ProvidedInterface"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_A6B781EA_54E2_4e38_A71D_0AE15833B94D"/>
+														<UML:TaggedValue tag="owner" value="EAID_B7018043_057F_48ac_AA1C_0E019B463485"/>
+														<UML:TaggedValue tag="date_created" value="2012-04-12 11:36:17"/>
+														<UML:TaggedValue tag="date_modified" value="2012-04-12 11:36:27"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Object Storage GE"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Thales"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="11346"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+												<UML:ClassifierRole name="Create" xmi.id="EAID_B1DF279E_A096_41d4_91E5_82AEB18DFD72" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="ProvidedInterface"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_A6B781EA_54E2_4e38_A71D_0AE15833B94D"/>
+														<UML:TaggedValue tag="owner" value="EAID_B7018043_057F_48ac_AA1C_0E019B463485"/>
+														<UML:TaggedValue tag="date_created" value="2012-04-12 11:35:53"/>
+														<UML:TaggedValue tag="date_modified" value="2012-04-12 11:36:13"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Object Storage GE"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Thales"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="11345"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+											</UML:Namespace.ownedElement>
+											<UML:Collaboration.interaction/>
+										</UML:Collaboration>
+										<UML:Component name="Cloud Data Management Interface (CDMI)" xmi.id="EAID_B7018043_057F_48ac_AA1C_0E019B463485" visibility="public" namespace="EAPK_A6B781EA_54E2_4e38_A71D_0AE15833B94D" isRoot="false" isLeaf="false" isAbstract="false">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="At the core of CDMI is the basic management operations of Create, Retrieve, Update and Delete. This functionality is exposed via a RESTful API that:&#xA;• Enables clients to discover capabilities of the object storage offering&#xA;• Manage containers and the objects that are placed within them&#xA;• Assigns and manipulates metadata to containers and objects"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Component"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_A6B781EA_54E2_4e38_A71D_0AE15833B94D"/>
+												<UML:TaggedValue tag="date_created" value="2012-04-12 11:35:00"/>
+												<UML:TaggedValue tag="date_modified" value="2012-04-12 11:38:12"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Object Storage GE"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Thales"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="11344"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Component>
+									</UML:Namespace.ownedElement>
+								</UML:Package>
+								<UML:Package name="PaaS Management GE" xmi.id="EAPK_B9940725_A310_4bb7_AA33_55CF4903D684" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;PaaS Management GE&lt;/b&gt;, offering provisioning and life cycle management of middleware-level containers, such as Web, Database, etc."/>
+										<UML:TaggedValue tag="parent" value="EAPK_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630"/>
+										<UML:TaggedValue tag="created" value="2012-04-12 11:00:35"/>
+										<UML:TaggedValue tag="modified" value="2012-04-12 11:00:35"/>
+										<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="FALSE"/>
+										<UML:TaggedValue tag="usedtd" value="FALSE"/>
+										<UML:TaggedValue tag="logxml" value="FALSE"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="Thales"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement/>
+								</UML:Package>
+								<UML:Package name="Service Management (SM) GE" xmi.id="EAPK_8DEC0D69_AE2B_42e3_99FD_D756BD026A26" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Service Management GE&lt;/b&gt;, offering provisioning and life cycle management of composite services comprising several resources provided by on of the above GEs. In the first release of FI-WARE, Service Management GE&#xA;will consume resources provided by Data Center Resource Management GE, via the corresponding APIs."/>
+										<UML:TaggedValue tag="parent" value="EAPK_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630"/>
+										<UML:TaggedValue tag="created" value="2012-04-12 11:47:58"/>
+										<UML:TaggedValue tag="modified" value="2012-04-12 11:47:58"/>
+										<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="FALSE"/>
+										<UML:TaggedValue tag="usedtd" value="FALSE"/>
+										<UML:TaggedValue tag="logxml" value="FALSE"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="Thales"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement/>
+								</UML:Package>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="Data" xmi.id="EAPK_9006F28C_B77A_4a91_A2DE_FB4D0987B364" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_F3E4E281_4442_4a86_80F6_9B5141F7F30C"/>
+								<UML:TaggedValue tag="created" value="2012-04-12 12:25:13"/>
+								<UML:TaggedValue tag="modified" value="2012-04-12 12:25:13"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Thales"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Collaboration xmi.id="EAID_9006F28C_B77A_4a91_A2DE_FB4D0987B364_Collaboration" name="Collaborations">
+									<UML:Namespace.ownedElement>
+										<UML:ClassifierRole name="BigData" xmi.id="EAID_B710D1B8_91BE_488c_B813_8E634B756FD4" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="Big Data Analysis is the process of using new tools to provide insights in to data previously considered too big or complex, given the current state of technology. The Big Data Analysis GE is made up of a number assets that allow an end user or developer to unlock the information within the data. The"/>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="20"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_9006F28C_B77A_4a91_A2DE_FB4D0987B364"/>
+												<UML:TaggedValue tag="date_created" value="2012-04-12 12:12:42"/>
+												<UML:TaggedValue tag="date_modified" value="2012-04-12 12:26:00"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_B710D1B8_91BE_488c_B813_8E634B756FD4"/>
+												<UML:TaggedValue tag="package_name" value="Data"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Thales"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="1897"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+									</UML:Namespace.ownedElement>
+									<UML:Collaboration.interaction/>
+								</UML:Collaboration>
+								<UML:Package name="BigData" xmi.id="EAPK_B710D1B8_91BE_488c_B813_8E634B756FD4" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Big Data Analysis is the process of using new tools to provide insights in to data previously considered too big or complex, given the current state of technology. The Big Data Analysis GE is made up of a number assets that allow an end user or developer to unlock the information within the data. The"/>
+										<UML:TaggedValue tag="parent" value="EAPK_9006F28C_B77A_4a91_A2DE_FB4D0987B364"/>
+										<UML:TaggedValue tag="created" value="2012-04-12 12:12:42"/>
+										<UML:TaggedValue tag="modified" value="2012-04-12 12:12:42"/>
+										<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="FALSE"/>
+										<UML:TaggedValue tag="usedtd" value="FALSE"/>
+										<UML:TaggedValue tag="logxml" value="FALSE"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="Thales"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement>
+										<UML:Collaboration xmi.id="EAID_B710D1B8_91BE_488c_B813_8E634B756FD4_Collaboration" name="Collaborations">
+											<UML:Namespace.ownedElement>
+												<UML:ClassifierRole name="High-performance distributed file-system" xmi.id="EAID_9EB7DD7E_F191_4701_BAE8_6B20B3A045C1" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="This generic enabler requires the use of a high-performance distributed file system based on Apache's Hadoop HDFS. This framework allows for the distributed processing of large data sets (&amp;gt; 0.5 Terabytes) across clusters of&#xA;computers using a simple programming model. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. In addition we will make use of an SQL-like interface what allows data exploration of data stored within the file-system."/>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Package"/>
+														<UML:TaggedValue tag="ea_ntype" value="20"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_B710D1B8_91BE_488c_B813_8E634B756FD4"/>
+														<UML:TaggedValue tag="date_created" value="2012-04-12 12:16:08"/>
+														<UML:TaggedValue tag="date_modified" value="2012-04-12 12:16:50"/>
+														<UML:TaggedValue tag="gentype" value="Java"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package2" value="EAID_9EB7DD7E_F191_4701_BAE8_6B20B3A045C1"/>
+														<UML:TaggedValue tag="package_name" value="BigData"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Thales"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="1899"/>
+														<UML:TaggedValue tag="ea_eleType" value="package"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+												<UML:ClassifierRole name="NoSQL document-orientated storage" xmi.id="EAID_E2C691EA_FA2E_4854_BEBD_E0DAB6280088" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="For data sets smaller than 0.5 Terabytes the GE will make use of a document orientated storage system based on NoSQL. the interface is to be compatible with MongoDB. This component will be used to provide a high-availability store for querying data."/>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Package"/>
+														<UML:TaggedValue tag="ea_ntype" value="20"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_B710D1B8_91BE_488c_B813_8E634B756FD4"/>
+														<UML:TaggedValue tag="date_created" value="2012-04-12 12:17:14"/>
+														<UML:TaggedValue tag="date_modified" value="2012-04-12 12:17:31"/>
+														<UML:TaggedValue tag="gentype" value="Java"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package2" value="EAID_E2C691EA_FA2E_4854_BEBD_E0DAB6280088"/>
+														<UML:TaggedValue tag="package_name" value="BigData"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Thales"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="1900"/>
+														<UML:TaggedValue tag="ea_eleType" value="package"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+												<UML:ClassifierRole name="Data Stream Analysis" xmi.id="EAID_E35DCB8D_459A_45d1_A2B6_37E0C033B458" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="The Data Stream Analysis platform brings together a cluster of commodity computer servers or nodes to divide up and process a pre-programmed task.&#xA;Each node in the cluster has a Worker process that divides up the task amongst the available resources within the server. These tasks are programmed in modules designed to solve a specific problem. Modules are built as shared libraries allowing for changes to be made to the module so that it can be reloaded at run-time without interrupting the&#xA;operation of the platform.&#xA;Communication between the nodes is handled via the network layer that ensures the data needed to process each task is available on every node. The network layer also compresses and optimizes the data flow to reduce latency when transferring data.&#xA;Data is uploaded into the cluster using a client tool, in addition this tool can be used to launch processing tasks and download result data. delilah is available in two forms, a command line client and Qt based graphical interface.&#xA;There is also a delilah client library (C++ API), which can be used to communicate any application with Data Stream Analysis platform (for streaming operations)."/>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Package"/>
+														<UML:TaggedValue tag="ea_ntype" value="20"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_B710D1B8_91BE_488c_B813_8E634B756FD4"/>
+														<UML:TaggedValue tag="date_created" value="2012-04-12 12:14:46"/>
+														<UML:TaggedValue tag="date_modified" value="2012-04-12 12:18:33"/>
+														<UML:TaggedValue tag="gentype" value="Java"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package2" value="EAID_E35DCB8D_459A_45d1_A2B6_37E0C033B458"/>
+														<UML:TaggedValue tag="package_name" value="BigData"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Thales"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="1898"/>
+														<UML:TaggedValue tag="ea_eleType" value="package"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+											</UML:Namespace.ownedElement>
+											<UML:Collaboration.interaction/>
+										</UML:Collaboration>
+										<UML:Package name="Data Stream Analysis" xmi.id="EAPK_E35DCB8D_459A_45d1_A2B6_37E0C033B458" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="The Data Stream Analysis platform brings together a cluster of commodity computer servers or nodes to divide up and process a pre-programmed task.&#xA;Each node in the cluster has a Worker process that divides up the task amongst the available resources within the server. These tasks are programmed in modules designed to solve a specific problem. Modules are built as shared libraries allowing for changes to be made to the module so that it can be reloaded at run-time without interrupting the&#xA;operation of the platform.&#xA;Communication between the nodes is handled via the network layer that ensures the data needed to process each task is available on every node. The network layer also compresses and optimizes the data flow to reduce latency when transferring data.&#xA;Data is uploaded into the cluster using a client tool, in addition this tool can be used to launch processing tasks and download result data. delilah is available in two forms, a command line client and Qt based graphical interface.&#xA;There is also a delilah client library (C++ API), which can be used to communicate any application with Data Stream Analysis platform (for streaming operations)."/>
+												<UML:TaggedValue tag="parent" value="EAPK_B710D1B8_91BE_488c_B813_8E634B756FD4"/>
+												<UML:TaggedValue tag="created" value="2012-04-12 12:14:46"/>
+												<UML:TaggedValue tag="modified" value="2012-04-12 12:14:46"/>
+												<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isprotected" value="FALSE"/>
+												<UML:TaggedValue tag="usedtd" value="FALSE"/>
+												<UML:TaggedValue tag="logxml" value="FALSE"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="author" value="Thales"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="ea_stype" value="Public"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Namespace.ownedElement/>
+										</UML:Package>
+										<UML:Package name="High-performance distributed file-system" xmi.id="EAPK_9EB7DD7E_F191_4701_BAE8_6B20B3A045C1" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="This generic enabler requires the use of a high-performance distributed file system based on Apache's Hadoop HDFS. This framework allows for the distributed processing of large data sets (&amp;gt; 0.5 Terabytes) across clusters of&#xA;computers using a simple programming model. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. In addition we will make use of an SQL-like interface what allows data exploration of data stored within the file-system."/>
+												<UML:TaggedValue tag="parent" value="EAPK_B710D1B8_91BE_488c_B813_8E634B756FD4"/>
+												<UML:TaggedValue tag="created" value="2012-04-12 12:16:08"/>
+												<UML:TaggedValue tag="modified" value="2012-04-12 12:16:08"/>
+												<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isprotected" value="FALSE"/>
+												<UML:TaggedValue tag="usedtd" value="FALSE"/>
+												<UML:TaggedValue tag="logxml" value="FALSE"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="author" value="Thales"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="ea_stype" value="Public"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Namespace.ownedElement/>
+										</UML:Package>
+										<UML:Package name="NoSQL document-orientated storage" xmi.id="EAPK_E2C691EA_FA2E_4854_BEBD_E0DAB6280088" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="For data sets smaller than 0.5 Terabytes the GE will make use of a document orientated storage system based on NoSQL. the interface is to be compatible with MongoDB. This component will be used to provide a high-availability store for querying data."/>
+												<UML:TaggedValue tag="parent" value="EAPK_B710D1B8_91BE_488c_B813_8E634B756FD4"/>
+												<UML:TaggedValue tag="created" value="2012-04-12 12:17:14"/>
+												<UML:TaggedValue tag="modified" value="2012-04-12 12:17:14"/>
+												<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isprotected" value="FALSE"/>
+												<UML:TaggedValue tag="usedtd" value="FALSE"/>
+												<UML:TaggedValue tag="logxml" value="FALSE"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="author" value="Thales"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="ea_stype" value="Public"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Namespace.ownedElement/>
+										</UML:Package>
+									</UML:Namespace.ownedElement>
+								</UML:Package>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
 						<UML:Package name="Location" xmi.id="EAPK_ACF5DACD_DBB8_442a_970F_17C91A07AF37" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_DF88432E_4C42_4f37_87ED_C787AFC26ACF"/>
+								<UML:Stereotype xmi.idref="EAID_A02C8580_97D6_497a_B2D0_332F97FDC136"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="parent" value="EAPK_F3E4E281_4442_4a86_80F6_9B5141F7F30C"/>
@@ -266,7 +1202,7 @@
 						</UML:Package>
 						<UML:Package name="Publish Subscribe Broker" xmi.id="EAPK_94E2FB93_84D1_4bfc_9EF0_46A0CA5EEA37" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_DF88432E_4C42_4f37_87ED_C787AFC26ACF"/>
+								<UML:Stereotype xmi.idref="EAID_A02C8580_97D6_497a_B2D0_332F97FDC136"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="parent" value="EAPK_F3E4E281_4442_4a86_80F6_9B5141F7F30C"/>
@@ -292,7 +1228,7 @@
 						</UML:Package>
 						<UML:Package name="QueryBroker" xmi.id="EAPK_CA984ADD_A722_457f_B459_8C1DB5351611" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_DF88432E_4C42_4f37_87ED_C787AFC26ACF"/>
+								<UML:Stereotype xmi.idref="EAID_A02C8580_97D6_497a_B2D0_332F97FDC136"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="parent" value="EAPK_F3E4E281_4442_4a86_80F6_9B5141F7F30C"/>
@@ -318,30 +1254,101 @@
 						</UML:Package>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_DF88432E_4C42_4f37_87ED_C787AFC26ACF" name="FI-WARE" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_A02C8580_97D6_497a_B2D0_332F97FDC136" name="FI-WARE" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 			</UML:Namespace.ownedElement>
 		</UML:Model>
-		<UML:Diagram name="FI-Ware" xmi.id="EAID_13E11AE6_91EB_4fdf_A1EA_FC677C0BD14D" diagramType="ComponentDiagram" owner="EAPK_F3E4E281_4442_4a86_80F6_9B5141F7F30C" toolName="Enterprise Architect 2.5">
+		<UML:Diagram name="Cloud" xmi.id="EAID_13E11AE6_91EB_4fdf_A1EA_FC677C0BD14D" diagramType="ComponentDiagram" owner="EAPK_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630" toolName="Enterprise Architect 2.5">
 			<UML:ModelElement.taggedValue>
 				<UML:TaggedValue tag="version" value="1.0"/>
 				<UML:TaggedValue tag="author" value="Thales"/>
 				<UML:TaggedValue tag="created_date" value="2012-03-21 10:45:17"/>
-				<UML:TaggedValue tag="modified_date" value="2012-03-21 14:07:27"/>
-				<UML:TaggedValue tag="package" value="EAPK_F3E4E281_4442_4a86_80F6_9B5141F7F30C"/>
+				<UML:TaggedValue tag="modified_date" value="2012-04-12 12:03:45"/>
+				<UML:TaggedValue tag="package" value="EAPK_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630"/>
 				<UML:TaggedValue tag="type" value="Component"/>
 				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
 				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
+				<UML:TaggedValue tag="tpos" value="1"/>
 				<UML:TaggedValue tag="ea_localid" value="1137"/>
 				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=795;DocSize.cy=1138;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<UML:TaggedValue tag="styleex" value="SaveTag=5831A0CA;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=3B3F7F4A;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 			</UML:ModelElement.taggedValue>
 			<UML:Diagram.element>
-				<UML:DiagramElement geometry="Left=320;Top=210;Right=460;Bottom=300;" subject="EAID_ACF5DACD_DBB8_442a_970F_17C91A07AF37" seqno="1" style="DUID=03244A6F;"/>
-				<UML:DiagramElement geometry="Left=90;Top=210;Right=230;Bottom=300;" subject="EAID_C6DABFBE_11E8_47b9_9838_0663C857BE28" seqno="2" style="DUID=378A4688;"/>
-				<UML:DiagramElement geometry="Left=320;Top=70;Right=460;Bottom=160;" subject="EAID_94E2FB93_84D1_4bfc_9EF0_46A0CA5EEA37" seqno="3" style="DUID=2B3F6706;"/>
-				<UML:DiagramElement geometry="Left=90;Top=70;Right=230;Bottom=160;" subject="EAID_CA984ADD_A722_457f_B459_8C1DB5351611" seqno="4" style="DUID=F7790B0C;"/>
+				<UML:DiagramElement geometry="Left=240;Top=50;Right=380;Bottom=120;" subject="EAID_8DEC0D69_AE2B_42e3_99FD_D756BD026A26" seqno="1" style="DUID=1F9A12C3;LCol=0;BCol=14938876;BFol=0;font=ARIAL;fontsz=80;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=430;Top=20;Right=780;Bottom=290;" subject="EAID_FE4A2292_245D_40d3_ABAA_E69AB4747731" seqno="2" style="DUID=2F97CAA7;"/>
+				<UML:DiagramElement geometry="Left=60;Top=580;Right=200;Bottom=650;" subject="EAID_AF3BD688_9C22_463d_A9FF_01568CD510F8" seqno="3" style="DUID=30754334;BFol=12632256;"/>
+				<UML:DiagramElement geometry="Left=240;Top=490;Right=380;Bottom=560;" subject="EAID_C383C1A5_0C0C_4d92_B41A_4341E66F291B" seqno="4" style="DUID=3AADF22F;BFol=12632256;"/>
+				<UML:DiagramElement geometry="Left=60;Top=490;Right=200;Bottom=560;" subject="EAID_DC81B6CB_8CE2_4af5_AD57_34F4D4F26D91" seqno="5" style="DUID=8CA33A54;BFol=12632256;"/>
+				<UML:DiagramElement geometry="Left=40;Top=360;Right=400;Bottom=690;" subject="EAID_5A7453D4_EA30_47f1_A0AA_AF388F80E8C3" seqno="6" style="DUID=3E1A5CEC;"/>
+				<UML:DiagramElement geometry="Left=240;Top=140;Right=380;Bottom=210;" subject="EAID_B9940725_A310_4bb7_AA33_55CF4903D684" seqno="7" style="DUID=49F21B28;BFol=12632256;"/>
+				<UML:DiagramElement geometry="Left=60;Top=230;Right=200;Bottom=300;" subject="EAID_D59B6BA1_34D0_46cf_BC5B_F62CBDD7776F" seqno="8" style="DUID=AB632514;BFol=12632256;"/>
+				<UML:DiagramElement geometry="Left=60;Top=140;Right=200;Bottom=210;" subject="EAID_A6B781EA_54E2_4e38_A71D_0AE15833B94D" seqno="9" style="DUID=0F342C48;"/>
+				<UML:DiagramElement geometry="Left=60;Top=50;Right=200;Bottom=120;" subject="EAID_66891BE4_E48D_4410_B8B3_5AB29F2EF22E" seqno="10" style="DUID=E744BB6C;LCol=0;font=ARIAL;fontsz=80;bold=0;italic=0;ul=0;charset=0;pitch=0;BFol=0;BCol=14938876;"/>
+				<UML:DiagramElement geometry="Left=40;Top=20;Right=400;Bottom=330;" subject="EAID_10537F97_06A2_4984_A86B_5939C1D1B95B" seqno="11" style="DUID=2BE4DC0A;"/>
+				<UML:DiagramElement geometry="Left=60;Top=400;Right=200;Bottom=470;" subject="EAID_EBC4E89A_C94C_46e3_B65C_CE0B6E742829" seqno="12" style="DUID=1736A3F6;"/>
+				<UML:DiagramElement geometry="Left=240;Top=400;Right=380;Bottom=470;" subject="EAID_92720692_1CA4_461c_8E84_5C7426ED2BEC" seqno="13" style="DUID=379ADE30;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="Object Storage GE" xmi.id="EAID_ABC0EC4B_93F5_4101_B29B_1291209B52D2" diagramType="ComponentDiagram" owner="EAPK_A6B781EA_54E2_4e38_A71D_0AE15833B94D" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Thales"/>
+				<UML:TaggedValue tag="created_date" value="2012-04-12 10:51:50"/>
+				<UML:TaggedValue tag="modified_date" value="2012-04-12 11:38:59"/>
+				<UML:TaggedValue tag="package" value="EAPK_A6B781EA_54E2_4e38_A71D_0AE15833B94D"/>
+				<UML:TaggedValue tag="type" value="Component"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
+				<UML:TaggedValue tag="ea_localid" value="1187"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=795;DocSize.cy=1138;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=AB667FD7;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=419;Top=101;Right=432;Bottom=141;" subject="EAID_4C83EB71_7286_42d5_A8B6_5115BC6B6C98" seqno="1" style="DUID=20DB6FFE;LBL=CX=31:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=329;Top=101;Right=342;Bottom=141;" subject="EAID_2747F23C_1519_40fb_A663_A1059602218C" seqno="2" style="DUID=903E02F4;LBL=CX=34:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=247;Top=101;Right=260;Bottom=141;" subject="EAID_72E7E0BA_ED55_49ac_80FC_84B5C18C1F2E" seqno="3" style="DUID=41FD2158;LBL=CX=39:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=158;Top=101;Right=171;Bottom=141;" subject="EAID_B1DF279E_A096_41d4_91E5_82AEB18DFD72" seqno="4" style="DUID=4C14E0C2;LBL=CX=31:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=110;Top=140;Right=480;Bottom=210;" subject="EAID_B7018043_057F_48ac_AA1C_0E019B463485" seqno="5" style="DUID=671A3069;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="Data" xmi.id="EAID_C1C63CBC_CF18_4d9b_ACBF_F68261F1F3E5" diagramType="ComponentDiagram" owner="EAPK_9006F28C_B77A_4a91_A2DE_FB4D0987B364" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Thales"/>
+				<UML:TaggedValue tag="created_date" value="2012-04-12 12:00:45"/>
+				<UML:TaggedValue tag="modified_date" value="2012-04-12 12:35:01"/>
+				<UML:TaggedValue tag="package" value="EAPK_9006F28C_B77A_4a91_A2DE_FB4D0987B364"/>
+				<UML:TaggedValue tag="type" value="Component"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
+				<UML:TaggedValue tag="tpos" value="2"/>
+				<UML:TaggedValue tag="ea_localid" value="1193"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=795;DocSize.cy=1138;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=3D797277;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=80;Top=70;Right=220;Bottom=140;" subject="EAID_B710D1B8_91BE_488c_B813_8E634B756FD4" seqno="1" style="DUID=A3E11216;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="BigData" xmi.id="EAID_2C5D803A_4F1E_4b9c_9B17_30702C74A5A4" diagramType="ComponentDiagram" owner="EAPK_B710D1B8_91BE_488c_B813_8E634B756FD4" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Thales"/>
+				<UML:TaggedValue tag="created_date" value="2012-04-12 12:14:09"/>
+				<UML:TaggedValue tag="modified_date" value="2012-04-12 12:34:45"/>
+				<UML:TaggedValue tag="package" value="EAPK_B710D1B8_91BE_488c_B813_8E634B756FD4"/>
+				<UML:TaggedValue tag="type" value="Component"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
+				<UML:TaggedValue tag="ea_localid" value="1194"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=795;DocSize.cy=1138;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=5F20DD17;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=520;Top=80;Right=665;Bottom=150;" subject="EAID_E2C691EA_FA2E_4854_BEBD_E0DAB6280088" seqno="1" style="DUID=CB14EC85;"/>
+				<UML:DiagramElement geometry="Left=310;Top=80;Right=456;Bottom=150;" subject="EAID_9EB7DD7E_F191_4701_BAE8_6B20B3A045C1" seqno="2" style="DUID=DF697FF0;"/>
+				<UML:DiagramElement geometry="Left=100;Top=80;Right=240;Bottom=150;" subject="EAID_E35DCB8D_459A_45d1_A2B6_37E0C033B458" seqno="3" style="DUID=11E0BADC;"/>
 			</UML:Diagram.element>
 		</UML:Diagram>
 		<UML:DiagramElement geometry="Left=931;Top=50;Right=1071;Bottom=934;" subject="EAID_ACF5DACD_DBB8_442a_970F_17C91A07AF37" seqno="1" style="DUID=03244A6F;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;">
