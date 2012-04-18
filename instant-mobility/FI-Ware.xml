@@ -264,7 +264,7 @@
 						</UML:Collaboration>
 						<UML:Package name="Anonymiser" xmi.id="EAPK_C6DABFBE_11E8_47b9_9838_0663C857BE28" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_F5793C4E_DF24_4a81_99ED_6705B2454594"/>
+								<UML:Stereotype xmi.idref="EAID_76B1D1F2_E9C6_4f38_9346_B8316DFAB929"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="parent" value="EAPK_F3E4E281_4442_4a86_80F6_9B5141F7F30C"/>
@@ -718,7 +718,7 @@
 								</UML:Comment>
 								<UML:Package name="Accounting GE" xmi.id="EAPK_DC81B6CB_8CE2_4af5_AD57_34F4D4F26D91" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_E7B1D87D_F5EE_4dc3_B3C8_52F613A13CC5"/>
+										<UML:Stereotype xmi.idref="EAID_60094E7A_E91F_40ef_9A5F_7C1F16D54746"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Accounting GE&lt;/b&gt;, allowing to keep records about resource usage, which can be then used for billing purposes."/>
@@ -741,7 +741,7 @@
 								</UML:Package>
 								<UML:Package name="Audit GE" xmi.id="EAPK_C383C1A5_0C0C_4d92_B41A_4341E66F291B" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_E7B1D87D_F5EE_4dc3_B3C8_52F613A13CC5"/>
+										<UML:Stereotype xmi.idref="EAID_60094E7A_E91F_40ef_9A5F_7C1F16D54746"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Audit GE&lt;/b&gt;, allowing to keep track of all the activities in the cloud for auditing purposes."/>
@@ -764,7 +764,7 @@
 								</UML:Package>
 								<UML:Package name="Cloud Broker GE" xmi.id="EAPK_AF3BD688_9C22_463d_A9FF_01568CD510F8" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_E7B1D87D_F5EE_4dc3_B3C8_52F613A13CC5"/>
+										<UML:Stereotype xmi.idref="EAID_60094E7A_E91F_40ef_9A5F_7C1F16D54746"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Cloud Broker GE&lt;/b&gt;, allowing to leverage GEs deployed in another Cloud in a federated or hybrid fashion."/>
@@ -787,7 +787,7 @@
 								</UML:Package>
 								<UML:Package name="Cloud Edge Resource Management GE" xmi.id="EAPK_D59B6BA1_34D0_46cf_BC5B_F62CBDD7776F" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_E7B1D87D_F5EE_4dc3_B3C8_52F613A13CC5"/>
+										<UML:Stereotype xmi.idref="EAID_60094E7A_E91F_40ef_9A5F_7C1F16D54746"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Cloud Edge Resource Management GE&lt;/b&gt;, enabling end-to-end provisioning and life cycle management of cloud applications which comprise run-time components designed to run on Cloud Edge devices. The hosting&#xA;capabilities on such Cloud Edge devices are provided by &lt;b&gt;Cloud Proxy GE.&lt;/b&gt;"/>
@@ -810,7 +810,7 @@
 								</UML:Package>
 								<UML:Package name="Data Center Resource Management (DCRM) GE" xmi.id="EAPK_66891BE4_E48D_4410_B8B3_5AB29F2EF22E" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_E7B1D87D_F5EE_4dc3_B3C8_52F613A13CC5"/>
+										<UML:Stereotype xmi.idref="EAID_60094E7A_E91F_40ef_9A5F_7C1F16D54746"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Data Center Resource Maangement (DCRM) GE&lt;/b&gt;, offering provisioning and life cycle management of virtualized resources (compute, storage, network) associated with virtual machines."/>
@@ -833,7 +833,7 @@
 								</UML:Package>
 								<UML:Package name="Identity Management GE" xmi.id="EAPK_92720692_1CA4_461c_8E84_5C7426ED2BEC" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_E7B1D87D_F5EE_4dc3_B3C8_52F613A13CC5"/>
+										<UML:Stereotype xmi.idref="EAID_60094E7A_E91F_40ef_9A5F_7C1F16D54746"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Identity Management GE&lt;/b&gt;, providing a unified management of users, roles and tokens, that can be used by other GEs for authentication and authorization purposes."/>
@@ -856,7 +856,7 @@
 								</UML:Package>
 								<UML:Package name="Monitoring GE" xmi.id="EAPK_EBC4E89A_C94C_46e3_B65C_CE0B6E742829" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_E7B1D87D_F5EE_4dc3_B3C8_52F613A13CC5"/>
+										<UML:Stereotype xmi.idref="EAID_60094E7A_E91F_40ef_9A5F_7C1F16D54746"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Monitoring GE&lt;/b&gt;, collecting metrics associated with each of the Core GEs, and offering them to GEs which are interested to consume such metrics. For example, Service Management GE consumes metrics associated with&#xA;KPIs of the various service components in order to drive auto-scaling decisions. In the future, more advanced metrics-related capabilities will be provided, such as processing (before it is delivered to the consumer), archival and analysis of metrics."/>
@@ -879,7 +879,7 @@
 								</UML:Package>
 								<UML:Package name="Object Storage GE" xmi.id="EAPK_A6B781EA_54E2_4e38_A71D_0AE15833B94D" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_E7B1D87D_F5EE_4dc3_B3C8_52F613A13CC5"/>
+										<UML:Stereotype xmi.idref="EAID_60094E7A_E91F_40ef_9A5F_7C1F16D54746"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Object Storage GE&lt;/b&gt;, offering provisioning and life cycle management of object-based storage containers and elements."/>
@@ -1032,7 +1032,7 @@
 								</UML:Package>
 								<UML:Package name="PaaS Management GE" xmi.id="EAPK_B9940725_A310_4bb7_AA33_55CF4903D684" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_E7B1D87D_F5EE_4dc3_B3C8_52F613A13CC5"/>
+										<UML:Stereotype xmi.idref="EAID_60094E7A_E91F_40ef_9A5F_7C1F16D54746"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="&lt;b&gt;PaaS Management GE&lt;/b&gt;, offering provisioning and life cycle management of middleware-level containers, such as Web, Database, etc."/>
@@ -1055,7 +1055,7 @@
 								</UML:Package>
 								<UML:Package name="Service Management (SM) GE" xmi.id="EAPK_8DEC0D69_AE2B_42e3_99FD_D756BD026A26" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_E7B1D87D_F5EE_4dc3_B3C8_52F613A13CC5"/>
+										<UML:Stereotype xmi.idref="EAID_60094E7A_E91F_40ef_9A5F_7C1F16D54746"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Service Management GE&lt;/b&gt;, offering provisioning and life cycle management of composite services comprising several resources provided by on of the above GEs. In the first release of FI-WARE, Service Management GE&#xA;will consume resources provided by Data Center Resource Management GE, via the corresponding APIs."/>
@@ -1213,7 +1213,7 @@
 								</UML:Collaboration>
 								<UML:Package name="BigData" xmi.id="EAPK_B710D1B8_91BE_488c_B813_8E634B756FD4" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_E7B1D87D_F5EE_4dc3_B3C8_52F613A13CC5"/>
+										<UML:Stereotype xmi.idref="EAID_60094E7A_E91F_40ef_9A5F_7C1F16D54746"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="Big Data Analysis is the process of using new tools to provide insights in to data previously considered too big or complex, given the current state of technology. The Big Data Analysis GE is made up of a number assets that allow an end user or developer to unlock the information within the data. The"/>
@@ -1381,7 +1381,7 @@
 										</UML:Collaboration>
 										<UML:Package name="Data Stream Analysis" xmi.id="EAPK_E35DCB8D_459A_45d1_A2B6_37E0C033B458" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 											<UML:ModelElement.stereotype>
-												<UML:Stereotype xmi.idref="EAID_E7B1D87D_F5EE_4dc3_B3C8_52F613A13CC5"/>
+												<UML:Stereotype xmi.idref="EAID_60094E7A_E91F_40ef_9A5F_7C1F16D54746"/>
 											</UML:ModelElement.stereotype>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="documentation" value="The Data Stream Analysis platform brings together a cluster of commodity computer servers or nodes to divide up and process a pre-programmed task.&#xA;Each node in the cluster has a Worker process that divides up the task amongst the available resources within the server. These tasks are programmed in modules designed to solve a specific problem. Modules are built as shared libraries allowing for changes to be made to the module so that it can be reloaded at run-time without interrupting the&#xA;operation of the platform.&#xA;Communication between the nodes is handled via the network layer that ensures the data needed to process each task is available on every node. The network layer also compresses and optimizes the data flow to reduce latency when transferring data.&#xA;Data is uploaded into the cluster using a client tool, in addition this tool can be used to launch processing tasks and download result data. delilah is available in two forms, a command line client and Qt based graphical interface.&#xA;There is also a delilah client library (C++ API), which can be used to communicate any application with Data Stream Analysis platform (for streaming operations)."/>
@@ -1404,7 +1404,7 @@
 										</UML:Package>
 										<UML:Package name="High-performance distributed file-system" xmi.id="EAPK_9EB7DD7E_F191_4701_BAE8_6B20B3A045C1" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 											<UML:ModelElement.stereotype>
-												<UML:Stereotype xmi.idref="EAID_E7B1D87D_F5EE_4dc3_B3C8_52F613A13CC5"/>
+												<UML:Stereotype xmi.idref="EAID_60094E7A_E91F_40ef_9A5F_7C1F16D54746"/>
 											</UML:ModelElement.stereotype>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="documentation" value="This generic enabler requires the use of a high-performance distributed file system based on Apache's Hadoop HDFS. This framework allows for the distributed processing of large data sets (&amp;gt; 0.5 Terabytes) across clusters of&#xA;computers using a simple programming model. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. In addition we will make use of an SQL-like interface what allows data exploration of data stored within the file-system."/>
@@ -1427,7 +1427,7 @@
 										</UML:Package>
 										<UML:Package name="NoSQL document-orientated storage" xmi.id="EAPK_E2C691EA_FA2E_4854_BEBD_E0DAB6280088" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 											<UML:ModelElement.stereotype>
-												<UML:Stereotype xmi.idref="EAID_E7B1D87D_F5EE_4dc3_B3C8_52F613A13CC5"/>
+												<UML:Stereotype xmi.idref="EAID_60094E7A_E91F_40ef_9A5F_7C1F16D54746"/>
 											</UML:ModelElement.stereotype>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="documentation" value="For data sets smaller than 0.5 Terabytes the GE will make use of a document orientated storage system based on NoSQL. the interface is to be compatible with MongoDB. This component will be used to provide a high-availability store for querying data."/>
@@ -1470,7 +1470,7 @@
 								</UML:Package>
 								<UML:Package name="Publish/Subscribe" xmi.id="EAPK_837DDA16_2191_400d_8E65_DE2DE8FD528B" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_E7B1D87D_F5EE_4dc3_B3C8_52F613A13CC5"/>
+										<UML:Stereotype xmi.idref="EAID_60094E7A_E91F_40ef_9A5F_7C1F16D54746"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="A fundamental principle supported by the Publish/Subscribe GE is that of achieving a total decoupling between Context Producers and Context Consumers. On one hand, this means that Context Producers publish data without knowing which Context Consumers will consume published data; therefore they don’t need to be connected to them. On the other hand, Context Consumers consume data of their interest, without this meaning they know which Context Producer has published a particular event: they are just interested in the event itself but not in who generated it. As a result, this GE it is an excellent bridge enabling external applications to manage events related to the Internet of the Things in a simpler way hiding the complexity of gathering measures from IoT resources (sensors) that might&#xA;be distributed or involving multiple low-level communication protocols."/>
@@ -2412,7 +2412,7 @@
 						</UML:Package>
 						<UML:Package name="Location" xmi.id="EAPK_ACF5DACD_DBB8_442a_970F_17C91A07AF37" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_F5793C4E_DF24_4a81_99ED_6705B2454594"/>
+								<UML:Stereotype xmi.idref="EAID_76B1D1F2_E9C6_4f38_9346_B8316DFAB929"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="parent" value="EAPK_F3E4E281_4442_4a86_80F6_9B5141F7F30C"/>
@@ -2438,7 +2438,7 @@
 						</UML:Package>
 						<UML:Package name="Publish Subscribe Broker" xmi.id="EAPK_94E2FB93_84D1_4bfc_9EF0_46A0CA5EEA37" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_F5793C4E_DF24_4a81_99ED_6705B2454594"/>
+								<UML:Stereotype xmi.idref="EAID_76B1D1F2_E9C6_4f38_9346_B8316DFAB929"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="parent" value="EAPK_F3E4E281_4442_4a86_80F6_9B5141F7F30C"/>
@@ -2464,7 +2464,7 @@
 						</UML:Package>
 						<UML:Package name="QueryBroker" xmi.id="EAPK_CA984ADD_A722_457f_B459_8C1DB5351611" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_F5793C4E_DF24_4a81_99ED_6705B2454594"/>
+								<UML:Stereotype xmi.idref="EAID_76B1D1F2_E9C6_4f38_9346_B8316DFAB929"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="parent" value="EAPK_F3E4E281_4442_4a86_80F6_9B5141F7F30C"/>
@@ -2490,10 +2490,10 @@
 						</UML:Package>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_F5793C4E_DF24_4a81_99ED_6705B2454594" name="FI-WARE" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_76B1D1F2_E9C6_4f38_9346_B8316DFAB929" name="FI-WARE" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
-				<UML:Stereotype xmi.id="EAID_E7B1D87D_F5EE_4dc3_B3C8_52F613A13CC5" name="subsystem" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_60094E7A_E91F_40ef_9A5F_7C1F16D54746" name="subsystem" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 			</UML:Namespace.ownedElement>
