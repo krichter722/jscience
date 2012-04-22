@@ -86,6 +86,322 @@
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Component>
+						<UML:Collaboration xmi.id="EAID_7BD22FE1_D404_4057_A79D_7CB3A14C36A0_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="GroupSale" xmi.id="EAID_2AB9D547_0CB1_43fe_893E_51CB4B8692C9" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="ProvidedInterface"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0"/>
+										<UML:TaggedValue tag="owner" value="EAID_D5E231E2_907D_47d5_9771_74F2D5A7E946"/>
+										<UML:TaggedValue tag="date_created" value="2012-04-22 15:02:32"/>
+										<UML:TaggedValue tag="date_modified" value="2012-04-22 15:02:40"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Payment Manager"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Thales"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="11974"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="IndividualSale" xmi.id="EAID_5D4C933E_5C73_4c17_B00A_7CCF3969A577" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="ProvidedInterface"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0"/>
+										<UML:TaggedValue tag="owner" value="EAID_D5E231E2_907D_47d5_9771_74F2D5A7E946"/>
+										<UML:TaggedValue tag="date_created" value="2012-04-22 15:02:47"/>
+										<UML:TaggedValue tag="date_modified" value="2012-04-22 15:02:57"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Payment Manager"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Thales"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="11975"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="NFC" xmi.id="EAID_675BD0D6_1484_49f2_B9BD_3F0FF76AFE1D" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Object"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0"/>
+										<UML:TaggedValue tag="owner" value="EAID_99F7D95C_6BB8_475f_94AD_F7586623D1B9"/>
+										<UML:TaggedValue tag="date_created" value="2011-12-21 17:13:05"/>
+										<UML:TaggedValue tag="date_modified" value="2011-12-21 17:14:54"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Payment Manager"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Fabio"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="11326"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Charge" xmi.id="EAID_6DDAF9F3_DEC7_4105_9110_B89EED545AFF" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="ProvidedInterface"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0"/>
+										<UML:TaggedValue tag="owner" value="EAID_9718D242_319A_447d_B978_B71E00D1DC8E"/>
+										<UML:TaggedValue tag="date_created" value="2012-04-22 14:53:12"/>
+										<UML:TaggedValue tag="date_modified" value="2012-04-22 14:53:24"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Payment Manager"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Thales"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="11972"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Manage" xmi.id="EAID_70245345_A869_44ec_B6EB_42AEF4DEF834" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="ProvidedInterface"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0"/>
+										<UML:TaggedValue tag="owner" value="EAID_C71DC4C6_84BE_4339_B15A_6E49884C4A80"/>
+										<UML:TaggedValue tag="date_created" value="2012-04-20 15:48:54"/>
+										<UML:TaggedValue tag="date_modified" value="2012-04-22 14:37:23"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Payment Manager"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Thales"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="11934"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Secure Element" xmi.id="EAID_7FFA8E78_B958_41f1_89E1_95EA75B83638" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Object"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0"/>
+										<UML:TaggedValue tag="owner" value="EAID_DEC30EAA_1548_4274_8FD7_776524A06715"/>
+										<UML:TaggedValue tag="date_created" value="2011-12-21 15:19:36"/>
+										<UML:TaggedValue tag="date_modified" value="2011-12-21 17:12:51"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Payment Manager"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Fabio"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="11327"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="SubscriptionSale" xmi.id="EAID_9E6038F5_75E8_4c85_9C98_C91D856EBCEE" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="ProvidedInterface"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0"/>
+										<UML:TaggedValue tag="owner" value="EAID_D5E231E2_907D_47d5_9771_74F2D5A7E946"/>
+										<UML:TaggedValue tag="date_created" value="2012-04-22 15:02:18"/>
+										<UML:TaggedValue tag="date_modified" value="2012-04-22 15:02:27"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Payment Manager"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Thales"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="11973"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Purchase" xmi.id="EAID_9F1926B0_7E9A_4ab3_8456_5C952D84887A" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="ProvidedInterface"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0"/>
+										<UML:TaggedValue tag="owner" value="EAID_C71DC4C6_84BE_4339_B15A_6E49884C4A80"/>
+										<UML:TaggedValue tag="date_created" value="2012-04-20 15:47:36"/>
+										<UML:TaggedValue tag="date_modified" value="2012-04-22 14:36:52"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Payment Manager"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Thales"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="11932"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="NFC" xmi.id="EAID_CD81845D_B66E_407a_8CF5_50708BD28658" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Object"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0"/>
+										<UML:TaggedValue tag="owner" value="EAID_DEC30EAA_1548_4274_8FD7_776524A06715"/>
+										<UML:TaggedValue tag="date_created" value="2011-12-21 17:12:20"/>
+										<UML:TaggedValue tag="date_modified" value="2011-12-21 17:12:48"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Payment Manager"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Fabio"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="11328"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Scope of Instant Mobility" xmi.id="EAID_E49C8D40_2961_4db4_AFD5_AF229D5603B5" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0"/>
+										<UML:TaggedValue tag="date_created" value="2011-12-21 11:15:41"/>
+										<UML:TaggedValue tag="date_modified" value="2011-12-21 11:18:13"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Payment Manager"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Fabio"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="11329"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Status" xmi.id="EAID_E7E0E688_16DD_4512_872B_82F9956B7358" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="ProvidedInterface"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0"/>
+										<UML:TaggedValue tag="owner" value="EAID_C71DC4C6_84BE_4339_B15A_6E49884C4A80"/>
+										<UML:TaggedValue tag="date_created" value="2012-04-20 15:48:23"/>
+										<UML:TaggedValue tag="date_modified" value="2012-04-22 14:37:00"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Payment Manager"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Thales"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="11933"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+						<UML:Dependency client="EAID_88BB57FC_A2C4_47f4_8D3C_F502D44FE3E3" supplier="EAID_2AB9D547_0CB1_43fe_893E_51CB4B8692C9" xmi.id="EAID_F86DC1C5_625A_44b5_9348_87DF9E7D1764" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="12869"/>
+								<UML:TaggedValue tag="ea_sourceName" value="KioskInterface"/>
+								<UML:TaggedValue tag="ea_targetName" value="GroupSale"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Component"/>
+								<UML:TaggedValue tag="ea_targetType" value="ProvidedInterface"/>
+								<UML:TaggedValue tag="ea_sourceID" value="11968"/>
+								<UML:TaggedValue tag="ea_targetID" value="11974"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
 						<UML:Component name="Virtual ticket manager" xmi.id="EAID_312F2587_FC3C_4d1d_853A_A8DC053ECA6E" visibility="public" namespace="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="This sub-component performs all the processes related to ticket handling.&#xA;It receives ticket purchase requests from &amp;ldquo;Pricing and Billing&amp;rdquo;, connects to each transport operator involved in the journey route and buys all the necessary virtual tickets.  In cases where booking of places is originally handled by the IM Personal Travel Companion service, it sends the relative information to it.&#xA;The Virtual Ticket Manager sends the virtual tickets to the traveller's mobile phone and maintains a local copy of them stored in a service database.  If IM Personal Travel Companion service notifies that the traveller decides to suspend or cancel the remaining part of the journey, this sub-component takes care of updating or cancelling the involved virtual tickets.&#xA;This overall concept implies the requirement to define a software format for virtual ticket that allows third parties (i.e. IM Mobile Payment) to handle them from transport operator, guaranteeing security, integrity and their customization according to the different needs of the different transport operators."/>
@@ -247,185 +563,43 @@
 								<UML:TaggedValue tag="rb" value="1..*"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
-						<UML:Collaboration xmi.id="EAID_7BD22FE1_D404_4057_A79D_7CB3A14C36A0_Collaboration" name="Collaborations">
-							<UML:Namespace.ownedElement>
-								<UML:ClassifierRole name="NFC" xmi.id="EAID_675BD0D6_1484_49f2_B9BD_3F0FF76AFE1D" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="isAbstract" value="false"/>
-										<UML:TaggedValue tag="isSpecification" value="false"/>
-										<UML:TaggedValue tag="ea_stype" value="Object"/>
-										<UML:TaggedValue tag="ea_ntype" value="0"/>
-										<UML:TaggedValue tag="version" value="1.0"/>
-										<UML:TaggedValue tag="isActive" value="false"/>
-										<UML:TaggedValue tag="package" value="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0"/>
-										<UML:TaggedValue tag="owner" value="EAID_99F7D95C_6BB8_475f_94AD_F7586623D1B9"/>
-										<UML:TaggedValue tag="date_created" value="2011-12-21 17:13:05"/>
-										<UML:TaggedValue tag="date_modified" value="2011-12-21 17:14:54"/>
-										<UML:TaggedValue tag="gentype" value="Java"/>
-										<UML:TaggedValue tag="tagged" value="0"/>
-										<UML:TaggedValue tag="package_name" value="Payment Manager"/>
-										<UML:TaggedValue tag="phase" value="1.0"/>
-										<UML:TaggedValue tag="author" value="Fabio"/>
-										<UML:TaggedValue tag="complexity" value="1"/>
-										<UML:TaggedValue tag="status" value="Proposed"/>
-										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="11326"/>
-										<UML:TaggedValue tag="ea_eleType" value="element"/>
-										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
-									</UML:ModelElement.taggedValue>
-								</UML:ClassifierRole>
-								<UML:ClassifierRole name="TicketListing" xmi.id="EAID_70245345_A869_44ec_B6EB_42AEF4DEF834" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="isAbstract" value="false"/>
-										<UML:TaggedValue tag="isSpecification" value="false"/>
-										<UML:TaggedValue tag="ea_stype" value="ProvidedInterface"/>
-										<UML:TaggedValue tag="ea_ntype" value="0"/>
-										<UML:TaggedValue tag="version" value="1.0"/>
-										<UML:TaggedValue tag="isActive" value="false"/>
-										<UML:TaggedValue tag="package" value="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0"/>
-										<UML:TaggedValue tag="owner" value="EAID_C71DC4C6_84BE_4339_B15A_6E49884C4A80"/>
-										<UML:TaggedValue tag="date_created" value="2012-04-20 15:48:54"/>
-										<UML:TaggedValue tag="date_modified" value="2012-04-21 04:54:08"/>
-										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
-										<UML:TaggedValue tag="tagged" value="0"/>
-										<UML:TaggedValue tag="package_name" value="Payment Manager"/>
-										<UML:TaggedValue tag="phase" value="1.0"/>
-										<UML:TaggedValue tag="author" value="Thales"/>
-										<UML:TaggedValue tag="complexity" value="1"/>
-										<UML:TaggedValue tag="status" value="Proposed"/>
-										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="11934"/>
-										<UML:TaggedValue tag="ea_eleType" value="element"/>
-										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
-									</UML:ModelElement.taggedValue>
-								</UML:ClassifierRole>
-								<UML:ClassifierRole name="Secure Element" xmi.id="EAID_7FFA8E78_B958_41f1_89E1_95EA75B83638" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="isAbstract" value="false"/>
-										<UML:TaggedValue tag="isSpecification" value="false"/>
-										<UML:TaggedValue tag="ea_stype" value="Object"/>
-										<UML:TaggedValue tag="ea_ntype" value="0"/>
-										<UML:TaggedValue tag="version" value="1.0"/>
-										<UML:TaggedValue tag="isActive" value="false"/>
-										<UML:TaggedValue tag="package" value="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0"/>
-										<UML:TaggedValue tag="owner" value="EAID_DEC30EAA_1548_4274_8FD7_776524A06715"/>
-										<UML:TaggedValue tag="date_created" value="2011-12-21 15:19:36"/>
-										<UML:TaggedValue tag="date_modified" value="2011-12-21 17:12:51"/>
-										<UML:TaggedValue tag="gentype" value="Java"/>
-										<UML:TaggedValue tag="tagged" value="0"/>
-										<UML:TaggedValue tag="package_name" value="Payment Manager"/>
-										<UML:TaggedValue tag="phase" value="1.0"/>
-										<UML:TaggedValue tag="author" value="Fabio"/>
-										<UML:TaggedValue tag="complexity" value="1"/>
-										<UML:TaggedValue tag="status" value="Proposed"/>
-										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="11327"/>
-										<UML:TaggedValue tag="ea_eleType" value="element"/>
-										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
-									</UML:ModelElement.taggedValue>
-								</UML:ClassifierRole>
-								<UML:ClassifierRole name="TicketPurchase" xmi.id="EAID_9F1926B0_7E9A_4ab3_8456_5C952D84887A" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="isAbstract" value="false"/>
-										<UML:TaggedValue tag="isSpecification" value="false"/>
-										<UML:TaggedValue tag="ea_stype" value="ProvidedInterface"/>
-										<UML:TaggedValue tag="ea_ntype" value="0"/>
-										<UML:TaggedValue tag="version" value="1.0"/>
-										<UML:TaggedValue tag="isActive" value="false"/>
-										<UML:TaggedValue tag="package" value="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0"/>
-										<UML:TaggedValue tag="owner" value="EAID_C71DC4C6_84BE_4339_B15A_6E49884C4A80"/>
-										<UML:TaggedValue tag="date_created" value="2012-04-20 15:47:36"/>
-										<UML:TaggedValue tag="date_modified" value="2012-04-21 04:50:34"/>
-										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
-										<UML:TaggedValue tag="tagged" value="0"/>
-										<UML:TaggedValue tag="package_name" value="Payment Manager"/>
-										<UML:TaggedValue tag="phase" value="1.0"/>
-										<UML:TaggedValue tag="author" value="Thales"/>
-										<UML:TaggedValue tag="complexity" value="1"/>
-										<UML:TaggedValue tag="status" value="Proposed"/>
-										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="11932"/>
-										<UML:TaggedValue tag="ea_eleType" value="element"/>
-										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
-									</UML:ModelElement.taggedValue>
-								</UML:ClassifierRole>
-								<UML:ClassifierRole name="NFC" xmi.id="EAID_CD81845D_B66E_407a_8CF5_50708BD28658" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="isAbstract" value="false"/>
-										<UML:TaggedValue tag="isSpecification" value="false"/>
-										<UML:TaggedValue tag="ea_stype" value="Object"/>
-										<UML:TaggedValue tag="ea_ntype" value="0"/>
-										<UML:TaggedValue tag="version" value="1.0"/>
-										<UML:TaggedValue tag="isActive" value="false"/>
-										<UML:TaggedValue tag="package" value="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0"/>
-										<UML:TaggedValue tag="owner" value="EAID_DEC30EAA_1548_4274_8FD7_776524A06715"/>
-										<UML:TaggedValue tag="date_created" value="2011-12-21 17:12:20"/>
-										<UML:TaggedValue tag="date_modified" value="2011-12-21 17:12:48"/>
-										<UML:TaggedValue tag="gentype" value="Java"/>
-										<UML:TaggedValue tag="tagged" value="0"/>
-										<UML:TaggedValue tag="package_name" value="Payment Manager"/>
-										<UML:TaggedValue tag="phase" value="1.0"/>
-										<UML:TaggedValue tag="author" value="Fabio"/>
-										<UML:TaggedValue tag="complexity" value="1"/>
-										<UML:TaggedValue tag="status" value="Proposed"/>
-										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="11328"/>
-										<UML:TaggedValue tag="ea_eleType" value="element"/>
-										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
-									</UML:ModelElement.taggedValue>
-								</UML:ClassifierRole>
-								<UML:ClassifierRole name="Scope of Instant Mobility" xmi.id="EAID_E49C8D40_2961_4db4_AFD5_AF229D5603B5" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="isAbstract" value="false"/>
-										<UML:TaggedValue tag="isSpecification" value="false"/>
-										<UML:TaggedValue tag="ea_stype" value="Boundary"/>
-										<UML:TaggedValue tag="ea_ntype" value="0"/>
-										<UML:TaggedValue tag="version" value="1.0"/>
-										<UML:TaggedValue tag="isActive" value="false"/>
-										<UML:TaggedValue tag="package" value="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0"/>
-										<UML:TaggedValue tag="date_created" value="2011-12-21 11:15:41"/>
-										<UML:TaggedValue tag="date_modified" value="2011-12-21 11:18:13"/>
-										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
-										<UML:TaggedValue tag="tagged" value="0"/>
-										<UML:TaggedValue tag="package_name" value="Payment Manager"/>
-										<UML:TaggedValue tag="phase" value="1.0"/>
-										<UML:TaggedValue tag="author" value="Fabio"/>
-										<UML:TaggedValue tag="complexity" value="1"/>
-										<UML:TaggedValue tag="status" value="Proposed"/>
-										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="11329"/>
-										<UML:TaggedValue tag="ea_eleType" value="element"/>
-										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
-									</UML:ModelElement.taggedValue>
-								</UML:ClassifierRole>
-								<UML:ClassifierRole name="TicketPublishing" xmi.id="EAID_E7E0E688_16DD_4512_872B_82F9956B7358" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="isAbstract" value="false"/>
-										<UML:TaggedValue tag="isSpecification" value="false"/>
-										<UML:TaggedValue tag="ea_stype" value="ProvidedInterface"/>
-										<UML:TaggedValue tag="ea_ntype" value="0"/>
-										<UML:TaggedValue tag="version" value="1.0"/>
-										<UML:TaggedValue tag="isActive" value="false"/>
-										<UML:TaggedValue tag="package" value="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0"/>
-										<UML:TaggedValue tag="owner" value="EAID_C71DC4C6_84BE_4339_B15A_6E49884C4A80"/>
-										<UML:TaggedValue tag="date_created" value="2012-04-20 15:48:23"/>
-										<UML:TaggedValue tag="date_modified" value="2012-04-21 04:51:07"/>
-										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
-										<UML:TaggedValue tag="tagged" value="0"/>
-										<UML:TaggedValue tag="package_name" value="Payment Manager"/>
-										<UML:TaggedValue tag="phase" value="1.0"/>
-										<UML:TaggedValue tag="author" value="Thales"/>
-										<UML:TaggedValue tag="complexity" value="1"/>
-										<UML:TaggedValue tag="status" value="Proposed"/>
-										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="11933"/>
-										<UML:TaggedValue tag="ea_eleType" value="element"/>
-										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
-									</UML:ModelElement.taggedValue>
-								</UML:ClassifierRole>
-							</UML:Namespace.ownedElement>
-							<UML:Collaboration.interaction/>
-						</UML:Collaboration>
+						<UML:Dependency client="EAID_88BB57FC_A2C4_47f4_8D3C_F502D44FE3E3" supplier="EAID_5D4C933E_5C73_4c17_B00A_7CCF3969A577" xmi.id="EAID_CCDF3FBD_2487_4576_AE2B_2862A18B043C" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="12870"/>
+								<UML:TaggedValue tag="ea_sourceName" value="KioskInterface"/>
+								<UML:TaggedValue tag="ea_targetName" value="IndividualSale"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Component"/>
+								<UML:TaggedValue tag="ea_targetType" value="ProvidedInterface"/>
+								<UML:TaggedValue tag="ea_sourceID" value="11968"/>
+								<UML:TaggedValue tag="ea_targetID" value="11975"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
 						<UML:Dependency client="EAID_CD81845D_B66E_407a_8CF5_50708BD28658" supplier="EAID_675BD0D6_1484_49f2_B9BD_3F0FF76AFE1D" xmi.id="EAID_00D6D6FC_6136_43db_A388_092FD017B807" visibility="public">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="style" value="3"/>
@@ -624,6 +798,80 @@
 								</UML:AssociationEnd>
 							</UML:Association.connection>
 						</UML:Association>
+						<UML:Dependency client="EAID_D5E231E2_907D_47d5_9771_74F2D5A7E946" supplier="EAID_6DDAF9F3_DEC7_4105_9110_B89EED545AFF" xmi.id="EAID_5127C741_2B2B_4684_B7F9_A7B4C27EB823" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="12861"/>
+								<UML:TaggedValue tag="ea_sourceName" value="TicketSeller"/>
+								<UML:TaggedValue tag="ea_targetName" value="Charge"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Component"/>
+								<UML:TaggedValue tag="ea_targetType" value="ProvidedInterface"/>
+								<UML:TaggedValue tag="ea_sourceID" value="11967"/>
+								<UML:TaggedValue tag="ea_targetID" value="11972"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency client="EAID_EFA1AF3A_0995_472f_AAA6_9E5A05E2AE54" supplier="EAID_70245345_A869_44ec_B6EB_42AEF4DEF834" xmi.id="EAID_88D1F7CE_AC17_4151_9557_E458ADEAB843" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="12864"/>
+								<UML:TaggedValue tag="ea_sourceName" value="ClerkInterface"/>
+								<UML:TaggedValue tag="ea_targetName" value="Manage"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Component"/>
+								<UML:TaggedValue tag="ea_targetType" value="ProvidedInterface"/>
+								<UML:TaggedValue tag="ea_sourceID" value="11969"/>
+								<UML:TaggedValue tag="ea_targetID" value="11934"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
 						<UML:Component name="Network operator OTA management" xmi.id="EAID_7CD0E390_18C7_4968_ADE3_C1264F1A6760" visibility="public" namespace="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="Over-the-Air Management of the content of Secure Element in traveller’s mobile terminal is a mandatory function for Mobile Payment, which needs to store processing and configuration data in the traveller’s SIM."/>
@@ -798,6 +1046,71 @@
 								<UML:TaggedValue tag="rb" value="1"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
+						<UML:Component name="KioskInterface" xmi.id="EAID_88BB57FC_A2C4_47f4_8D3C_F502D44FE3E3" visibility="public" namespace="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="UI"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0"/>
+								<UML:TaggedValue tag="date_created" value="2012-04-22 14:43:27"/>
+								<UML:TaggedValue tag="date_modified" value="2012-04-22 14:43:45"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Payment Manager"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Thales"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="UI"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="11968"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={6DC343FD-B04F-42ff-AEFE-B3A99E0D8127}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=UI;GUID={11AEDA2A-9719-4868-A3E9-B6A7B380BC02};@ENDSTEREO;$DES;$CLT={88BB57FC-A2C4-47f4-8D3C-F502D44FE3E3}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Dependency client="EAID_88BB57FC_A2C4_47f4_8D3C_F502D44FE3E3" supplier="EAID_9E6038F5_75E8_4c85_9C98_C91D856EBCEE" xmi.id="EAID_7FBDD6DE_EA19_49a7_817A_DBD43CBB241D" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="12868"/>
+								<UML:TaggedValue tag="ea_sourceName" value="KioskInterface"/>
+								<UML:TaggedValue tag="ea_targetName" value="SubscriptionSale"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Component"/>
+								<UML:TaggedValue tag="ea_targetType" value="ProvidedInterface"/>
+								<UML:TaggedValue tag="ea_sourceID" value="11968"/>
+								<UML:TaggedValue tag="ea_targetID" value="11973"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
 						<UML:Component name="Event manager" xmi.id="EAID_8BE5BA46_766F_4f18_87CF_8A3714A34F25" visibility="public" namespace="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="Along the journey the traveller will access transport means like trains, subways, buses (but also cars or bikes) and the transport operator typically will want to check the existence of the necessary tickets.  While in some cases this job may be executed by human personnel, the use case mostly envisaged in Instant Mobility is that the traveller has got a virtual ticket stored in his/her mobile terminal, which is equipped with an embedded NFC radio interface; the traveller then must only simply tap the mobile terminal against a local fixed NFC terminal, which reads the virtual tickets and execute the consequent actions, according to the possible various use cases, like opening a subway access gate or virtually “punching” a bus ticket.&#xA;Every time the traveller performs any kind of interaction with the transport infrastructure (i.e. not only on NFC accesses) a corresponding “event” message shall be sent to the “Event Manager” sub-component, which is in charge of storing the event and making all the necessary processing.  Event Messages can be sent to the Event Manager from the traveller’s mobile terminal application or from the transport operator infrastructure.&#xA;Payment related events may be:&#xA;&lt;ul&gt;&#xA;	&lt;li&gt;Virtual ticket punch event: it will result in a ticket status change to “used” in the Mobile Payment local ticket database.&lt;/li&gt;&#xA;	&lt;li&gt;Traveller check-in or check-out event: in pay-as-you-go service this events will start/stop far accounting&lt;sup&gt;1&lt;/sup&gt;. This event may also be communicated to IM Personal Companion Service to allow traveller’s position update.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;-------------------------&lt;ul&gt;&#xA;	&lt;li&gt;&#xA;&lt;sup&gt;1&lt;/sup&gt; While it is likely that each transport operator will reserve to itself the critical task of bill accounting, the IM Mobile Payment will anyway also do this task on its own in order to be able to constantly provide an estimation of accumulated costs to the traveller."/>
@@ -823,6 +1136,66 @@
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Component>
+						<UML:Component name="CreditCardAgency" xmi.id="EAID_9349612A_7FD3_4064_A567_7784AC15BE19" visibility="public" namespace="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0"/>
+								<UML:TaggedValue tag="date_created" value="2012-04-22 14:46:55"/>
+								<UML:TaggedValue tag="date_modified" value="2012-04-22 14:47:08"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Payment Manager"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Thales"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="11971"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Generalization subtype="EAID_9349612A_7FD3_4064_A567_7784AC15BE19" supertype="EAID_9718D242_319A_447d_B978_B71E00D1DC8E" xmi.id="EAID_5261E6B0_A184_4cf2_901B_552C637B57B6" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Generalization"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="12860"/>
+								<UML:TaggedValue tag="ea_sourceName" value="CreditCardAgency"/>
+								<UML:TaggedValue tag="ea_targetName" value="PaymentAgency"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Component"/>
+								<UML:TaggedValue tag="ea_targetType" value="Component"/>
+								<UML:TaggedValue tag="ea_sourceID" value="11971"/>
+								<UML:TaggedValue tag="ea_targetID" value="11970"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Generalization>
 						<UML:Node name="Mobile Payment" xmi.id="EAID_96B6A7E0_0103_4eb2_83A6_7AB1752C0BD5" visibility="public" namespace="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
@@ -1034,6 +1407,66 @@
 								</UML:AssociationEnd>
 							</UML:Association.connection>
 						</UML:Association>
+						<UML:Component name="PaymentAgency" xmi.id="EAID_9718D242_319A_447d_B978_B71E00D1DC8E" visibility="public" namespace="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0"/>
+								<UML:TaggedValue tag="date_created" value="2012-04-22 14:46:18"/>
+								<UML:TaggedValue tag="date_modified" value="2012-04-22 14:46:26"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Payment Manager"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Thales"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="11970"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Generalization subtype="EAID_B6EA3BD7_56B2_44fd_84EF_50C6CCD1DD2E" supertype="EAID_9718D242_319A_447d_B978_B71E00D1DC8E" xmi.id="EAID_BEE253BB_A5A1_4195_8540_8555F817F47C" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Generalization"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="12866"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Paypal"/>
+								<UML:TaggedValue tag="ea_targetName" value="PaymentAgency"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Component"/>
+								<UML:TaggedValue tag="ea_targetType" value="Component"/>
+								<UML:TaggedValue tag="ea_sourceID" value="11976"/>
+								<UML:TaggedValue tag="ea_targetID" value="11970"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Generalization>
 						<UML:Component name="Transport Operator Infrastructure" xmi.id="EAID_99F7D95C_6BB8_475f_94AD_F7586623D1B9" visibility="public" namespace="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="Even if the IM Mobile Payment service may try to trace all the ticketing events just relaying on information from the traveller&amp;rsquo;s mobile terminal, it would be much more preferable to get them directly from the various transport operators.  Since there is a plurality of transport operators it comes out that events shall be communicated according to common rules and formats.&#xA;Events generated through NFC interfaces will necessarily come out from a first stage of processing carried out in the traveller&amp;rsquo;s SIM; this means that each transport operator shall provide the Mobile Payment component with the proper configuration and processing capabilities to be stored in the SIM in order to enable the traveller&amp;rsquo;s mobile terminal to correctly interface to each transport operator infrastructure."/>
@@ -1100,6 +1533,43 @@
 								<UML:TaggedValue tag="rb" value="1..*"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
+						<UML:Dependency client="EAID_D5E231E2_907D_47d5_9771_74F2D5A7E946" supplier="EAID_9F1926B0_7E9A_4ab3_8456_5C952D84887A" xmi.id="EAID_B362A11E_6E28_47be_A82B_6CD2FF50D342" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="12867"/>
+								<UML:TaggedValue tag="ea_sourceName" value="TicketSeller"/>
+								<UML:TaggedValue tag="ea_targetName" value="Purchase"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Component"/>
+								<UML:TaggedValue tag="ea_targetType" value="ProvidedInterface"/>
+								<UML:TaggedValue tag="ea_sourceID" value="11967"/>
+								<UML:TaggedValue tag="ea_targetID" value="11932"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
 						<UML:Component name="Pricing and billing" xmi.id="EAID_9FF55EF7_D423_40fa_8DA8_FC1F800B30E8" visibility="public" namespace="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="This sub-component is responsible of the following processes:&#xA;&lt;ul&gt;&#xA;	&lt;li&gt;During the setup of a multimodal travel, it supports the Instant Mobility Personal Travel Companion service collecting pricing information from a plurality of Transport Operators.&lt;/li&gt;&#xA;	&lt;li&gt;During the journey, it supports the &amp;ldquo;Event Manager&amp;rdquo; sub-component for all those events that have impact on monetary costs; its role is particularly relevant in case of &amp;ldquo;pay-as-you-go&amp;rdquo; transport means (e.g. ride sharing), whose cost is a function of time, distance and other parameters.&lt;/li&gt;&#xA;	&lt;li&gt;After the journey (or at the end of each leg of the journey), it makes all the necessary computations and delivers billing information to the traveler.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;In those cases, where green incentive policies are to be applied, the &amp;ldquo;Pricing and Billing&amp;rdquo; sub-component is also responsible of green credits accounting and reporting to travelers and public authorities.&#xA;Traveler will use the Instant Mobility Personal Travel Companion Service to define the best route for the journey; once the route is chosen, the Pricing and Billing subsystem will issue an overall bill comprising the cost of all fixed prices for the needed transport means and will wait for the corresponding single payment (if the route makes also use of &amp;ldquo;pay-as-you-go&amp;rdquo; means, the traveler will provide authorization of charging a credit card or other similar financial instrument). When payment and charging notifications are received, &amp;ldquo;Pricing and Billing&amp;rdquo; will request tickets purchase to the &amp;ldquo;Virtual Ticket Manager&amp;rdquo; sub-component."/>
@@ -1125,12 +1595,35 @@
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Component>
-						<UML:Component name="eTicket" xmi.id="EAID_C71DC4C6_84BE_4339_B15A_6E49884C4A80" visibility="public" namespace="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0" isRoot="false" isLeaf="false" isAbstract="false">
+						<UML:Component name="Paypal" xmi.id="EAID_B6EA3BD7_56B2_44fd_84EF_50C6CCD1DD2E" visibility="public" namespace="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0"/>
+								<UML:TaggedValue tag="date_created" value="2012-04-22 15:04:10"/>
+								<UML:TaggedValue tag="date_modified" value="2012-04-22 15:04:17"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Payment Manager"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Thales"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="11976"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Component name="eTickets" xmi.id="EAID_C71DC4C6_84BE_4339_B15A_6E49884C4A80" visibility="public" namespace="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.stereotype>
 								<UML:Stereotype name="FI-WARE"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;i&gt;Services:&lt;/i&gt;&lt;/b&gt;&#xA;&lt;ul&gt;&#xA;	&lt;li&gt;&lt;b&gt;Ticket Purchase (purchaseTicket)&lt;/b&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ul&gt;&#xA;	&lt;li&gt;&lt;b&gt;Ticket Publishing (publishTicket, unpublishTicket)&lt;/b&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ul&gt;&#xA;	&lt;li&gt;&lt;b&gt;Ticket Listing (listTicket)&lt;/b&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;"/>
+								<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;i&gt;Services:&lt;/i&gt;&lt;/b&gt;&#xA;&lt;ul&gt;&#xA;	&lt;li&gt;&lt;b&gt;Purchase (purchaseTicket)&lt;/b&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ul&gt;&#xA;	&lt;li&gt;&lt;b&gt;Status&lt;/b&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;"/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Component"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
@@ -1138,7 +1631,7 @@
 								<UML:TaggedValue tag="isActive" value="false"/>
 								<UML:TaggedValue tag="package" value="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0"/>
 								<UML:TaggedValue tag="date_created" value="2012-04-20 15:47:25"/>
-								<UML:TaggedValue tag="date_modified" value="2012-04-21 04:53:55"/>
+								<UML:TaggedValue tag="date_modified" value="2012-04-22 14:36:42"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="Payment Manager"/>
@@ -1154,6 +1647,66 @@
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={78C7E477-511A-401c-BC82-9407D5DBBE49}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=FI-WARE;GUID={25B3617D-2A94-4e66-88EA-39096DDF49F6};@ENDSTEREO;$DES;$CLT={C71DC4C6-84BE-4339-B15A-6E49884C4A80}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Component>
+						<UML:Component name="TicketSeller" xmi.id="EAID_D5E231E2_907D_47d5_9771_74F2D5A7E946" visibility="public" namespace="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0"/>
+								<UML:TaggedValue tag="date_created" value="2012-04-22 14:38:04"/>
+								<UML:TaggedValue tag="date_modified" value="2012-04-22 14:38:13"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Payment Manager"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Thales"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="11967"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Dependency client="EAID_D5E231E2_907D_47d5_9771_74F2D5A7E946" supplier="EAID_E7E0E688_16DD_4512_872B_82F9956B7358" xmi.id="EAID_8CFB3D87_3EF0_4ae0_9F3D_0C7E9FCF2BEA" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="12871"/>
+								<UML:TaggedValue tag="ea_sourceName" value="TicketSeller"/>
+								<UML:TaggedValue tag="ea_targetName" value="Status"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Component"/>
+								<UML:TaggedValue tag="ea_targetType" value="ProvidedInterface"/>
+								<UML:TaggedValue tag="ea_sourceID" value="11967"/>
+								<UML:TaggedValue tag="ea_targetID" value="11933"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
 						<UML:Component name="Mobile Payment" xmi.id="EAID_DE3A0E54_B74D_4fc3_AD88_0DC9CDF67456" visibility="public" namespace="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
@@ -1274,6 +1827,71 @@
 								<UML:TaggedValue tag="ea_localid" value="11324"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Dependency client="EAID_EFA1AF3A_0995_472f_AAA6_9E5A05E2AE54" supplier="EAID_E7E0E688_16DD_4512_872B_82F9956B7358" xmi.id="EAID_E0805A9D_BF44_4775_A701_DF8BBBC72984" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="12865"/>
+								<UML:TaggedValue tag="ea_sourceName" value="ClerkInterface"/>
+								<UML:TaggedValue tag="ea_targetName" value="Status"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Component"/>
+								<UML:TaggedValue tag="ea_targetType" value="ProvidedInterface"/>
+								<UML:TaggedValue tag="ea_sourceID" value="11969"/>
+								<UML:TaggedValue tag="ea_targetID" value="11933"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Component name="ClerkInterface" xmi.id="EAID_EFA1AF3A_0995_472f_AAA6_9E5A05E2AE54" visibility="public" namespace="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="UI"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0"/>
+								<UML:TaggedValue tag="date_created" value="2012-04-22 14:44:10"/>
+								<UML:TaggedValue tag="date_modified" value="2012-04-22 15:06:13"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Payment Manager"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Thales"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="UI"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="11969"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={4C5D7CE5-6FA0-40e4-9641-0B71F861B402}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=UI;GUID={11AEDA2A-9719-4868-A3E9-B6A7B380BC02};@ENDSTEREO;$DES;$CLT={EFA1AF3A-0995-472f-AAA6-9E5A05E2AE54}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Component>
 						<UML:Node name="Transport Operator " xmi.id="EAID_FC358AE9_9DA8_4406_9858_7AAFE246FF52" visibility="public" namespace="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0" isRoot="false" isLeaf="false" isAbstract="false">
@@ -1489,20 +2107,40 @@
 				<UML:TaggedValue tag="version" value="1.0"/>
 				<UML:TaggedValue tag="author" value="Thales"/>
 				<UML:TaggedValue tag="created_date" value="2012-04-20 15:40:18"/>
-				<UML:TaggedValue tag="modified_date" value="2012-04-21 04:54:54"/>
+				<UML:TaggedValue tag="modified_date" value="2012-04-22 15:12:13"/>
 				<UML:TaggedValue tag="package" value="EAPK_7BD22FE1_D404_4057_A79D_7CB3A14C36A0"/>
 				<UML:TaggedValue tag="type" value="Component"/>
 				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
 				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
 				<UML:TaggedValue tag="ea_localid" value="1275"/>
 				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=795;DocSize.cy=1138;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<UML:TaggedValue tag="styleex" value="SaveTag=BC1932FF;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=B2B53F13;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 			</UML:ModelElement.taggedValue>
 			<UML:Diagram.element>
-				<UML:DiagramElement geometry="Left=500;Top=161;Right=513;Bottom=201;" subject="EAID_70245345_A869_44ec_B6EB_42AEF4DEF834" seqno="1" style="DUID=07E0513F;LBL=CX=59:CY=13:OX=-24:OY=-15:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=387;Top=161;Right=400;Bottom=201;" subject="EAID_E7E0E688_16DD_4512_872B_82F9956B7358" seqno="2" style="DUID=C0A25392;LBL=CX=78:CY=13:OX=-28:OY=-16:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=290;Top=161;Right=303;Bottom=201;" subject="EAID_9F1926B0_7E9A_4ab3_8456_5C952D84887A" seqno="3" style="DUID=34DE7BA0;LBL=CX=71:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=250;Top=200;Right=540;Bottom=270;" subject="EAID_C71DC4C6_84BE_4339_B15A_6E49884C4A80" seqno="4" style="DUID=1CBF5F03;"/>
+				<UML:DiagramElement geometry="Left=299;Top=181;Right=312;Bottom=221;" subject="EAID_5D4C933E_5C73_4c17_B00A_7CCF3969A577" seqno="1" style="DUID=066D8194;LBL=CX=69:CY=13:OX=17:OY=1:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=203;Top=181;Right=216;Bottom=221;" subject="EAID_2AB9D547_0CB1_43fe_893E_51CB4B8692C9" seqno="2" style="DUID=8FEEE044;LBL=CX=51:CY=13:OX=17:OY=-1:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=96;Top=181;Right=109;Bottom=221;" subject="EAID_9E6038F5_75E8_4c85_9C98_C91D856EBCEE" seqno="3" style="DUID=194DF40F;LBL=CX=80:CY=13:OX=16:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=98;Top=361;Right=111;Bottom=401;" subject="EAID_6DDAF9F3_DEC7_4105_9110_B89EED545AFF" seqno="4" style="DUID=728C4D2E;LBL=CX=34:CY=13:OX=26:OY=-3:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=508;Top=361;Right=521;Bottom=401;" subject="EAID_70245345_A869_44ec_B6EB_42AEF4DEF834" seqno="5" style="DUID=07E0513F;LBL=CX=39:CY=13:OX=17:OY=3:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=412;Top=361;Right=425;Bottom=401;" subject="EAID_E7E0E688_16DD_4512_872B_82F9956B7358" seqno="6" style="DUID=C0A25392;LBL=CX=29:CY=13:OX=22:OY=5:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=294;Top=361;Right=307;Bottom=401;" subject="EAID_9F1926B0_7E9A_4ab3_8456_5C952D84887A" seqno="7" style="DUID=34DE7BA0;LBL=CX=43:CY=13:OX=15:OY=5:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=220;Top=540;Right=340;Bottom=610;" subject="EAID_B6EA3BD7_56B2_44fd_84EF_50C6CCD1DD2E" seqno="8" style="DUID=5F51AE18;"/>
+				<UML:DiagramElement geometry="Left=70;Top=540;Right=190;Bottom=610;" subject="EAID_9349612A_7FD3_4064_A567_7784AC15BE19" seqno="9" style="DUID=31AC8078;"/>
+				<UML:DiagramElement geometry="Left=70;Top=400;Right=190;Bottom=470;" subject="EAID_9718D242_319A_447d_B978_B71E00D1DC8E" seqno="10" style="DUID=4045351A;"/>
+				<UML:DiagramElement geometry="Left=380;Top=40;Right=550;Bottom=110;" subject="EAID_EFA1AF3A_0995_472f_AAA6_9E5A05E2AE54" seqno="11" style="DUID=6F354965;"/>
+				<UML:DiagramElement geometry="Left=70;Top=40;Right=340;Bottom=110;" subject="EAID_88BB57FC_A2C4_47f4_8D3C_F502D44FE3E3" seqno="12" style="DUID=37CFD0E4;"/>
+				<UML:DiagramElement geometry="Left=70;Top=220;Right=340;Bottom=290;" subject="EAID_D5E231E2_907D_47d5_9771_74F2D5A7E946" seqno="13" style="DUID=45751BCD;"/>
+				<UML:DiagramElement geometry="Left=240;Top=400;Right=560;Bottom=470;" subject="EAID_C71DC4C6_84BE_4339_B15A_6E49884C4A80" seqno="14" style="DUID=1CBF5F03;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_BEE253BB_A5A1_4195_8540_8555F817F47C" style="Mode=3;EOID=4045351A;SOID=5F51AE18;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_5261E6B0_A184_4cf2_901B_552C637B57B6" style="Mode=3;EOID=4045351A;SOID=31AC8078;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=-47;SY=-34;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_E0805A9D_BF44_4775_A701_DF8BBBC72984" style="Mode=3;EOID=C0A25392;SOID=6F354965;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=49;SY=-34;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_88D1F7CE_AC17_4151_9557_E458ADEAB843" style="Mode=3;EOID=07E0513F;SOID=6F354965;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=100;SY=-34;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_CCDF3FBD_2487_4576_AE2B_2862A18B043C" style="Mode=3;EOID=066D8194;SOID=37CFD0E4;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=4;SY=-34;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_F86DC1C5_625A_44b5_9348_87DF9E7D1764" style="Mode=3;EOID=8FEEE044;SOID=37CFD0E4;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=-103;SY=-34;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_7FBDD6DE_EA19_49a7_817A_DBD43CBB241D" style="Mode=3;EOID=194DF40F;SOID=37CFD0E4;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=-101;SY=-34;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_5127C741_2B2B_4684_B7F9_A7B4C27EB823" style="Mode=3;EOID=728C4D2E;SOID=45751BCD;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=135;SY=-19;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_8CFB3D87_3EF0_4ae0_9F3D_0C7E9FCF2BEA" style="Mode=3;EOID=C0A25392;SOID=45751BCD;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=95;SY=-34;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_B362A11E_6E28_47be_A82B_6CD2FF50D342" style="Mode=3;EOID=34DE7BA0;SOID=45751BCD;Color=-1;LWidth=0;Hidden=0;"/>
 			</UML:Diagram.element>
 		</UML:Diagram>
 		<UML:DiagramElement geometry="Left=460;Top=20;Right=668;Bottom=294;" subject="EAID_7BD22FE1_D404_4057_A79D_7CB3A14C36A0" seqno="2" style="DUID=05A7AA47;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;">
