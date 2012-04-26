@@ -35,29 +35,6 @@
 						<UML:TaggedValue tag="tpos" value="11"/>
 					</UML:ModelElement.taggedValue>
 					<UML:Namespace.ownedElement>
-						<UML:Actor name="Actor1" xmi.id="EAID_072AF67F_A13C_4a31_9086_005CD81BED93" visibility="public" namespace="EAPK_8D2B7A25_59D2_4f3f_BBEB_AECA99172CFC" isRoot="false" isLeaf="false" isAbstract="false">
-							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="isSpecification" value="false"/>
-								<UML:TaggedValue tag="ea_stype" value="Actor"/>
-								<UML:TaggedValue tag="ea_ntype" value="0"/>
-								<UML:TaggedValue tag="version" value="1.0"/>
-								<UML:TaggedValue tag="isActive" value="false"/>
-								<UML:TaggedValue tag="package" value="EAPK_8D2B7A25_59D2_4f3f_BBEB_AECA99172CFC"/>
-								<UML:TaggedValue tag="date_created" value="2012-04-25 08:47:06"/>
-								<UML:TaggedValue tag="date_modified" value="2012-04-25 08:47:06"/>
-								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
-								<UML:TaggedValue tag="tagged" value="0"/>
-								<UML:TaggedValue tag="package_name" value="D4.14 Traffic Management Enablers"/>
-								<UML:TaggedValue tag="phase" value="1.0"/>
-								<UML:TaggedValue tag="author" value="Miguel"/>
-								<UML:TaggedValue tag="complexity" value="1"/>
-								<UML:TaggedValue tag="status" value="Proposed"/>
-								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="12888"/>
-								<UML:TaggedValue tag="ea_eleType" value="element"/>
-								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
-							</UML:ModelElement.taggedValue>
-						</UML:Actor>
 						<UML:Collaboration xmi.id="EAID_8D2B7A25_59D2_4f3f_BBEB_AECA99172CFC_Collaboration" name="Collaborations">
 							<UML:Namespace.ownedElement>
 								<UML:ClassifierRole name="Passenger data processor" xmi.id="EAID_1770F985_B734_4049_B040_460C3D06846C" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
@@ -938,22 +915,6 @@
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;$LLB=;LLT=;LMT=CX=73:CY=13:OX=40:OY=15:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_BD1B307E_1F2E_4743_ABDE_C43EF3AC29CD" style=";Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=-83;EX=0;EY=0;$LLB=;LLT=;LMT=CX=113:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_963DCDE1_30DB_4651_95A1_465EEB7F6C7E" style=";Hidden=0;"/>
 			</UML:Diagram.element>
-		</UML:Diagram>
-		<UML:Diagram name="UC3D.10 Calculate green wave parameters" xmi.id="EAID_EE661D88_AA82_4ff5_A271_AFADC1E34D10" diagramType="SequenceDiagram" owner="EAPK_8D2B7A25_59D2_4f3f_BBEB_AECA99172CFC" toolName="Enterprise Architect 2.5">
-			<UML:ModelElement.taggedValue>
-				<UML:TaggedValue tag="version" value="1.0"/>
-				<UML:TaggedValue tag="author" value="marco.bottero"/>
-				<UML:TaggedValue tag="created_date" value="2012-04-23 18:30:15"/>
-				<UML:TaggedValue tag="modified_date" value="2012-04-23 18:30:35"/>
-				<UML:TaggedValue tag="package" value="EAPK_8D2B7A25_59D2_4f3f_BBEB_AECA99172CFC"/>
-				<UML:TaggedValue tag="type" value="Sequence"/>
-				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
-				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
-				<UML:TaggedValue tag="tpos" value="6"/>
-				<UML:TaggedValue tag="ea_localid" value="1397"/>
-				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=795;DocSize.cy=1138;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<UML:TaggedValue tag="styleex" value="SaveTag=8FF0251F;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=0;INT_ARGS=;INT_RET=;INT_ATT=;SeqTopMargin=50;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-			</UML:ModelElement.taggedValue>
 		</UML:Diagram>
 		<UML:Diagram name="Traffic Manager Public Interfaces" xmi.id="EAID_E2495385_999A_486f_AFD1_0E0E641100CD" diagramType="DeploymentDiagram" owner="EAPK_8D2B7A25_59D2_4f3f_BBEB_AECA99172CFC" toolName="Enterprise Architect 2.5">
 			<UML:ModelElement.taggedValue>
