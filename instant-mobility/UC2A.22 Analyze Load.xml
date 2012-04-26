@@ -23,7 +23,7 @@
 						<UML:TaggedValue tag="owner" value="Marcus Larsson"/>
 						<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
 						<UML:TaggedValue tag="logxml" value="FALSE"/>
-						<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=SVN_IM;CheckedOutTo=yt09787;CRC=0;"/>
+						<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=SVN_IM;CRC=0;"/>
 						<UML:TaggedValue tag="batchsave" value="0"/>
 						<UML:TaggedValue tag="batchload" value="0"/>
 						<UML:TaggedValue tag="phase" value="1.0"/>
@@ -38,6 +38,33 @@
 				</UML:Package>
 			</UML:Namespace.ownedElement>
 		</UML:Model>
+		<UML:Diagram name="UC2A.22: Analyze Load" xmi.id="EAID_8720BC92_112F_4fe0_A322_8AC7D3543D69" diagramType="SequenceDiagram" owner="EAPK_135A768F_C671_47c0_8F13_6541371D142A" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="yt09787"/>
+				<UML:TaggedValue tag="created_date" value="2012-04-26 10:08:24"/>
+				<UML:TaggedValue tag="modified_date" value="2012-04-26 16:54:52"/>
+				<UML:TaggedValue tag="package" value="EAPK_135A768F_C671_47c0_8F13_6541371D142A"/>
+				<UML:TaggedValue tag="type" value="Sequence"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;SW1=408;SW2=516;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
+				<UML:TaggedValue tag="ea_localid" value="1433"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=2;PPgs.cy=1;DocSize.cx=795;DocSize.cy=1138;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=ED7B2E3A;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=0;INT_ARGS=;INT_RET=;INT_ATT=;SeqTopMargin=50;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=50;Top=50;Right=160;Bottom=555;" subject="EAID_FDE33FB0_0C8A_4d4d_A901_CD5F6E95C061" seqno="1" style="DUID=7EC5F5D5;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=240;Top=50;Right=350;Bottom=555;" subject="EAID_778D77A8_98A4_45b2_9A60_501AA573C509" seqno="2" style="DUID=60C28502;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=763;Top=50;Right=873;Bottom=555;" subject="EAID_09309284_07F3_4767_B946_DE0594906F2E" seqno="3" style="DUID=ECF648EA;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=552;Top=50;Right=662;Bottom=555;" subject="EAID_F7901420_4809_4496_86C2_257E9E82AEB1" seqno="4" style="DUID=5A5CED79;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=-33;EX=0;EY=0;$LLB=;LLT=;LMT=CX=87:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_48E3877B_9F96_4368_BFBF_57F72C8E059B" style=";Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=-23;EX=0;EY=0;$LLB=;LLT=;LMT=CX=100:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_B093A9BF_2477_41d6_9FC6_04EABD0FBEE9" style=";Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=-1;EX=0;EY=0;$LLB=;LLT=;LMT=CX=84:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_A168DF0B_D3E9_431b_9FA6_63095BAF9DB5" style=";Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=-45;EX=0;EY=0;$LLB=;LLT=;LMT=CX=137:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_B57EEFDA_CF38_4fee_A4C3_3E287315F4A7" style=";Hidden=0;"/>
+				<UML:DiagramElement geometry="width=408;" subject="EAID_A7DEFE03_59EB_475e_A32E_AE215FA9A89D" style="swimlane;name=Intelligent Goods Item;class=;partition=1;description=OE0={778D77A8-98A4-45b2-9A60-501AA573C509}:OE1={FDE33FB0-0C8A-4d4d-A901-CD5F6E95C061}:;"/>
+				<UML:DiagramElement geometry="width=516;" subject="EAID_34333235_FED7_4422_ABC9_C686871F0948" style="swimlane;name=In-Vehicle System;class=;partition=2;description=OE0={F7901420-4809-4496-86C2-257E9E82AEB1}:OE1={09309284-07F3-4767-B946-DE0594906F2E}:;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
 	</XMI.content>
 	<XMI.difference/>
 	<XMI.extensions xmi.extender="Enterprise Architect 2.5"/>
