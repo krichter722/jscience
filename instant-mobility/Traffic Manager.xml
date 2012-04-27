@@ -406,6 +406,231 @@
 							<UML:Collaboration.interaction>
 								<UML:Interaction xmi.id="EAID_2F44255C_8795_441a_BE4B_533F6DE07B0B_INT" name="EAID_2F44255C_8795_441a_BE4B_533F6DE07B0B_INT">
 									<UML:Interaction.message>
+										<UML:Message name="sendHighwayInformation()" xmi.id="EAID_0C2A7A6D_4544_49d8_8EEA_09EF4222E8B8" visibility="public" sender="EAID_209C3AD9_158E_4519_90BF_585AF3687216" receiver="EAID_6556AF3E_96D4_41fe_A2CB_584F31CD4571">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="3"/>
+												<UML:TaggedValue tag="ea_type" value="Sequence"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="3"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="5"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
+												<UML:TaggedValue tag="privatedata2" value="retval=void;"/>
+												<UML:TaggedValue tag="privatedata3" value="Call"/>
+												<UML:TaggedValue tag="privatedata4" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="15822"/>
+												<UML:TaggedValue tag="ea_sourceName" value="Highway Operator"/>
+												<UML:TaggedValue tag="ea_targetName" value="Intersection virtual controller"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
+												<UML:TaggedValue tag="ea_targetType" value="Package"/>
+												<UML:TaggedValue tag="ea_sourceID" value="12144"/>
+												<UML:TaggedValue tag="ea_targetID" value="14556"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=-4;EX=0;EY=0;$LLB=;LLT=;LMT=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+												<UML:TaggedValue tag="sequence_points" value="PtStartX=437;PtStartY=-279;PtEndX=558;PtEndY=-279;"/>
+												<UML:TaggedValue tag="stateflags" value="Activation=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+												<UML:TaggedValue tag="diagram" value="EAID_70820145_AD07_4d82_8520_36F934650639"/>
+												<UML:TaggedValue tag="mt" value="sendHighwayInformation()"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Message>
+										<UML:Message name="sendVehicleInformation()" xmi.id="EAID_5B298C99_732E_4489_8B4C_61AD0C53B1B1" visibility="public" sender="EAID_5061FD2B_BD61_497d_81EB_CD6F0517D534" receiver="EAID_6556AF3E_96D4_41fe_A2CB_584F31CD4571">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="1"/>
+												<UML:TaggedValue tag="ea_type" value="Sequence"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="1"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="4"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
+												<UML:TaggedValue tag="privatedata2" value="retval=void;"/>
+												<UML:TaggedValue tag="privatedata3" value="Call"/>
+												<UML:TaggedValue tag="privatedata4" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="15818"/>
+												<UML:TaggedValue tag="ea_sourceName" value="Vehicle"/>
+												<UML:TaggedValue tag="ea_targetName" value="Intersection virtual controller"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
+												<UML:TaggedValue tag="ea_targetType" value="Package"/>
+												<UML:TaggedValue tag="ea_sourceID" value="12153"/>
+												<UML:TaggedValue tag="ea_targetID" value="14556"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;$LLB=;LLT=;LMT=CX=118:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+												<UML:TaggedValue tag="sequence_points" value="PtStartX=356;PtStartY=-240;PtEndX=558;PtEndY=-240;"/>
+												<UML:TaggedValue tag="stateflags" value="Activation=0;ExtendActivationUp=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+												<UML:TaggedValue tag="diagram" value="EAID_70820145_AD07_4d82_8520_36F934650639"/>
+												<UML:TaggedValue tag="mt" value="sendVehicleInformation()"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Message>
+										<UML:Message name="sendTaxiInformation()" xmi.id="EAID_9017AF2B_5C22_42aa_B063_32A7C4FE41CA" visibility="public" sender="EAID_4F2BE6E3_2375_4600_BEBB_22CDBF729DF8" receiver="EAID_6556AF3E_96D4_41fe_A2CB_584F31CD4571">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="1"/>
+												<UML:TaggedValue tag="ea_type" value="Sequence"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="1"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="2"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
+												<UML:TaggedValue tag="privatedata2" value="retval=void;"/>
+												<UML:TaggedValue tag="privatedata3" value="Call"/>
+												<UML:TaggedValue tag="privatedata4" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="15820"/>
+												<UML:TaggedValue tag="ea_sourceName" value="Taxi Driver"/>
+												<UML:TaggedValue tag="ea_targetName" value="Intersection virtual controller"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
+												<UML:TaggedValue tag="ea_targetType" value="Package"/>
+												<UML:TaggedValue tag="ea_sourceID" value="12151"/>
+												<UML:TaggedValue tag="ea_targetID" value="14556"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;$LLB=;LLT=;LMT=CX=103:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+												<UML:TaggedValue tag="sequence_points" value="PtStartX=162;PtStartY=-170;PtEndX=558;PtEndY=-170;"/>
+												<UML:TaggedValue tag="stateflags" value="Activation=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+												<UML:TaggedValue tag="diagram" value="EAID_70820145_AD07_4d82_8520_36F934650639"/>
+												<UML:TaggedValue tag="mt" value="sendTaxiInformation()"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Message>
+										<UML:Message name="sendLightInformation()" xmi.id="EAID_ACC9D21A_7780_4b24_BABC_A70B479930C2" visibility="public" sender="EAID_4CB00133_9214_47b9_87C1_FEA78FD44540" receiver="EAID_6556AF3E_96D4_41fe_A2CB_584F31CD4571">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="1"/>
+												<UML:TaggedValue tag="ea_type" value="Sequence"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="1"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="1"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
+												<UML:TaggedValue tag="privatedata2" value="retval=void;"/>
+												<UML:TaggedValue tag="privatedata3" value="Call"/>
+												<UML:TaggedValue tag="privatedata4" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="15819"/>
+												<UML:TaggedValue tag="ea_sourceName" value="Traffic Light"/>
+												<UML:TaggedValue tag="ea_targetName" value="Intersection virtual controller"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
+												<UML:TaggedValue tag="ea_targetType" value="Package"/>
+												<UML:TaggedValue tag="ea_sourceID" value="12150"/>
+												<UML:TaggedValue tag="ea_targetID" value="14556"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;$LLB=;LLT=;LMT=CX=106:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+												<UML:TaggedValue tag="sequence_points" value="PtStartX=65;PtStartY=-135;PtEndX=558;PtEndY=-135;"/>
+												<UML:TaggedValue tag="stateflags" value="Activation=0;ExtendActivationUp=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+												<UML:TaggedValue tag="diagram" value="EAID_70820145_AD07_4d82_8520_36F934650639"/>
+												<UML:TaggedValue tag="mt" value="sendLightInformation()"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Message>
+										<UML:Message name="sendPTInformation()" xmi.id="EAID_CB81397A_A0CC_4118_9223_9058CAD6A56B" visibility="public" sender="EAID_C0D62BB1_A04B_4a0c_BB51_F4F4512F7FF1" receiver="EAID_6556AF3E_96D4_41fe_A2CB_584F31CD4571">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="1"/>
+												<UML:TaggedValue tag="ea_type" value="Sequence"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="1"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="3"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
+												<UML:TaggedValue tag="privatedata2" value="retval=void;"/>
+												<UML:TaggedValue tag="privatedata3" value="Call"/>
+												<UML:TaggedValue tag="privatedata4" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="15821"/>
+												<UML:TaggedValue tag="ea_sourceName" value="Public Transport Operator"/>
+												<UML:TaggedValue tag="ea_targetName" value="Intersection virtual controller"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
+												<UML:TaggedValue tag="ea_targetType" value="Package"/>
+												<UML:TaggedValue tag="ea_sourceID" value="12177"/>
+												<UML:TaggedValue tag="ea_targetID" value="14556"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;$LLB=;LLT=;LMT=CX=96:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+												<UML:TaggedValue tag="sequence_points" value="PtStartX=272;PtStartY=-205;PtEndX=558;PtEndY=-205;"/>
+												<UML:TaggedValue tag="stateflags" value="Activation=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+												<UML:TaggedValue tag="diagram" value="EAID_70820145_AD07_4d82_8520_36F934650639"/>
+												<UML:TaggedValue tag="mt" value="sendPTInformation()"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Message>
 										<UML:Message name="sendData()" xmi.id="EAID_6A701D7B_166E_4972_96A0_9513F43B1DBC" visibility="public" sender="EAID_D947C40D_DF2E_4e8f_AD1B_46A176842548" receiver="EAID_9FEA3414_9DD0_435f_B86A_F8EFEDE577B3">
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="style" value="1"/>
@@ -1779,7 +2004,7 @@
 						</UML:Package>
 						<UML:Package name="Traffic Management Centre" xmi.id="EAPK_709B547B_885F_4629_B1E0_C856833ADAEA" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_FA07AD6C_C1D1_4172_A4DA_FBAFF569958F"/>
+								<UML:Stereotype xmi.idref="EAID_FF46870A_3C31_4b39_8119_DE12FB435B94"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="parent" value="EAPK_2F44255C_8795_441a_BE4B_533F6DE07B0B"/>
@@ -5234,7 +5459,7 @@
 						</UML:Package>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_FA07AD6C_C1D1_4172_A4DA_FBAFF569958F" name="subsystem" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_FF46870A_3C31_4b39_8119_DE12FB435B94" name="subsystem" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 			</UML:Namespace.ownedElement>
@@ -5244,14 +5469,15 @@
 				<UML:TaggedValue tag="version" value="1.0"/>
 				<UML:TaggedValue tag="author" value="marco.bottero"/>
 				<UML:TaggedValue tag="created_date" value="2011-12-05 11:33:57"/>
-				<UML:TaggedValue tag="modified_date" value="2012-04-26 13:25:14"/>
+				<UML:TaggedValue tag="modified_date" value="2012-04-27 12:55:29"/>
 				<UML:TaggedValue tag="package" value="EAPK_2F44255C_8795_441a_BE4B_533F6DE07B0B"/>
 				<UML:TaggedValue tag="type" value="Component"/>
 				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
 				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
 				<UML:TaggedValue tag="ea_localid" value="1562"/>
-				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=1138;DocSize.cy=795;ShowDetails=0;Orientation=L;Zoom=66;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<UML:TaggedValue tag="styleex" value="SaveTag=CD535FC1;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=1138;DocSize.cy=795;ShowDetails=0;Orientation=L;Zoom=94;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=4C7ACD10;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;"/>
+				<UML:TaggedValue tag="$ea_hlinksclassified" value="{F8470A9D-527E-438d-A892-1C81F7CE4B05},{95F212B9-8C7B-4e20-AD48-BC2CBE39EE0D}"/>
 			</UML:ModelElement.taggedValue>
 			<UML:Diagram.element>
 				<UML:DiagramElement geometry="Left=940;Top=107;Right=1096;Bottom=180;" subject="EAID_28E8BE3E_7C75_48dd_B604_EEEBF4D4D1E4" seqno="1" style="DUID=B9D1A4E0;"/>
@@ -5387,6 +5613,11 @@
 		<UML:DiagramElement geometry="Left=668;Top=105;Right=890;Bottom=167;" subject="EAID_29101107_0EEC_45e5_84B2_A56E6E3D8E7A" seqno="10" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;DUID=1201043C;">
 			<UML:ModelElement.taggedValue>
 				<UML:TaggedValue tag="diagram_guid" value="EAID_E2495385_999A_486f_AFD1_0E0E641100CD"/>
+			</UML:ModelElement.taggedValue>
+		</UML:DiagramElement>
+		<UML:DiagramElement geometry="Left=486;Top=50;Right=642;Bottom=320;" subject="EAID_6556AF3E_96D4_41fe_A2CB_584F31CD4571" seqno="2" style="DUID=9D333E91;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="diagram_guid" value="EAID_70820145_AD07_4d82_8520_36F934650639"/>
 			</UML:ModelElement.taggedValue>
 		</UML:DiagramElement>
 		<UML:DiagramElement geometry="Left=200;Top=590;Right=410;Bottom=680;" subject="EAID_709B547B_885F_4629_B1E0_C856833ADAEA" seqno="0" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;DUID=57852304;">
@@ -6369,6 +6600,11 @@
 	<XMI.difference/>
 	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
 		<EAStub xmi.id="EAID_1F34ACFC_D0BC_45fd_987C_249E4ABB196A" name="Driver" UMLType="Actor"/>
+		<EAStub xmi.id="EAID_209C3AD9_158E_4519_90BF_585AF3687216" name="Highway Operator" UMLType="Actor"/>
+		<EAStub xmi.id="EAID_5061FD2B_BD61_497d_81EB_CD6F0517D534" name="Vehicle" UMLType="Actor"/>
+		<EAStub xmi.id="EAID_4F2BE6E3_2375_4600_BEBB_22CDBF729DF8" name="Taxi Driver" UMLType="Actor"/>
+		<EAStub xmi.id="EAID_4CB00133_9214_47b9_87C1_FEA78FD44540" name="Traffic Light" UMLType="Actor"/>
+		<EAStub xmi.id="EAID_C0D62BB1_A04B_4a0c_BB51_F4F4512F7FF1" name="Public Transport Operator" UMLType="Actor"/>
 		<EAStub xmi.id="EAID_92A572A2_0939_45b1_A8A5_97C910CD0F1B" name="Traffic Operator" UMLType="Actor"/>
 		<EAModel.paramSub/>
 		<EAStub xmi.id="EAID_962DA53D_9CEE_40f3_A267_F5EE84EF0F24" name="Road Authorities" UMLType="Actor"/>
@@ -6377,7 +6613,6 @@
 		<EAStub xmi.id="EAID_777ACD86_70C4_49fb_A200_855DABBBCB44" name="In-Vehicle System" UMLType="Node"/>
 		<EAStub xmi.id="EAPK_260AA201_646C_4917_B10A_AFE0A959055B" name="Multi Modal Travel" UMLType="Package"/>
 		<EAStub xmi.id="EAPK_3A93B0DC_46C9_4468_A403_4CB088B8D69A" name="Multi-Modal Mobility" UMLType="Package"/>
-		<EAStub xmi.id="EAID_5061FD2B_BD61_497d_81EB_CD6F0517D534" name="Vehicle" UMLType="Actor"/>
 		<EAStub xmi.id="EAID_4B02803A_36E9_44aa_8067_6670D309F358" UMLType="Component"/>
 		<EAStub xmi.id="EAID_8BE95B41_CB30_424e_8FD7_367AFDA80C37" name="Data Collector" UMLType="Sequence"/>
 		<EAStub xmi.id="EAID_1770F985_B734_4049_B040_460C3D06846C" name="Passenger data processor" UMLType="Sequence"/>
