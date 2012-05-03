@@ -1754,7 +1754,7 @@
 										<UML:TaggedValue tag="ea_sourceType" value="Component"/>
 										<UML:TaggedValue tag="ea_targetType" value="Package"/>
 										<UML:TaggedValue tag="ea_sourceID" value="11814"/>
-										<UML:TaggedValue tag="ea_targetID" value="12152"/>
+										<UML:TaggedValue tag="ea_targetID" value="12488"/>
 										<UML:TaggedValue tag="src_visibility" value="Public"/>
 										<UML:TaggedValue tag="src_aggregation" value="0"/>
 										<UML:TaggedValue tag="src_isOrdered" value="false"/>
@@ -3202,6 +3202,7 @@
 									<UML:Namespace.ownedElement>
 										<UML:Component name="SmartGoodsGateway" xmi.id="EAID_F7901420_4809_4496_86C2_257E9E82AEB1" visibility="public" namespace="EAPK_4C170EC1_E534_481b_B01E_FC2BA4416940" isRoot="false" isLeaf="false" isAbstract="false">
 											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="The SmartGoodsGateway acts as an IPv6 router which connects the intelligent goods items to the transport management system. The SmartGoodsGateway receives router solicitation requests from the intelligent goods items over IEEE802.15.4. The router solicitation is answered by a router advertisement, providing the intelligent goods item with connection configuration."/>
 												<UML:TaggedValue tag="isSpecification" value="false"/>
 												<UML:TaggedValue tag="ea_stype" value="Component"/>
 												<UML:TaggedValue tag="ea_ntype" value="0"/>
@@ -3209,7 +3210,7 @@
 												<UML:TaggedValue tag="isActive" value="false"/>
 												<UML:TaggedValue tag="package" value="EAPK_4C170EC1_E534_481b_B01E_FC2BA4416940"/>
 												<UML:TaggedValue tag="date_created" value="2012-04-26 10:06:24"/>
-												<UML:TaggedValue tag="date_modified" value="2012-04-26 10:06:24"/>
+												<UML:TaggedValue tag="date_modified" value="2012-05-03 09:17:07"/>
 												<UML:TaggedValue tag="gentype" value="Java"/>
 												<UML:TaggedValue tag="tagged" value="0"/>
 												<UML:TaggedValue tag="package_name" value="Load Sensing"/>
@@ -5417,7 +5418,7 @@
 										<UML:TaggedValue tag="tpos" value="0"/>
 										<UML:TaggedValue tag="ea_localid" value="11875"/>
 										<UML:TaggedValue tag="ea_eleType" value="element"/>
-										<UML:TaggedValue tag="$ea_classified" value="{FAD86AEC-BFB4-41ac-98CF-3D293DCAD8A3},{BB3D8DE6-8317-4e34-977C-FCB7F4BE0C40},{F29D2B51-9909-4734-A0C7-D7CD8F9996CB},{E5BEF008-064A-46fb-A70F-CEA71C93F37B}"/>
+										<UML:TaggedValue tag="$ea_classified" value="{E5BEF008-064A-46fb-A70F-CEA71C93F37B},{F29D2B51-9909-4734-A0C7-D7CD8F9996CB},{BB3D8DE6-8317-4e34-977C-FCB7F4BE0C40},{FAD86AEC-BFB4-41ac-98CF-3D293DCAD8A3}"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Component>
@@ -5576,7 +5577,7 @@
 										<UML:TaggedValue tag="tpos" value="0"/>
 										<UML:TaggedValue tag="ea_localid" value="11877"/>
 										<UML:TaggedValue tag="ea_eleType" value="element"/>
-										<UML:TaggedValue tag="$ea_classified" value="{8AF7EB57-1BE0-4ccc-B064-F86EDAC6116F},{0F84E8D0-2B66-4288-AFAD-FA6BC65BEF69},{880002DF-0147-43a0-9C16-110FBACE98FA}"/>
+										<UML:TaggedValue tag="$ea_classified" value="{8AF7EB57-1BE0-4ccc-B064-F86EDAC6116F},{880002DF-0147-43a0-9C16-110FBACE98FA},{0F84E8D0-2B66-4288-AFAD-FA6BC65BEF69}"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Component>
@@ -5597,7 +5598,7 @@
 										<UML:TaggedValue tag="ea_sourceType" value="Component"/>
 										<UML:TaggedValue tag="ea_targetType" value="Package"/>
 										<UML:TaggedValue tag="ea_sourceID" value="11877"/>
-										<UML:TaggedValue tag="ea_targetID" value="12152"/>
+										<UML:TaggedValue tag="ea_targetID" value="12488"/>
 										<UML:TaggedValue tag="src_visibility" value="Public"/>
 										<UML:TaggedValue tag="src_aggregation" value="0"/>
 										<UML:TaggedValue tag="src_isOrdered" value="false"/>
@@ -5638,7 +5639,7 @@
 										<UML:TaggedValue tag="tpos" value="0"/>
 										<UML:TaggedValue tag="ea_localid" value="11878"/>
 										<UML:TaggedValue tag="ea_eleType" value="element"/>
-										<UML:TaggedValue tag="$ea_classified" value="{ADBBE225-3F43-46e4-8C8F-B7D5E5C81C8C},{267233D3-0233-4419-A3A5-79146B9CF02E}"/>
+										<UML:TaggedValue tag="$ea_classified" value="{267233D3-0233-4419-A3A5-79146B9CF02E},{ADBBE225-3F43-46e4-8C8F-B7D5E5C81C8C}"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Component>
@@ -5659,7 +5660,7 @@
 										<UML:TaggedValue tag="ea_sourceType" value="Component"/>
 										<UML:TaggedValue tag="ea_targetType" value="Package"/>
 										<UML:TaggedValue tag="ea_sourceID" value="11878"/>
-										<UML:TaggedValue tag="ea_targetID" value="12152"/>
+										<UML:TaggedValue tag="ea_targetID" value="12488"/>
 										<UML:TaggedValue tag="src_visibility" value="Public"/>
 										<UML:TaggedValue tag="src_aggregation" value="0"/>
 										<UML:TaggedValue tag="src_isOrdered" value="false"/>
@@ -5700,7 +5701,7 @@
 										<UML:TaggedValue tag="tpos" value="0"/>
 										<UML:TaggedValue tag="ea_localid" value="11879"/>
 										<UML:TaggedValue tag="ea_eleType" value="element"/>
-										<UML:TaggedValue tag="$ea_classified" value="{F5E5741E-51A0-4fa6-BFE8-BE92E7F61DB8},{AF538907-BA8C-4586-BE57-58BB4520FD1B},{74FD88BE-45EF-4b5b-9178-DCF3700859EE}"/>
+										<UML:TaggedValue tag="$ea_classified" value="{AF538907-BA8C-4586-BE57-58BB4520FD1B},{F5E5741E-51A0-4fa6-BFE8-BE92E7F61DB8},{74FD88BE-45EF-4b5b-9178-DCF3700859EE}"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Component>
@@ -5721,7 +5722,7 @@
 										<UML:TaggedValue tag="ea_sourceType" value="Component"/>
 										<UML:TaggedValue tag="ea_targetType" value="Package"/>
 										<UML:TaggedValue tag="ea_sourceID" value="11879"/>
-										<UML:TaggedValue tag="ea_targetID" value="12152"/>
+										<UML:TaggedValue tag="ea_targetID" value="12488"/>
 										<UML:TaggedValue tag="src_visibility" value="Public"/>
 										<UML:TaggedValue tag="src_aggregation" value="0"/>
 										<UML:TaggedValue tag="src_isOrdered" value="false"/>
