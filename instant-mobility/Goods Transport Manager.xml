@@ -1506,7 +1506,7 @@
 								</UML:Dependency>
 								<UML:Component name="Eco-Drive Web HMI" xmi.id="EAID_7436AD54_4BE6_428d_A5B0_D4EEED3E6677" visibility="public" namespace="EAPK_CFC1E918_A469_4e82_B3F2_A75CFA38AA0E" isRoot="false" isLeaf="false" isAbstract="false">
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="documentation" value="The Eco-drive web HMI serves the web-based user interface to the user’s web browser. It lets the end user view and compare the eco-drive performance of different drivers. The Eco-Drive Web HMI uses the IEcoDriveStats-interface of the Eco-Drive Statistics Module.&#xA;&#xA;"/>
+										<UML:TaggedValue tag="documentation" value="The Eco-drive web HMI serves the web-based user interface to the user’s web browser. It lets the end user view and compare the eco-drive performance of different drivers. The Eco-Drive Web HMI uses the IEcoDriveStats-interface of the Eco-Drive Statistics Module."/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Component"/>
 										<UML:TaggedValue tag="ea_ntype" value="0"/>
@@ -1514,7 +1514,7 @@
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_CFC1E918_A469_4e82_B3F2_A75CFA38AA0E"/>
 										<UML:TaggedValue tag="date_created" value="2012-04-10 15:39:40"/>
-										<UML:TaggedValue tag="date_modified" value="2012-05-04 14:31:48"/>
+										<UML:TaggedValue tag="date_modified" value="2012-05-07 08:29:46"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package_name" value="Eco-Drive Portal"/>
@@ -1592,7 +1592,7 @@
 								</UML:Dependency>
 								<UML:Component name="Eco-Drive Statistics Module" xmi.id="EAID_A7B62BA6_AC4A_4311_B648_980727CAA14D" visibility="public" namespace="EAPK_CFC1E918_A469_4e82_B3F2_A75CFA38AA0E" isRoot="false" isLeaf="false" isAbstract="false">
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="documentation" value="The Eco-Drive Statistics Module provides an API for other components to retrieve fuel consumption statistics for different drivers on different road segments, also taking into different vehicle characteristics.&#xA;&#xA;Service Interface: IEcoDriveStats&#xA;Operations: TBD"/>
+										<UML:TaggedValue tag="documentation" value="The Eco-Drive Statistics Module provides an API for other components to retrieve fuel consumption statistics for different drivers on different road segments, also taking into different vehicle characteristics.&#xA;&#xA;Service Interface: IEcoDriveStats&#xA;Operations: &#xA;List&amp;lt;FuelConsData&amp;gt; getFuelCons(List&amp;lt;RoadSegment&amp;gt; segments, VehicleType type, WeightClass class)&#xA;Retrieves fuel consumption for all vehicles of given type and weight class."/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Component"/>
 										<UML:TaggedValue tag="ea_ntype" value="0"/>
@@ -1600,7 +1600,7 @@
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_CFC1E918_A469_4e82_B3F2_A75CFA38AA0E"/>
 										<UML:TaggedValue tag="date_created" value="2012-04-10 15:46:12"/>
-										<UML:TaggedValue tag="date_modified" value="2012-05-02 14:20:29"/>
+										<UML:TaggedValue tag="date_modified" value="2012-05-07 08:29:37"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package_name" value="Eco-Drive Portal"/>
@@ -1723,7 +1723,7 @@
 							<UML:Namespace.ownedElement>
 								<UML:Collaboration xmi.id="EAID_601A2545_1A67_4168_9AE6_647C75730935_Collaboration" name="Collaborations">
 									<UML:Namespace.ownedElement>
-										<UML:ClassifierRole name="ILDMSubscribe" xmi.id="EAID_08DBBCEC_43AD_44cd_AD73_6859EF7068BF" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+										<UML:ClassifierRole name="ILDMDataAccess" xmi.id="EAID_08DBBCEC_43AD_44cd_AD73_6859EF7068BF" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="isAbstract" value="false"/>
 												<UML:TaggedValue tag="isSpecification" value="false"/>
@@ -1734,7 +1734,7 @@
 												<UML:TaggedValue tag="package" value="EAPK_601A2545_1A67_4168_9AE6_647C75730935"/>
 												<UML:TaggedValue tag="owner" value="EAID_977FB54E_2C94_4d58_8CD7_F55AEFE9BCFF"/>
 												<UML:TaggedValue tag="date_created" value="2012-04-19 14:33:07"/>
-												<UML:TaggedValue tag="date_modified" value="2012-04-19 14:33:20"/>
+												<UML:TaggedValue tag="date_modified" value="2012-05-07 08:39:45"/>
 												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 												<UML:TaggedValue tag="tagged" value="0"/>
 												<UML:TaggedValue tag="package_name" value="In-Vehicle System"/>
@@ -1795,6 +1795,31 @@
 												<UML:TaggedValue tag="tpos" value="0"/>
 												<UML:TaggedValue tag="ea_localid" value="2007"/>
 												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="ILDMDataProcessing" xmi.id="EAID_812D7A1A_78CB_4ff8_8669_9BA58064D986" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="ProvidedInterface"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_601A2545_1A67_4168_9AE6_647C75730935"/>
+												<UML:TaggedValue tag="owner" value="EAID_977FB54E_2C94_4d58_8CD7_F55AEFE9BCFF"/>
+												<UML:TaggedValue tag="date_created" value="2012-05-07 08:41:36"/>
+												<UML:TaggedValue tag="date_modified" value="2012-05-07 08:41:43"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="In-Vehicle System"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="yt09787"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="12620"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
 												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 											</UML:ModelElement.taggedValue>
 										</UML:ClassifierRole>
@@ -1939,7 +1964,7 @@
 										<UML:TaggedValue tag="lineStyle" value="0"/>
 										<UML:TaggedValue tag="ea_localid" value="12691"/>
 										<UML:TaggedValue tag="ea_sourceName" value="ILDMSubscribe"/>
-										<UML:TaggedValue tag="ea_targetName" value="ILDMSubscribe"/>
+										<UML:TaggedValue tag="ea_targetName" value="ILDMDataAccess"/>
 										<UML:TaggedValue tag="ea_sourceType" value="RequiredInterface"/>
 										<UML:TaggedValue tag="ea_targetType" value="ProvidedInterface"/>
 										<UML:TaggedValue tag="ea_sourceID" value="11846"/>
@@ -1965,6 +1990,7 @@
 								</UML:Dependency>
 								<UML:Component name="Mobile Router" xmi.id="EAID_0DB67E5E_48C3_4de6_91B4_7AE9652E6297" visibility="public" namespace="EAPK_601A2545_1A67_4168_9AE6_647C75730935" isRoot="false" isLeaf="false" isAbstract="false">
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="The mobile router is the component managing communication to external entities, such as 3G/LTE and 802.11p."/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Component"/>
 										<UML:TaggedValue tag="ea_ntype" value="0"/>
@@ -1972,7 +1998,7 @@
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_601A2545_1A67_4168_9AE6_647C75730935"/>
 										<UML:TaggedValue tag="date_created" value="2012-04-16 09:26:47"/>
-										<UML:TaggedValue tag="date_modified" value="2012-04-16 09:27:54"/>
+										<UML:TaggedValue tag="date_modified" value="2012-05-07 09:34:39"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package_name" value="In-Vehicle System"/>
@@ -1989,6 +2015,7 @@
 								</UML:Component>
 								<UML:Component name="Message Manager" xmi.id="EAID_431A3104_F650_48d8_8E23_115AB02BB1C8" visibility="public" namespace="EAPK_601A2545_1A67_4168_9AE6_647C75730935" isRoot="false" isLeaf="false" isAbstract="false">
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="The Message Manager is a component responsible for generating formatting and receiving messages over 802.11p, such as the traffic light signal phase information in UC2D.01."/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Component"/>
 										<UML:TaggedValue tag="ea_ntype" value="0"/>
@@ -1996,7 +2023,7 @@
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_601A2545_1A67_4168_9AE6_647C75730935"/>
 										<UML:TaggedValue tag="date_created" value="2012-04-16 09:36:22"/>
-										<UML:TaggedValue tag="date_modified" value="2012-04-16 09:36:22"/>
+										<UML:TaggedValue tag="date_modified" value="2012-05-07 09:02:30"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package_name" value="In-Vehicle System"/>
@@ -2050,6 +2077,7 @@
 								</UML:Dependency>
 								<UML:Component name="Vehicle Sensordata API" xmi.id="EAID_7D833713_3DCB_4b8f_AAD3_216248C931F6" visibility="public" namespace="EAPK_601A2545_1A67_4168_9AE6_647C75730935" isRoot="false" isLeaf="false" isAbstract="false">
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="The vehicle sensordata API provides access to sensor data on the in-vehicle network.&#xA;&#xA;Service Interface: ISenorDataRead&#xA;&#xA;readSignal(String name, byte[] output)&#xA;Read data from a signal&#xA;&#xA;subscribeSignal(String name, SignalSubscriber subscriber)&#xA;Subscribe to signal changes&#xA;&#xA;unsubscribeSignal(SignalSubscriber subscriber)&#xA;Unsubscribe to signal changes&#xA;&#xA;Service Interface: ISensorDataWrite&#xA;&#xA;writeSignal(String name, byte[] value)&#xA;Write signal data. For security reasons this is generally not possible."/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Component"/>
 										<UML:TaggedValue tag="ea_ntype" value="0"/>
@@ -2057,7 +2085,7 @@
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_601A2545_1A67_4168_9AE6_647C75730935"/>
 										<UML:TaggedValue tag="date_created" value="2011-12-19 10:45:38"/>
-										<UML:TaggedValue tag="date_modified" value="2011-12-19 10:47:15"/>
+										<UML:TaggedValue tag="date_modified" value="2012-05-07 09:32:35"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package_name" value="In-Vehicle System"/>
@@ -2485,6 +2513,7 @@
 								</UML:Dependency>
 								<UML:Component name="Local Dynamic Map" xmi.id="EAID_977FB54E_2C94_4d58_8CD7_F55AEFE9BCFF" visibility="public" namespace="EAPK_601A2545_1A67_4168_9AE6_647C75730935" isRoot="false" isLeaf="false" isAbstract="false">
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="The Local Dynamic Map is a data-store within an ITS-station (such as a vehicle or a road side unit), which support ITS-applications by maintaining information about objects influencing or being part of traffic. The data stored in the LDM is received from different sources such as vehicles, infrastructure units, traffic centres and on-board sensors. &#xA;&#xA;Type 1: permanent static data, usually provided by a map data supplier.&#xA;Type 2: transient static data, obtained during operation, e.g. changed static speed limits.&#xA;Type 3: transient dynamic data, e.g. weather situation, traffic information.&#xA;Type 4: highly dynamic data, e.g. cooperative awareness messages.&#xA;&#xA;The LDM is not foreseen to contain type 1 data, since it is currently not considered feasible to define one common map data and specify an interface to that data, which meets the requirements for all ITS-stations.&#xA;In cases where LDM data is of relevance to applications which uses type 1 data, location referencing of the LDM data is performed to relate it with the map data. Location referencing is a rather complex operation and since not all ITS applications using and LDM require location referenced information, the use of location referencing is not mandatory in the standard. Two standardised methods for location referencing are OpenLR (which is an industry standard) and Agora-C (which is an ISO standard).&#xA;&#xA;The InstantMobility-project will not define its own LDM, as the LDM is currently being standardized by ETSI. A short description of the interfaces of relevant to the InstantMobility use cases will follow.&#xA;&#xA;Service Interface: ILDMDataAccess&#xA;&#xA;Service Operations:&#xA;&#xA;subscribeSignalPhase(SignalPhaseSubscriber)&#xA;&#xA;Subscribe to traffic light signal phase information of relevance for the vehicle.&#xA;&#xA;unsubscribeSignalPhase(SignalPhaseSubscriber)&#xA;&#xA;Unsubscribe to traffice light signal phase information.&#xA;&#xA;Service Interface: ILDMDataProcessing&#xA;&#xA;Service Operations:&#xA;&#xA;processSignalPhaseData(SignalPhaseDataMsg msg)&#xA;&#xA;Inserts or updates the signal phase information from a traffic light."/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Component"/>
 										<UML:TaggedValue tag="ea_ntype" value="0"/>
@@ -2492,7 +2521,7 @@
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_601A2545_1A67_4168_9AE6_647C75730935"/>
 										<UML:TaggedValue tag="date_created" value="2011-11-28 12:27:53"/>
-										<UML:TaggedValue tag="date_modified" value="2011-11-29 12:37:09"/>
+										<UML:TaggedValue tag="date_modified" value="2012-05-07 14:38:10"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package_name" value="In-Vehicle System"/>
@@ -3874,7 +3903,7 @@
 										<UML:TaggedValue tag="lineStyle" value="0"/>
 										<UML:TaggedValue tag="conditional" value=" &#xA;«use»"/>
 										<UML:TaggedValue tag="ea_localid" value="12669"/>
-										<UML:TaggedValue tag="ea_sourceName" value="Contiki OS"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Smart Object OS"/>
 										<UML:TaggedValue tag="ea_targetName" value="6LowPAN"/>
 										<UML:TaggedValue tag="ea_sourceType" value="Component"/>
 										<UML:TaggedValue tag="ea_targetType" value="Component"/>
@@ -3901,9 +3930,9 @@
 										<UML:TaggedValue tag="mb" value=" &#xA;«use»"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Dependency>
-								<UML:Component name="Contiki OS" xmi.id="EAID_AC6F6E9D_CC77_4922_9931_038ACF673CB2" visibility="public" namespace="EAPK_69A50294_A9C3_4651_BC8D_6F086B47D2F2" isRoot="false" isLeaf="false" isAbstract="false">
+								<UML:Component name="Smart Object OS" xmi.id="EAID_AC6F6E9D_CC77_4922_9931_038ACF673CB2" visibility="public" namespace="EAPK_69A50294_A9C3_4651_BC8D_6F086B47D2F2" isRoot="false" isLeaf="false" isAbstract="false">
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="documentation" value="Contiki is the open source operating system for the Internet of Things. Contiki runs on networked embedded systems and wireless sensor networks."/>
+										<UML:TaggedValue tag="documentation" value="Compared to a typical Internet node, smart objects are characterized by small memory and low processing power, which means that traditional operating systems need much more resources than what a smart object has. Typical microcontrollers for smart objects have RAM and ROM memory in the order of a few kilobytes each, which is a factor one million less than a personal computer. However, there exist operating systems for these devices as well. Contiki, TinyOS and FreeRTOS are three open source alternatives."/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Component"/>
 										<UML:TaggedValue tag="ea_ntype" value="0"/>
@@ -3911,7 +3940,7 @@
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_69A50294_A9C3_4651_BC8D_6F086B47D2F2"/>
 										<UML:TaggedValue tag="date_created" value="2012-04-26 08:37:28"/>
-										<UML:TaggedValue tag="date_modified" value="2012-04-26 08:38:28"/>
+										<UML:TaggedValue tag="date_modified" value="2012-05-07 09:54:38"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package_name" value="IntelligentGoodsItem"/>
@@ -3943,7 +3972,7 @@
 										<UML:TaggedValue tag="conditional" value=" &#xA;«use»"/>
 										<UML:TaggedValue tag="ea_localid" value="12668"/>
 										<UML:TaggedValue tag="ea_sourceName" value="SmartGoodsService"/>
-										<UML:TaggedValue tag="ea_targetName" value="Contiki OS"/>
+										<UML:TaggedValue tag="ea_targetName" value="Smart Object OS"/>
 										<UML:TaggedValue tag="ea_sourceType" value="Component"/>
 										<UML:TaggedValue tag="ea_targetType" value="Component"/>
 										<UML:TaggedValue tag="ea_sourceID" value="11869"/>
@@ -3971,6 +4000,7 @@
 								</UML:Dependency>
 								<UML:Component name="SmartGoodsService" xmi.id="EAID_FDE33FB0_0C8A_4d4d_A901_CD5F6E95C061" visibility="public" namespace="EAPK_69A50294_A9C3_4651_BC8D_6F086B47D2F2" isRoot="false" isLeaf="false" isAbstract="false">
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="The smart goods service is a software component which executes on the microcontroller of an intelligent goods item.&#xA;&#xA;Service Interface: IIdentification&#xA;&#xA;String getGoodsId()&#xA;Get an unique identifier of the goods item.&#xA;&#xA;Service Interface: ISensorData&#xA;&#xA;double getHighestG(Timestamp &amp;amp;timestamp)&#xA;Get the highest recorded G force value recorded over the trip&#xA;&#xA;double getHighestTemp(Timestamp &amp;amp;timestamp)&#xA;Get the highest recorded temperature.&#xA;&#xA;double getLowestTemp(Timestamp &amp;amp;timestamp)&#xA;Get the lowest recorded temperature."/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Component"/>
 										<UML:TaggedValue tag="ea_ntype" value="0"/>
@@ -3978,7 +4008,7 @@
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_69A50294_A9C3_4651_BC8D_6F086B47D2F2"/>
 										<UML:TaggedValue tag="date_created" value="2012-04-26 08:48:25"/>
-										<UML:TaggedValue tag="date_modified" value="2012-04-26 08:48:25"/>
+										<UML:TaggedValue tag="date_modified" value="2012-05-07 09:53:10"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package_name" value="IntelligentGoodsItem"/>
@@ -5040,7 +5070,7 @@
 								</UML:Dependency>
 								<UML:Component name="Transport Booker API" xmi.id="EAID_2E859886_E85F_47e6_98D2_9F09645D9CA9" visibility="public" namespace="EAPK_080637AB_E917_45b8_AB9D_771B0B4FBBA5" isRoot="false" isLeaf="false" isAbstract="false">
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="documentation" value="Input: Transport bookings&#xA;Output: Transport booking create requests&#xA;The Transport Booker API provides an interface to which the transport booker can post transport booking documents."/>
+										<UML:TaggedValue tag="documentation" value="The Transport Booker API provides an interface to which the transport booker can post transport booking documents."/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Component"/>
 										<UML:TaggedValue tag="ea_ntype" value="0"/>
@@ -5048,7 +5078,7 @@
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_080637AB_E917_45b8_AB9D_771B0B4FBBA5"/>
 										<UML:TaggedValue tag="date_created" value="2012-04-10 15:12:08"/>
-										<UML:TaggedValue tag="date_modified" value="2012-04-11 13:06:23"/>
+										<UML:TaggedValue tag="date_modified" value="2012-05-07 15:38:31"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package_name" value="Transport Exchange Portal"/>
@@ -5065,7 +5095,7 @@
 								</UML:Component>
 								<UML:Component name="Itinerary Processor" xmi.id="EAID_5F09578F_3347_4df8_98FA_FE29BD9FCE1A" visibility="public" namespace="EAPK_080637AB_E917_45b8_AB9D_771B0B4FBBA5" isRoot="false" isLeaf="false" isAbstract="false">
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="documentation" value="Input: Transport booking change notifications, transport resource change notifications&#xA;Output: Transport itineraries&#xA;The Itinerary Processor create transport itineraries based on the transport bookings and the transport requests in the system."/>
+										<UML:TaggedValue tag="documentation" value="The Itinerary Processor create transport itineraries based on the transport bookings and the transport requests in the system.&#xA;&#xA;Service Interface: INotifyChange&#xA;&#xA;Service Operations:&#xA;&#xA;transportBookingChanged(long bookingId)&#xA;Notifies the itinerary processor that a transport booking was changed (added, updated or deleted)&#xA;&#xA;transportResourceChanged(long resourceId)&#xA;Notifies the itinerary processor that a transport resource was changed (added, updated or deleted)&#xA;&#xA;Service Interface: IProposalMgmt&#xA;&#xA;Service Operations:&#xA;&#xA;updatePropositions(consigneeId, Calendar cal)&#xA;Update or create new itinerary propositions based on calendar data.&#xA;&#xA;List&amp;lt;Itinerary&amp;gt; getItineraryPropositions(long fleetId)&#xA;Get all itinerary propositions that belongs to transport resources of a given fleet.&#xA;&#xA;proposeItinerary(long itineraryId, long consigneeId)&#xA;Send pick-up timeslot propositions to a consignee for acceptance&#xA;&#xA;acceptItinerary(long itineraryId)&#xA;Accept a proposed itinerary"/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Component"/>
 										<UML:TaggedValue tag="ea_ntype" value="0"/>
@@ -5073,7 +5103,7 @@
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_080637AB_E917_45b8_AB9D_771B0B4FBBA5"/>
 										<UML:TaggedValue tag="date_created" value="2012-04-10 15:12:54"/>
-										<UML:TaggedValue tag="date_modified" value="2012-04-11 13:24:38"/>
+										<UML:TaggedValue tag="date_modified" value="2012-05-07 15:25:34"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package_name" value="Transport Exchange Portal"/>
@@ -5224,7 +5254,7 @@
 								</UML:Dependency>
 								<UML:Component name="Transport Booking Persistence" xmi.id="EAID_8EA2C722_4AC7_4b62_955A_2D2EDBDB9840" visibility="public" namespace="EAPK_080637AB_E917_45b8_AB9D_771B0B4FBBA5" isRoot="false" isLeaf="false" isAbstract="false">
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="documentation" value="The Transport Booking Persistence module is responsible for creating, retrieving, updating and deleting transport bookings from the datastore.&#xA;&#xA;Service Interface: ITransportBookingPersistence&#xA;&#xA;Service Operations: &#xA;&#xA;addTransportBooking(transportBooking)&#xA;Adds a new transport booking&#xA;&#xA;updateTransportBooking(transportBooking)&#xA;Updates an existing transport booking&#xA;&#xA;deleteTransportBooking(transportBookingId)&#xA;Deletes an existing transport booking&#xA;&#xA;List&amp;lt;TransportBooking&amp;gt; getTransportBookingsForConsignee(consigneeId)&#xA;Finds transport bookings by consignee&#xA;&#xA;List&amp;lt;TransportBooking&amp;gt; getNonAssignedTransportBookings()&#xA;Finds all non-assigned transport bookings"/>
+										<UML:TaggedValue tag="documentation" value="The Transport Booking Persistence module is responsible for creating, retrieving, updating and deleting transport bookings from the datastore.&#xA;&#xA;Service Interface: ITransportBookingPersistence&#xA;&#xA;Service Operations: &#xA;&#xA;addTransportBooking(TransportBooking booking)&#xA;Adds a new transport booking&#xA;&#xA;updateTransportBooking(TransportBooking booking)&#xA;Updates an existing transport booking&#xA;&#xA;deleteTransportBooking(long transportBookingId)&#xA;Deletes an existing transport booking&#xA;&#xA;List&amp;lt;TransportBooking&amp;gt; getTransportBookingsForConsignee(long consigneeId)&#xA;Finds transport bookings by consignee&#xA;&#xA;List&amp;lt;TransportBooking&amp;gt; getNonAssignedTransportBookings()&#xA;Finds all non-assigned transport bookings"/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Component"/>
 										<UML:TaggedValue tag="ea_ntype" value="0"/>
@@ -5232,7 +5262,7 @@
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_080637AB_E917_45b8_AB9D_771B0B4FBBA5"/>
 										<UML:TaggedValue tag="date_created" value="2012-04-10 15:13:58"/>
-										<UML:TaggedValue tag="date_modified" value="2012-05-04 15:20:00"/>
+										<UML:TaggedValue tag="date_modified" value="2012-05-07 10:58:53"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package_name" value="Transport Exchange Portal"/>
@@ -5286,7 +5316,7 @@
 								</UML:Dependency>
 								<UML:Component name="Itinerary Persistence" xmi.id="EAID_AE35974A_AEF9_4b50_BA12_0C2000C9D793" visibility="public" namespace="EAPK_080637AB_E917_45b8_AB9D_771B0B4FBBA5" isRoot="false" isLeaf="false" isAbstract="false">
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="documentation" value="Input: Requests to add, update, delete and retrieve transport itineraries in the database&#xA;Output: Database queries&#xA;The Itinerary Persistence module is responsible for creating, retrieving, updating and deleting transport itineraries from the database."/>
+										<UML:TaggedValue tag="documentation" value="The Itinerary Persistence module is responsible for creating, retrieving, updating and deleting transport itineraries from the database.&#xA;&#xA;Service Interface: IItineraryPersistence&#xA;&#xA;Service Operations:&#xA;&#xA;addItinerary(Itinerary itinerary)&#xA;Adds a new itinerary&#xA;&#xA;updateItinerary(Itinerary itinerary)&#xA;Updates an existing itinerary&#xA;&#xA;deleteItinerary(long itineraryId)&#xA;Deletes an existing itinerary&#xA;&#xA;List&amp;lt;Itinerary&amp;gt; getItinerariesForPeriod(Date startDate, Date endDate)&#xA;Finds itineraries for a time period"/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Component"/>
 										<UML:TaggedValue tag="ea_ntype" value="0"/>
@@ -5294,7 +5324,7 @@
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_080637AB_E917_45b8_AB9D_771B0B4FBBA5"/>
 										<UML:TaggedValue tag="date_created" value="2012-04-10 15:14:21"/>
-										<UML:TaggedValue tag="date_modified" value="2012-04-11 15:01:41"/>
+										<UML:TaggedValue tag="date_modified" value="2012-05-07 11:03:17"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package_name" value="Transport Exchange Portal"/>
@@ -5410,7 +5440,7 @@
 								</UML:Dependency>
 								<UML:Component name="Transport Booking Manager" xmi.id="EAID_C09E6BE7_E5A1_4550_9E24_C26D73AC35AD" visibility="public" namespace="EAPK_080637AB_E917_45b8_AB9D_771B0B4FBBA5" isRoot="false" isLeaf="false" isAbstract="false">
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="documentation" value="Input: Transport booking requests&#xA;Output: Transport booking storage requests&#xA;The Transport Booking Manager receives transport booking requests from the Transport Booking API and is responsible for registering these into the system."/>
+										<UML:TaggedValue tag="documentation" value="The Transport Booking Manager receives transport booking requests from the Transport Booking API and is responsible for registering these into the system.&#xA;&#xA;Service Interface: ITransportBookingMgmt&#xA;&#xA;Service Operations:&#xA;&#xA;createTransportBooking(TransportBooking booking)&#xA;Create a new transport booking.&#xA;&#xA;updateTransportBooking(TransportBooking booking)&#xA;Update an existing transport booking.&#xA;&#xA;deleteTransportBooking(long transportBookingId)&#xA;Remove an existing transport booking."/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Component"/>
 										<UML:TaggedValue tag="ea_ntype" value="0"/>
@@ -5418,7 +5448,7 @@
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_080637AB_E917_45b8_AB9D_771B0B4FBBA5"/>
 										<UML:TaggedValue tag="date_created" value="2012-04-10 15:12:38"/>
-										<UML:TaggedValue tag="date_modified" value="2012-04-11 13:09:07"/>
+										<UML:TaggedValue tag="date_modified" value="2012-05-07 15:41:44"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package_name" value="Transport Exchange Portal"/>
@@ -5460,7 +5490,7 @@
 								</UML:Component>
 								<UML:Component name="Transport Resource Mgmt HMI" xmi.id="EAID_EA2BC6BF_84E5_4d03_BE32_BB0AFD6687E9" visibility="public" namespace="EAPK_080637AB_E917_45b8_AB9D_771B0B4FBBA5" isRoot="false" isLeaf="false" isAbstract="false">
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="documentation" value="Input: User actions for updating, retrieving and deleting transport resources.&#xA;Output: Requests to the Transport Resource Manager module for creating, updating, retrieving and deleting transport resources.&#xA;The Transport Resource Mgmt HMI is a web user interface which exposes functionalities for defining transport resources to the Transport Planner."/>
+										<UML:TaggedValue tag="documentation" value="The Transport Resource Mgmt HMI is a web user interface used by the transport planner in order to both add/modify/delete transport resources and manage the allocation of these, such as accepting/denying itinerary propositions.&#xA;&#xA;Input: User actions for updating, retrieving and deleting transport resources.&#xA;Output: Requests to the Transport Resource Manager module for creating, updating, retrieving and deleting transport resources."/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Component"/>
 										<UML:TaggedValue tag="ea_ntype" value="0"/>
@@ -5468,7 +5498,7 @@
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_080637AB_E917_45b8_AB9D_771B0B4FBBA5"/>
 										<UML:TaggedValue tag="date_created" value="2012-04-10 15:11:18"/>
-										<UML:TaggedValue tag="date_modified" value="2012-04-11 13:33:32"/>
+										<UML:TaggedValue tag="date_modified" value="2012-05-07 15:29:08"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package_name" value="Transport Exchange Portal"/>
@@ -5485,7 +5515,7 @@
 								</UML:Component>
 								<UML:Component name="Consignee API" xmi.id="EAID_F5D23BE3_3701_4ddd_9629_8B382F3F4E96" visibility="public" namespace="EAPK_080637AB_E917_45b8_AB9D_771B0B4FBBA5" isRoot="false" isLeaf="false" isAbstract="false">
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="documentation" value="The typical client of the Consignee API is a smartphone application used by the consignee in order to share calendar data and receive goods pick-up proposals.&#xA;The Consignee API implements the FI-WARE DATA/Publish-Subscribe context broker, in order to be able to notify its client of new pick-up time propositions.&#xA;&#xA;Service Interface: IItineraryAcceptance&#xA;Service Operation: bool acceptItinerary(itineraryId)&#xA;Accepts a given itinerary proposition, returns true if the acceptance was successful (i.e. done in a timely manner).&#xA;&#xA;Service Interface: ICalendarUpdate&#xA;This interface uses the CalWS-REST protocol for sharing calendar information, as defined by the CalConnect consortium.&#xA;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="documentation" value="The typical client of the Consignee API is a smartphone application used by the consignee in order to share calendar data and receive goods pick-up proposals.&#xA;The Consignee API implements the FI-WARE DATA/Publish-Subscribe context broker, in order to be able to notify its client of new pick-up time propositions.&#xA;&#xA;Service Interface: IItineraryAcceptance&#xA;Service Operation: bool acceptItinerary(itineraryId)&#xA;Accepts a given itinerary proposition, returns true if the acceptance was successful (i.e. done in a timely manner).&#xA;&#xA;Service Interface: ICalendarUpdate&#xA;This interface uses the CalWS-REST protocol for sharing calendar information, as defined by the CalConnect consortium."/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Component"/>
 										<UML:TaggedValue tag="ea_ntype" value="0"/>
@@ -5495,7 +5525,7 @@
 										<UML:TaggedValue tag="package" value="EAPK_080637AB_E917_45b8_AB9D_771B0B4FBBA5"/>
 										<UML:TaggedValue tag="classname" value="Context Broker"/>
 										<UML:TaggedValue tag="date_created" value="2012-04-18 09:33:10"/>
-										<UML:TaggedValue tag="date_modified" value="2012-05-04 14:47:45"/>
+										<UML:TaggedValue tag="date_modified" value="2012-05-07 10:31:29"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package_name" value="Transport Exchange Portal"/>
@@ -5681,38 +5711,39 @@
 				<UML:TaggedValue tag="version" value="1.0"/>
 				<UML:TaggedValue tag="author" value="yt09787"/>
 				<UML:TaggedValue tag="created_date" value="2011-11-28 12:24:12"/>
-				<UML:TaggedValue tag="modified_date" value="2012-04-27 07:42:58"/>
+				<UML:TaggedValue tag="modified_date" value="2012-05-07 08:42:13"/>
 				<UML:TaggedValue tag="package" value="EAPK_93C4688A_D817_4cbd_B3AA_D70D6D8E798F"/>
 				<UML:TaggedValue tag="type" value="Component"/>
 				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
 				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
 				<UML:TaggedValue tag="ea_localid" value="1256"/>
 				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=795;DocSize.cy=1138;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<UML:TaggedValue tag="styleex" value="SaveTag=0E72CD8F;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=0472F349;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 			</UML:ModelElement.taggedValue>
 			<UML:Diagram.element>
-				<UML:DiagramElement geometry="Left=583;Top=164;Right=596;Bottom=204;" subject="EAID_47D1E9BE_B1DF_4a1f_A9B0_007AF00016CC" seqno="1" style="DUID=9B9120D7;LBL=CX=123:CY=13:OX=24:OY=29:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=524;Top=164;Right=537;Bottom=204;" subject="EAID_0F60D4E9_4B3B_492d_9424_EAA891353D99" seqno="2" style="DUID=E81F98FA;LBL=CX=147:CY=13:OX=-149:OY=31:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=663;Top=305;Right=676;Bottom=345;" subject="EAID_D196B2AC_6755_422b_96DD_E83F243440B2" seqno="3" style="DUID=F030ECAE;LBL=CX=123:CY=13:OX=29:OY=2:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=474;Top=308;Right=487;Bottom=348;" subject="EAID_B1147981_2E7E_453b_8179_78E012E9AE1A" seqno="4" style="DUID=1EB068F7;LBL=CX=147:CY=13:OX=-154:OY=-4:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=473;Top=404;Right=486;Bottom=444;" subject="EAID_1383670C_F6F9_4143_8F39_DB5DB48CC487" seqno="5" style="DUID=9017E027;LBL=CX=78:CY=13:OX=14:OY=26:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=314;Top=405;Right=327;Bottom=445;" subject="EAID_88796565_63CC_4415_B791_9A326DD4BC68" seqno="6" style="DUID=4EC0A779;LBL=CX=81:CY=13:OX=19:OY=21:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=683;Top=637;Right=696;Bottom=677;" subject="EAID_86626170_48A1_4cce_9D81_205B43E3AA59" seqno="7" style="DUID=48AFAA33;LBL=CX=81:CY=13:OX=11:OY=-10:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=646;Top=403;Right=659;Bottom=443;" subject="EAID_28E15136_3792_4994_810B_158A13A3F54C" seqno="8" style="DUID=A1A8968C;LBL=CX=82:CY=13:OX=-78:OY=10:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=255;Top=405;Right=268;Bottom=445;" subject="EAID_4A176919_E845_498d_8C1C_F1767388BEA2" seqno="9" style="DUID=17B6A6A4;LBL=CX=71:CY=13:OX=-77:OY=21:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=707;Top=403;Right=720;Bottom=443;" subject="EAID_35B18383_D95F_4d86_AE6B_7D500EE68A3F" seqno="10" style="DUID=A831EBC6;LBL=CX=71:CY=13:OX=19:OY=14:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=258;Top=637;Right=271;Bottom=677;" subject="EAID_08DBBCEC_43AD_44cd_AD73_6859EF7068BF" seqno="11" style="DUID=396CECC1;LBL=CX=71:CY=13:OX=-84:OY=-10:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=586;Top=637;Right=599;Bottom=677;" subject="EAID_8189E14B_FDFC_47f5_8E87_ABA7D6915956" seqno="12" style="DUID=A15FC9DE;LBL=CX=82:CY=13:OX=-92:OY=-6:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=236;Top=346;Right=346;Bottom=406;" subject="EAID_1E51F521_085D_4b5f_8077_4FC9F2CA8BAA" seqno="13" style="DUID=93E8DB98;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
-				<UML:DiagramElement geometry="Left=621;Top=344;Right=731;Bottom=404;" subject="EAID_2374D495_681F_4851_B432_3A3F82A7C90F" seqno="14" style="DUID=1E015AA6;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
-				<UML:DiagramElement geometry="Left=492;Top=105;Right=635;Bottom=165;" subject="EAID_8AAEBFC9_5BD1_4b92_A857_4FB68F6D5AA5" seqno="15" style="DUID=77950A99;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
-				<UML:DiagramElement geometry="Left=175;Top=646;Right=765;Bottom=767;" subject="EAID_0432FFAA_F854_4e8e_B573_06568BC32BB1" seqno="16" style="DUID=2515F62E;"/>
-				<UML:DiagramElement geometry="Left=498;Top=676;Right=750;Bottom=736;" subject="EAID_7D833713_3DCB_4b8f_AAD3_216248C931F6" seqno="17" style="DUID=526407A6;"/>
-				<UML:DiagramElement geometry="Left=428;Top=347;Right=541;Bottom=405;" subject="EAID_BCC7673E_ACBC_42c9_BE8D_61405B3BB078" seqno="18" style="DUID=8EF0E4E0;"/>
-				<UML:DiagramElement geometry="Left=218;Top=676;Right=389;Bottom=736;" subject="EAID_977FB54E_2C94_4d58_8CD7_F55AEFE9BCFF" seqno="19" style="DUID=79A3ED3B;"/>
+				<UML:DiagramElement geometry="Left=345;Top=641;Right=358;Bottom=681;" subject="EAID_812D7A1A_78CB_4ff8_8669_9BA58064D986" seqno="1" style="DUID=081A6CAE;LBL=CX=97:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=583;Top=164;Right=596;Bottom=204;" subject="EAID_47D1E9BE_B1DF_4a1f_A9B0_007AF00016CC" seqno="2" style="DUID=9B9120D7;LBL=CX=123:CY=13:OX=24:OY=29:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=524;Top=164;Right=537;Bottom=204;" subject="EAID_0F60D4E9_4B3B_492d_9424_EAA891353D99" seqno="3" style="DUID=E81F98FA;LBL=CX=147:CY=13:OX=-149:OY=31:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=663;Top=305;Right=676;Bottom=345;" subject="EAID_D196B2AC_6755_422b_96DD_E83F243440B2" seqno="4" style="DUID=F030ECAE;LBL=CX=123:CY=13:OX=29:OY=2:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=474;Top=308;Right=487;Bottom=348;" subject="EAID_B1147981_2E7E_453b_8179_78E012E9AE1A" seqno="5" style="DUID=1EB068F7;LBL=CX=147:CY=13:OX=-154:OY=-4:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=473;Top=404;Right=486;Bottom=444;" subject="EAID_1383670C_F6F9_4143_8F39_DB5DB48CC487" seqno="6" style="DUID=9017E027;LBL=CX=78:CY=13:OX=14:OY=26:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=314;Top=405;Right=327;Bottom=445;" subject="EAID_88796565_63CC_4415_B791_9A326DD4BC68" seqno="7" style="DUID=4EC0A779;LBL=CX=81:CY=13:OX=19:OY=21:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=683;Top=637;Right=696;Bottom=677;" subject="EAID_86626170_48A1_4cce_9D81_205B43E3AA59" seqno="8" style="DUID=48AFAA33;LBL=CX=81:CY=13:OX=11:OY=-10:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=646;Top=403;Right=659;Bottom=443;" subject="EAID_28E15136_3792_4994_810B_158A13A3F54C" seqno="9" style="DUID=A1A8968C;LBL=CX=82:CY=13:OX=-78:OY=10:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=255;Top=405;Right=268;Bottom=445;" subject="EAID_4A176919_E845_498d_8C1C_F1767388BEA2" seqno="10" style="DUID=17B6A6A4;LBL=CX=71:CY=13:OX=-77:OY=21:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=707;Top=403;Right=720;Bottom=443;" subject="EAID_35B18383_D95F_4d86_AE6B_7D500EE68A3F" seqno="11" style="DUID=A831EBC6;LBL=CX=71:CY=13:OX=19:OY=14:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=261;Top=641;Right=274;Bottom=681;" subject="EAID_08DBBCEC_43AD_44cd_AD73_6859EF7068BF" seqno="12" style="DUID=396CECC1;LBL=CX=78:CY=13:OX=-84:OY=-10:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=586;Top=637;Right=599;Bottom=677;" subject="EAID_8189E14B_FDFC_47f5_8E87_ABA7D6915956" seqno="13" style="DUID=A15FC9DE;LBL=CX=82:CY=13:OX=-92:OY=-6:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=236;Top=346;Right=346;Bottom=406;" subject="EAID_1E51F521_085D_4b5f_8077_4FC9F2CA8BAA" seqno="14" style="DUID=93E8DB98;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=621;Top=344;Right=731;Bottom=404;" subject="EAID_2374D495_681F_4851_B432_3A3F82A7C90F" seqno="15" style="DUID=1E015AA6;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=492;Top=105;Right=635;Bottom=165;" subject="EAID_8AAEBFC9_5BD1_4b92_A857_4FB68F6D5AA5" seqno="16" style="DUID=77950A99;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=175;Top=646;Right=765;Bottom=767;" subject="EAID_0432FFAA_F854_4e8e_B573_06568BC32BB1" seqno="17" style="DUID=2515F62E;"/>
+				<UML:DiagramElement geometry="Left=498;Top=676;Right=750;Bottom=736;" subject="EAID_7D833713_3DCB_4b8f_AAD3_216248C931F6" seqno="18" style="DUID=526407A6;"/>
+				<UML:DiagramElement geometry="Left=428;Top=347;Right=541;Bottom=405;" subject="EAID_BCC7673E_ACBC_42c9_BE8D_61405B3BB078" seqno="19" style="DUID=8EF0E4E0;"/>
+				<UML:DiagramElement geometry="Left=221;Top=680;Right=392;Bottom=741;" subject="EAID_977FB54E_2C94_4d58_8CD7_F55AEFE9BCFF" seqno="20" style="DUID=79A3ED3B;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_52D76C3C_6FA9_4e5f_B710_6388E546D586" style="Mode=3;EOID=A15FC9DE;SOID=9017E027;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_D17BEB15_7F88_4f0f_B861_5DC09D8FBB32" style="Mode=3;EOID=A15FC9DE;SOID=A1A8968C;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_3733CAD1_4396_456a_8D86_2FF57933C3CC" style="Mode=3;EOID=396CECC1;SOID=17B6A6A4;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=5;SY=-2;EX=2;EY=-2;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_3733CAD1_4396_456a_8D86_2FF57933C3CC" style="Mode=3;EOID=396CECC1;SOID=17B6A6A4;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_D73A605A_9054_4bdc_993A_48CC3FB68F81" style="Mode=3;EOID=48AFAA33;SOID=4EC0A779;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_BEEE64BC_0E91_448c_85A1_AFF99AAE0B96" style="Mode=3;EOID=48AFAA33;SOID=A831EBC6;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_F34AD1A8_FE8C_4c66_B83C_28CAACF6B2F5" style="Mode=3;EOID=1EB068F7;SOID=E81F98FA;Color=-1;LWidth=0;Hidden=0;"/>
