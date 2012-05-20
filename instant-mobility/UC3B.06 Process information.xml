@@ -10,17 +10,18 @@
 		<UML:Model name="EA Model" xmi.id="MX_EAID_6C5B83DA_300E_4c39_A06E_D5C38BAB50DB">
 			<UML:Namespace.ownedElement>
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
-				<UML:Package name="UC3B.08: Process traffic information" xmi.id="EAPK_6C5B83DA_300E_4c39_A06E_D5C38BAB50DB" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+				<UML:Package name="UC3B.11: Collect real-time information" xmi.id="EAPK_6C5B83DA_300E_4c39_A06E_D5C38BAB50DB" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="parent" value="EAPK_8D2B7A25_59D2_4f3f_BBEB_AECA99172CFC"/>
 						<UML:TaggedValue tag="created" value="2012-05-15 10:54:10"/>
-						<UML:TaggedValue tag="modified" value="2012-05-15 10:54:10"/>
+						<UML:TaggedValue tag="modified" value="2012-05-20 20:24:47"/>
 						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 						<UML:TaggedValue tag="xmlpath" value="UC3B.06 Process information.xml"/>
+						<UML:TaggedValue tag="lastloaddate" value="2012-05-20 20:24:34"/>
+						<UML:TaggedValue tag="lastsavedate" value="2012-05-20 20:24:34"/>
 						<UML:TaggedValue tag="version" value="1.0"/>
 						<UML:TaggedValue tag="isprotected" value="FALSE"/>
 						<UML:TaggedValue tag="usedtd" value="FALSE"/>
-						<UML:TaggedValue tag="owner" value="marco.bottero"/>
 						<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
 						<UML:TaggedValue tag="logxml" value="FALSE"/>
 						<UML:TaggedValue tag="tpos" value="2"/>
@@ -53,13 +54,13 @@
 										<UML:TaggedValue tag="date_modified" value="2012-05-20 01:06:54"/>
 										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
-										<UML:TaggedValue tag="package_name" value="UC3B.08: Process traffic information"/>
+										<UML:TaggedValue tag="package_name" value="UC3B.11: Collect real-time information"/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="author" value="marco.bottero"/>
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="15718"/>
+										<UML:TaggedValue tag="ea_localid" value="15724"/>
 										<UML:TaggedValue tag="ea_eleType" value="element"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
@@ -82,14 +83,14 @@
 										<UML:TaggedValue tag="date_modified" value="2012-05-20 01:09:55"/>
 										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
-										<UML:TaggedValue tag="package_name" value="UC3B.08: Process traffic information"/>
+										<UML:TaggedValue tag="package_name" value="UC3B.11: Collect real-time information"/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="author" value="marco.bottero"/>
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="stereotype" value="entity"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="15719"/>
+										<UML:TaggedValue tag="ea_localid" value="15725"/>
 										<UML:TaggedValue tag="ea_eleType" value="element"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={27E83492-24FE-4d8c-AEFC-74B346D93504}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=entity;GUID={FC850310-4FC4-4948-8439-DB7A90778CBA};@ENDSTEREO;$DES;$CLT={ACB32BD5-DCF3-4fb7-ACE6-4DC778CC991F}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
@@ -110,23 +111,19 @@
 										<UML:TaggedValue tag="date_modified" value="2012-05-20 01:06:23"/>
 										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
-										<UML:TaggedValue tag="package_name" value="UC3B.08: Process traffic information"/>
+										<UML:TaggedValue tag="package_name" value="UC3B.11: Collect real-time information"/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="author" value="marco.bottero"/>
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="15717"/>
+										<UML:TaggedValue tag="ea_localid" value="15726"/>
 										<UML:TaggedValue tag="ea_eleType" value="element"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
 								</UML:ClassifierRole>
 							</UML:Namespace.ownedElement>
-							<UML:Collaboration.interaction>
-								<UML:Interaction>
-									<UML:Interaction.message/>
-								</UML:Interaction>
-							</UML:Collaboration.interaction>
+							<UML:Collaboration.interaction/>
 						</UML:Collaboration>
 						<UML:Component xmi.id="EAID_B5B72A7A_9590_4eeb_8886_CA4DA5D050D7" visibility="public" namespace="EAPK_6C5B83DA_300E_4c39_A06E_D5C38BAB50DB" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
@@ -142,13 +139,13 @@
 								<UML:TaggedValue tag="date_modified" value="2012-05-20 01:01:08"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
-								<UML:TaggedValue tag="package_name" value="UC3B.08: Process traffic information"/>
+								<UML:TaggedValue tag="package_name" value="UC3B.11: Collect real-time information"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="author" value="marco.bottero"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="15715"/>
+								<UML:TaggedValue tag="ea_localid" value="15722"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
@@ -167,13 +164,13 @@
 								<UML:TaggedValue tag="date_modified" value="2012-05-20 01:05:07"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
-								<UML:TaggedValue tag="package_name" value="UC3B.08: Process traffic information"/>
+								<UML:TaggedValue tag="package_name" value="UC3B.11: Collect real-time information"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="author" value="marco.bottero"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="15716"/>
+								<UML:TaggedValue tag="ea_localid" value="15723"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
@@ -187,22 +184,22 @@
 				<UML:TaggedValue tag="version" value="1.0"/>
 				<UML:TaggedValue tag="author" value="marco.bottero"/>
 				<UML:TaggedValue tag="created_date" value="2012-04-19 16:03:33"/>
-				<UML:TaggedValue tag="modified_date" value="2012-05-20 19:59:47"/>
+				<UML:TaggedValue tag="modified_date" value="2012-05-20 20:25:32"/>
 				<UML:TaggedValue tag="package" value="EAPK_6C5B83DA_300E_4c39_A06E_D5C38BAB50DB"/>
 				<UML:TaggedValue tag="type" value="Sequence"/>
 				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
 				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
 				<UML:TaggedValue tag="tpos" value="2"/>
-				<UML:TaggedValue tag="ea_localid" value="1482"/>
+				<UML:TaggedValue tag="ea_localid" value="1662"/>
 				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=1138;DocSize.cy=795;ShowDetails=0;Orientation=L;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<UML:TaggedValue tag="styleex" value="SaveTag=4F431169;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=0;INT_ARGS=;INT_RET=;INT_ATT=;SeqTopMargin=50;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=16A49ECD;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=0;INT_ARGS=;INT_RET=;INT_ATT=;SeqTopMargin=50;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 			</UML:ModelElement.taggedValue>
 			<UML:Diagram.element>
-				<UML:DiagramElement geometry="Left=238;Top=50;Right=288;Bottom=110;" subject="EAID_ACB32BD5_DCF3_4fb7_ACE6_4DC778CC991F" seqno="1" style="DUID=A41FAACC;"/>
-				<UML:DiagramElement geometry="Left=360;Top=50;Right=450;Bottom=110;" subject="EAID_4438F616_20B5_45ba_8D60_83C84325C606" seqno="2" style="DUID=E723524A;"/>
-				<UML:DiagramElement geometry="Left=522;Top=50;Right=612;Bottom=110;" subject="EAID_E91C3A94_6EBC_4d76_960D_6B4E77A86CAC" seqno="3" style="DUID=DE076281;"/>
-				<UML:DiagramElement geometry="Left=684;Top=50;Right=794;Bottom=110;" subject="EAID_ED7C5637_0F9F_4940_B0AA_B49B7F7D6B19" seqno="4" style="DUID=08CC4345;"/>
-				<UML:DiagramElement geometry="Left=56;Top=50;Right=166;Bottom=110;" subject="EAID_B5B72A7A_9590_4eeb_8886_CA4DA5D050D7" seqno="5" style="DUID=69826E21;"/>
+				<UML:DiagramElement geometry="Left=46;Top=50;Right=96;Bottom=110;" subject="EAID_ACB32BD5_DCF3_4fb7_ACE6_4DC778CC991F" seqno="1" style="DUID=A41FAACC;"/>
+				<UML:DiagramElement geometry="Left=170;Top=50;Right=260;Bottom=110;" subject="EAID_4438F616_20B5_45ba_8D60_83C84325C606" seqno="2" style="DUID=E723524A;"/>
+				<UML:DiagramElement geometry="Left=334;Top=50;Right=424;Bottom=110;" subject="EAID_E91C3A94_6EBC_4d76_960D_6B4E77A86CAC" seqno="3" style="DUID=DE076281;"/>
+				<UML:DiagramElement geometry="Left=682;Top=50;Right=792;Bottom=110;" subject="EAID_ED7C5637_0F9F_4940_B0AA_B49B7F7D6B19" seqno="4" style="DUID=08CC4345;"/>
+				<UML:DiagramElement geometry="Left=498;Top=50;Right=608;Bottom=110;" subject="EAID_B5B72A7A_9590_4eeb_8886_CA4DA5D050D7" seqno="5" style="DUID=69826E21;"/>
 			</UML:Diagram.element>
 		</UML:Diagram>
 	</XMI.content>
