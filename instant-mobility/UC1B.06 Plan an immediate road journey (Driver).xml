@@ -10,14 +10,14 @@
 		<UML:Model name="EA Model" xmi.id="MX_EAID_4359AD71_34E4_4ff8_8E73_2A2D822109A8">
 			<UML:Namespace.ownedElement>
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
-				<UML:Package name="UC1B.06: Plan an immediate road journey (Driver)" xmi.id="EAPK_4359AD71_34E4_4ff8_8E73_2A2D822109A8" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+				<UML:Package name="UC1B.04: Plan an immediate road journey (Driver)" xmi.id="EAPK_4359AD71_34E4_4ff8_8E73_2A2D822109A8" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="parent" value="EAPK_E7D4A5BC_8FB9_497d_AB80_1EE709E11557"/>
 						<UML:TaggedValue tag="created" value="2012-05-10 16:05:08"/>
 						<UML:TaggedValue tag="modified" value="2012-05-10 16:05:08"/>
 						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 						<UML:TaggedValue tag="xmlpath" value="UC1B.06 Plan an immediate road journey (Driver).xml"/>
-						<UML:TaggedValue tag="lastloaddate" value="2012-05-24 12:17:29"/>
+						<UML:TaggedValue tag="lastloaddate" value="2012-05-24 17:01:22"/>
 						<UML:TaggedValue tag="lastsavedate" value="2012-05-16 10:23:24"/>
 						<UML:TaggedValue tag="version" value="1.0"/>
 						<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -37,7 +37,7 @@
 						<UML:TaggedValue tag="gentype" value="Java"/>
 					</UML:ModelElement.taggedValue>
 					<UML:Namespace.ownedElement>
-						<UML:Collaboration xmi.id="EAID_61A5610F_DA7B_494e_A58A_9A76EEB2FD66_Collaboration" name="Collaborations">
+						<UML:Collaboration xmi.id="EAID_8395A264_461E_4047_A6F1_045731666F64_Collaboration" name="Collaborations">
 							<UML:Namespace.ownedElement/>
 							<UML:Collaboration.interaction>
 								<UML:Interaction>
@@ -49,19 +49,19 @@
 				</UML:Package>
 			</UML:Namespace.ownedElement>
 		</UML:Model>
-		<UML:Diagram name="UC1B.06: Plan an immediate road journey (Driver)" xmi.id="EAID_FE7BFD12_A149_41ae_B96A_CCCD6E35C76C" diagramType="SequenceDiagram" owner="EAPK_4359AD71_34E4_4ff8_8E73_2A2D822109A8" toolName="Enterprise Architect 2.5">
+		<UML:Diagram name="UC1B.04: Plan an immediate road journey (Driver)" xmi.id="EAID_FE7BFD12_A149_41ae_B96A_CCCD6E35C76C" diagramType="SequenceDiagram" owner="EAPK_4359AD71_34E4_4ff8_8E73_2A2D822109A8" toolName="Enterprise Architect 2.5">
 			<UML:ModelElement.taggedValue>
 				<UML:TaggedValue tag="version" value="1.0"/>
 				<UML:TaggedValue tag="author" value="T0133417"/>
 				<UML:TaggedValue tag="created_date" value="2012-05-10 16:05:52"/>
-				<UML:TaggedValue tag="modified_date" value="2012-05-24 16:58:48"/>
+				<UML:TaggedValue tag="modified_date" value="2012-05-24 17:07:28"/>
 				<UML:TaggedValue tag="package" value="EAPK_4359AD71_34E4_4ff8_8E73_2A2D822109A8"/>
 				<UML:TaggedValue tag="type" value="Sequence"/>
 				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
 				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
-				<UML:TaggedValue tag="ea_localid" value="1444"/>
+				<UML:TaggedValue tag="ea_localid" value="1446"/>
 				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=827;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<UML:TaggedValue tag="styleex" value="SaveTag=8E9C718A;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=0;INT_ARGS=;INT_RET=;INT_ATT=;SeqTopMargin=50;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=E5AFF828;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=0;INT_ARGS=;INT_RET=;INT_ATT=;SeqTopMargin=50;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 			</UML:ModelElement.taggedValue>
 			<UML:Diagram.element>
 				<UML:DiagramElement geometry="Left=673;Top=114;Right=926;Bottom=221;" subject="EAID_7A6E40D8_24FC_403e_B93D_1C2C2DA39162" seqno="6" style="font=Arial Narrow;bold=0;italic=0;ul=0;charset=0;pitch=34;fontsz=120;LWth=2;LCol=16711680;NSL=0;DUID=690B383E;"/>
