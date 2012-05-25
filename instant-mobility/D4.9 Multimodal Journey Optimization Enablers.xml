@@ -76,6 +76,7 @@
 								<UML:TaggedValue tag="ea_targetType" value="Node"/>
 								<UML:TaggedValue tag="ea_sourceID" value="12989"/>
 								<UML:TaggedValue tag="ea_targetID" value="12993"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="mt" value="http"/>
 							</UML:ModelElement.taggedValue>
@@ -174,7 +175,7 @@
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
 								</UML:ClassifierRole>
-								<UML:ClassifierRole name="UC1B.06: Plan an immediate road journey (Driver)" xmi.id="EAID_4359AD71_34E4_4ff8_8E73_2A2D822109A8" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+								<UML:ClassifierRole name="UC1B.04: Plan an immediate road journey (Driver)" xmi.id="EAID_4359AD71_34E4_4ff8_8E73_2A2D822109A8" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="isAbstract" value="false"/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
@@ -183,8 +184,8 @@
 										<UML:TaggedValue tag="version" value="1.0"/>
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_E7D4A5BC_8FB9_497d_AB80_1EE709E11557"/>
-										<UML:TaggedValue tag="date_created" value="2012-05-24 17:01:21"/>
-										<UML:TaggedValue tag="date_modified" value="2012-05-24 17:01:21"/>
+										<UML:TaggedValue tag="date_created" value="2012-05-25 09:46:38"/>
+										<UML:TaggedValue tag="date_modified" value="2012-05-25 09:46:38"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_4359AD71_34E4_4ff8_8E73_2A2D822109A8"/>
@@ -194,7 +195,7 @@
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="2279"/>
+										<UML:TaggedValue tag="ea_localid" value="2283"/>
 										<UML:TaggedValue tag="ea_eleType" value="package"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
@@ -393,6 +394,7 @@
 								<UML:TaggedValue tag="ea_targetType" value="Node"/>
 								<UML:TaggedValue tag="ea_sourceID" value="12991"/>
 								<UML:TaggedValue tag="ea_targetID" value="12993"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -680,14 +682,14 @@
 								<UML:TaggedValue tag="ea_stype" value="Public"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Package>
-						<UML:Package name="UC1B.06: Plan an immediate road journey (Driver)" xmi.id="EAPK_4359AD71_34E4_4ff8_8E73_2A2D822109A8" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+						<UML:Package name="UC1B.04: Plan an immediate road journey (Driver)" xmi.id="EAPK_4359AD71_34E4_4ff8_8E73_2A2D822109A8" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="parent" value="EAPK_E7D4A5BC_8FB9_497d_AB80_1EE709E11557"/>
 								<UML:TaggedValue tag="created" value="2012-05-10 16:05:08"/>
 								<UML:TaggedValue tag="modified" value="2012-05-10 16:05:08"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="UC1B.06 Plan an immediate road journey (Driver).xml"/>
-								<UML:TaggedValue tag="lastloaddate" value="2012-05-24 17:01:22"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-05-25 09:46:40"/>
 								<UML:TaggedValue tag="lastsavedate" value="2012-05-16 10:23:24"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
