@@ -90,6 +90,31 @@
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
 								</UML:ClassifierRole>
+								<UML:ClassifierRole name="ISchedulerFactory" xmi.id="EAID_58DD6358_B101_42f3_9A44_8675B270B244" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="ProvidedInterface"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_F3E4E281_4442_4a86_80F6_9B5141F7F30C"/>
+										<UML:TaggedValue tag="owner" value="EAID_4486CB96_0E4B_40bc_B4E4_B4CBC697E2B7"/>
+										<UML:TaggedValue tag="date_created" value="2012-05-31 13:16:55"/>
+										<UML:TaggedValue tag="date_modified" value="2012-05-31 13:17:03"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="FI-WARE"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="yt09787"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="14788"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
 								<UML:ClassifierRole name="Current EPICS " xmi.id="EAID_69BA45B5_49FD_43ab_99E3_3AB99EF3E907" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="isAbstract" value="false"/>
@@ -439,6 +464,31 @@
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
 								</UML:ClassifierRole>
+								<UML:ClassifierRole name="IScheduler" xmi.id="EAID_EF37F46D_6BAB_4f4d_AF22_EB879D513971" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="ProvidedInterface"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_F3E4E281_4442_4a86_80F6_9B5141F7F30C"/>
+										<UML:TaggedValue tag="owner" value="EAID_4486CB96_0E4B_40bc_B4E4_B4CBC697E2B7"/>
+										<UML:TaggedValue tag="date_created" value="2012-05-31 13:24:41"/>
+										<UML:TaggedValue tag="date_modified" value="2012-05-31 13:24:45"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="FI-WARE"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="yt09787"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="14789"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
 							</UML:Namespace.ownedElement>
 							<UML:Collaboration.interaction/>
 						</UML:Collaboration>
@@ -545,7 +595,7 @@
 						</UML:Component>
 						<UML:Component name="GenericScheduler" xmi.id="EAID_4486CB96_0E4B_40bc_B4E4_B4CBC697E2B7" visibility="public" namespace="EAPK_F3E4E281_4442_4a86_80F6_9B5141F7F30C" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="documentation" value="In the smart city logistics scenario we have a need to develop transport itineraries based on input consisting of transport bookings, transport resources (vehicles) and existing transport itineraries (vehicle availabilities).&#xA;&#xA;This is an optimization problem where we’d like minimize the number of transport resources used to perform a set of transport bookings, where also the schedulable items (the transport bookings) may be merged in order to create an itinerary associated with a transport resource. It is thus both about finding an optimal way to merge the itineraries, as well as find an optimal way to assign them onto transport resources.&#xA;&#xA;This component generalizes this, by providing functionality for creating resource schedules by assigning a set of mergeable schedulable items onto resources, taking existing resource schedules into account and by finding an optimal way of merging the schedulable items. Different data sources for the input (schedulable items, resources and resource schedules) and output (resource schedules) can be supported through input- and output adapters."/>
+								<UML:TaggedValue tag="documentation" value="Description: In the smart city logistics scenario we have a need to develop transport itineraries based on input consisting of transport bookings, transport resources (vehicles) and existing transport itineraries (vehicle availabilities).&#xA;&#xA;This is an optimization problem where we’d like minimize the number of transport resources used to perform a set of transport bookings, where also the schedulable items (the transport bookings) may be merged in order to create an itinerary associated with a transport resource. It is thus both about finding an optimal way to merge the itineraries, as well as find an optimal way to assign them onto transport resources.&#xA;&#xA;This component generalizes this, by providing functionality for creating resource schedules by assigning a set of mergeable schedulable items onto resources, taking existing resource schedules into account and by finding an optimal way of merging the schedulable items. Different data sources for the input (schedulable items, resources and resource schedules) and output (resource schedules) can be supported through input- and output adapters.&#xA;&#xA;Type: FI-WARE&#xA;&#xA;ISchedulerFactory&#xA;&#xA;Description: Interface for creating schedulers.  DataSourceAdapter which describes how the input data are fetched and the output data are stored are supplied as input to the factory, together with an algorithm for merging schedulable items.&#xA;Invocation: Direct&#xA;Operations:&#xA;createScheduler(DataSourceAdapter schedulableItemAdapter, DataSourceAdapter resourceAdapter, DataSourceAdapter resourceScheduleAdapter, MergeAlgorithm mergeMethod)&#xA;&#xA;IScheduler&#xA;&#xA;Description: Interface for starting and stopping schedulers.&#xA;Invocation: Direct&#xA;Operations:&#xA;start()&#xA;stop()"/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Component"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
@@ -553,7 +603,7 @@
 								<UML:TaggedValue tag="isActive" value="false"/>
 								<UML:TaggedValue tag="package" value="EAPK_F3E4E281_4442_4a86_80F6_9B5141F7F30C"/>
 								<UML:TaggedValue tag="date_created" value="2012-05-29 16:29:14"/>
-								<UML:TaggedValue tag="date_modified" value="2012-05-29 16:34:15"/>
+								<UML:TaggedValue tag="date_modified" value="2012-05-31 13:17:03"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="FI-WARE"/>
@@ -1500,7 +1550,7 @@
 								</UML:Comment>
 								<UML:Package name="Accounting GE" xmi.id="EAPK_DC81B6CB_8CE2_4af5_AD57_34F4D4F26D91" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_6BC2F07B_61F0_49f4_A0A8_44741BB8EDA0"/>
+										<UML:Stereotype xmi.idref="EAID_BC6E46B4_6FCA_41fb_A0C1_E32D707C7D21"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Accounting GE&lt;/b&gt;, allowing to keep records about resource usage, which can be then used for billing purposes."/>
@@ -1527,7 +1577,7 @@
 								</UML:Package>
 								<UML:Package name="Audit GE" xmi.id="EAPK_C383C1A5_0C0C_4d92_B41A_4341E66F291B" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_6BC2F07B_61F0_49f4_A0A8_44741BB8EDA0"/>
+										<UML:Stereotype xmi.idref="EAID_BC6E46B4_6FCA_41fb_A0C1_E32D707C7D21"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Audit GE&lt;/b&gt;, allowing to keep track of all the activities in the cloud for auditing purposes."/>
@@ -1554,7 +1604,7 @@
 								</UML:Package>
 								<UML:Package name="Cloud Broker GE" xmi.id="EAPK_AF3BD688_9C22_463d_A9FF_01568CD510F8" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_6BC2F07B_61F0_49f4_A0A8_44741BB8EDA0"/>
+										<UML:Stereotype xmi.idref="EAID_BC6E46B4_6FCA_41fb_A0C1_E32D707C7D21"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Cloud Broker GE&lt;/b&gt;, allowing to leverage GEs deployed in another Cloud in a federated or hybrid fashion."/>
@@ -1581,7 +1631,7 @@
 								</UML:Package>
 								<UML:Package name="Cloud Edge Resource Management GE" xmi.id="EAPK_D59B6BA1_34D0_46cf_BC5B_F62CBDD7776F" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_6BC2F07B_61F0_49f4_A0A8_44741BB8EDA0"/>
+										<UML:Stereotype xmi.idref="EAID_BC6E46B4_6FCA_41fb_A0C1_E32D707C7D21"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Cloud Edge Resource Management GE&lt;/b&gt;, enabling end-to-end provisioning and life cycle management of cloud applications which comprise run-time components designed to run on Cloud Edge devices. The hosting&#xA;capabilities on such Cloud Edge devices are provided by &lt;b&gt;Cloud Proxy GE.&lt;/b&gt;"/>
@@ -1608,7 +1658,7 @@
 								</UML:Package>
 								<UML:Package name="Data Center Resource Management (DCRM) GE" xmi.id="EAPK_66891BE4_E48D_4410_B8B3_5AB29F2EF22E" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_6BC2F07B_61F0_49f4_A0A8_44741BB8EDA0"/>
+										<UML:Stereotype xmi.idref="EAID_BC6E46B4_6FCA_41fb_A0C1_E32D707C7D21"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Data Center Resource Maangement (DCRM) GE&lt;/b&gt;, offering provisioning and life cycle management of virtualized resources (compute, storage, network) associated with virtual machines."/>
@@ -1635,7 +1685,7 @@
 								</UML:Package>
 								<UML:Package name="Identity Management GE" xmi.id="EAPK_92720692_1CA4_461c_8E84_5C7426ED2BEC" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_6BC2F07B_61F0_49f4_A0A8_44741BB8EDA0"/>
+										<UML:Stereotype xmi.idref="EAID_BC6E46B4_6FCA_41fb_A0C1_E32D707C7D21"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Identity Management GE&lt;/b&gt;, providing a unified management of users, roles and tokens, that can be used by other GEs for authentication and authorization purposes."/>
@@ -1662,7 +1712,7 @@
 								</UML:Package>
 								<UML:Package name="Monitoring GE" xmi.id="EAPK_EBC4E89A_C94C_46e3_B65C_CE0B6E742829" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_6BC2F07B_61F0_49f4_A0A8_44741BB8EDA0"/>
+										<UML:Stereotype xmi.idref="EAID_BC6E46B4_6FCA_41fb_A0C1_E32D707C7D21"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Monitoring GE&lt;/b&gt;, collecting metrics associated with each of the Core GEs, and offering them to GEs which are interested to consume such metrics. For example, Service Management GE consumes metrics associated with&#xA;KPIs of the various service components in order to drive auto-scaling decisions. In the future, more advanced metrics-related capabilities will be provided, such as processing (before it is delivered to the consumer), archival and analysis of metrics."/>
@@ -1689,7 +1739,7 @@
 								</UML:Package>
 								<UML:Package name="Object Storage GE" xmi.id="EAPK_A6B781EA_54E2_4e38_A71D_0AE15833B94D" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_6BC2F07B_61F0_49f4_A0A8_44741BB8EDA0"/>
+										<UML:Stereotype xmi.idref="EAID_BC6E46B4_6FCA_41fb_A0C1_E32D707C7D21"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Object Storage GE&lt;/b&gt;, offering provisioning and life cycle management of object-based storage containers and elements."/>
@@ -1847,7 +1897,7 @@
 								</UML:Package>
 								<UML:Package name="PaaS Management GE" xmi.id="EAPK_B9940725_A310_4bb7_AA33_55CF4903D684" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_6BC2F07B_61F0_49f4_A0A8_44741BB8EDA0"/>
+										<UML:Stereotype xmi.idref="EAID_BC6E46B4_6FCA_41fb_A0C1_E32D707C7D21"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="&lt;b&gt;PaaS Management GE&lt;/b&gt;, offering provisioning and life cycle management of middleware-level containers, such as Web, Database, etc."/>
@@ -1874,7 +1924,7 @@
 								</UML:Package>
 								<UML:Package name="Service Management (SM) GE" xmi.id="EAPK_8DEC0D69_AE2B_42e3_99FD_D756BD026A26" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_6BC2F07B_61F0_49f4_A0A8_44741BB8EDA0"/>
+										<UML:Stereotype xmi.idref="EAID_BC6E46B4_6FCA_41fb_A0C1_E32D707C7D21"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Service Management GE&lt;/b&gt;, offering provisioning and life cycle management of composite services comprising several resources provided by on of the above GEs. In the first release of FI-WARE, Service Management GE&#xA;will consume resources provided by Data Center Resource Management GE, via the corresponding APIs."/>
@@ -2232,7 +2282,7 @@
 								</UML:Comment>
 								<UML:Package name="Multimedia Analysis" xmi.id="EAPK_7D2EAC28_EC23_4409_865E_A9E7970E06F2" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_6BC2F07B_61F0_49f4_A0A8_44741BB8EDA0"/>
+										<UML:Stereotype xmi.idref="EAID_BC6E46B4_6FCA_41fb_A0C1_E32D707C7D21"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="The target users of the Multimedia Analysis GE are all applications that want to extract meaningful information from multimedia content (image, audio, video, etc.) of any kind and that need to automatically find characteristics in multimedia data bases on given tasks and (decision) rules. The GE can work for previously stored multimedia data as well as for multimedia data streams (e.g., received from a camera in real time)."/>
@@ -2259,7 +2309,7 @@
 								</UML:Package>
 								<UML:Package name="Query Broker" xmi.id="EAPK_5BEC7E36_7CD1_4290_AB99_C4ED2EDB20D9" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_6BC2F07B_61F0_49f4_A0A8_44741BB8EDA0"/>
+										<UML:Stereotype xmi.idref="EAID_BC6E46B4_6FCA_41fb_A0C1_E32D707C7D21"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="One way for interoperable media retrieval is the introduction of a mediator or middleware system abstracting the communication, namely a QueryBroker which acts as middleware and mediator between multimedia clients and retrieval systems improving its collaboration remarkable. A QueryBroker accepts complex multi-part and multimodal queries from one or more clients and maps/distributes those to multiple connected MMRS. As a fact, implementation complexity is reduced at the client side as only one communication partner needs to be addressed. Hence, result aggregation and query distribution is rolled easing client development additionally. However, the actual retrieval process of the multimedia data is performed inside the connected data stores."/>
@@ -2549,7 +2599,7 @@
 								</UML:Package>
 								<UML:Package name="Semantic Annotation" xmi.id="EAPK_E561275E_A2FB_4022_9514_BAD5D4F303BC" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_6BC2F07B_61F0_49f4_A0A8_44741BB8EDA0"/>
+										<UML:Stereotype xmi.idref="EAID_BC6E46B4_6FCA_41fb_A0C1_E32D707C7D21"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="This GE provides a general purpose text analyzer to identify and disambiguate LOD (Linked Open Data) resources related to the entities in the text. It is build following a modular approach to optimize and distribute text processing &amp;amp; LOD sources (plug-in). Also it allows RDF triple generation that easily links to LOD resources."/>
@@ -2576,7 +2626,7 @@
 								</UML:Package>
 								<UML:Package name="Semantic Support" xmi.id="EAPK_7D156685_18A8_4ddd_B2A8_9FB7F2E8BFB3" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_6BC2F07B_61F0_49f4_A0A8_44741BB8EDA0"/>
+										<UML:Stereotype xmi.idref="EAID_BC6E46B4_6FCA_41fb_A0C1_E32D707C7D21"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="The Semantic Web Application Support enabler aims at providing an effective environment for developers to implement and deploy high quality Semantic Web-based applications.&#xA;The Semantic Application Support enabler addresses data management problems (engineering and technical), by providing:&#xA;• An infrastructure for metadata publishing, retrieving and subscription that meets industry requirements like scalability, distribution and security. From now and so on, we will refer to this infrastructure as SWAS Infrastructure.&#xA;• A set of tools for infrastructure and data management, supporting most adopted methodologies and best practices. We will refer to this tools as SWAS Engineering Environment."/>
@@ -2603,7 +2653,7 @@
 								</UML:Package>
 								<UML:Package name="Metadata Preprocessing" xmi.id="EAPK_025A0570_B2B3_40db_ABA8_A1A0F4BAFAFF" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_6BC2F07B_61F0_49f4_A0A8_44741BB8EDA0"/>
+										<UML:Stereotype xmi.idref="EAID_BC6E46B4_6FCA_41fb_A0C1_E32D707C7D21"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="Target users are all stakeholders that need to convert metadata formats or need to generate objects (as instantiation of classes) that carry metadata information. The requirements to transform metadata typically stem from the fact that in real life various components implementing different metadata formats need to inter-work. However, typically products from different vendors are plugged together. In this case, the Metadata Preprocessing GE acts as a mediator between the various products."/>
@@ -3422,7 +3472,7 @@
 								</UML:Package>
 								<UML:Package name="BigData" xmi.id="EAPK_B710D1B8_91BE_488c_B813_8E634B756FD4" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_6BC2F07B_61F0_49f4_A0A8_44741BB8EDA0"/>
+										<UML:Stereotype xmi.idref="EAID_BC6E46B4_6FCA_41fb_A0C1_E32D707C7D21"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="Big Data Analysis is the process of using new tools to provide insights in to data previously considered too big or complex, given the current state of technology. The Big Data Analysis GE is made up of a number assets that allow an end user or developer to unlock the information within the data. The"/>
@@ -3604,12 +3654,12 @@
 												<UML:TaggedValue tag="seqno" value="0"/>
 												<UML:TaggedValue tag="headStyle" value="0"/>
 												<UML:TaggedValue tag="lineStyle" value="0"/>
-												<UML:TaggedValue tag="ea_localid" value="13563"/>
+												<UML:TaggedValue tag="ea_localid" value="14915"/>
 												<UML:TaggedValue tag="ea_sourceName" value="Itinerary Persistence"/>
 												<UML:TaggedValue tag="ea_targetName" value="NoSQL document-orientated storage"/>
 												<UML:TaggedValue tag="ea_sourceType" value="Component"/>
 												<UML:TaggedValue tag="ea_targetType" value="Package"/>
-												<UML:TaggedValue tag="ea_sourceID" value="13393"/>
+												<UML:TaggedValue tag="ea_sourceID" value="14752"/>
 												<UML:TaggedValue tag="ea_targetID" value="14555"/>
 												<UML:TaggedValue tag="src_visibility" value="Public"/>
 												<UML:TaggedValue tag="src_aggregation" value="0"/>
@@ -3642,12 +3692,12 @@
 												<UML:TaggedValue tag="seqno" value="0"/>
 												<UML:TaggedValue tag="headStyle" value="0"/>
 												<UML:TaggedValue tag="lineStyle" value="0"/>
-												<UML:TaggedValue tag="ea_localid" value="13562"/>
+												<UML:TaggedValue tag="ea_localid" value="14914"/>
 												<UML:TaggedValue tag="ea_sourceName" value="Transport Resource Persistence"/>
 												<UML:TaggedValue tag="ea_targetName" value="NoSQL document-orientated storage"/>
 												<UML:TaggedValue tag="ea_sourceType" value="Component"/>
 												<UML:TaggedValue tag="ea_targetType" value="Package"/>
-												<UML:TaggedValue tag="ea_sourceID" value="13394"/>
+												<UML:TaggedValue tag="ea_sourceID" value="14753"/>
 												<UML:TaggedValue tag="ea_targetID" value="14555"/>
 												<UML:TaggedValue tag="src_visibility" value="Public"/>
 												<UML:TaggedValue tag="src_aggregation" value="0"/>
@@ -3680,12 +3730,12 @@
 												<UML:TaggedValue tag="seqno" value="0"/>
 												<UML:TaggedValue tag="headStyle" value="0"/>
 												<UML:TaggedValue tag="lineStyle" value="0"/>
-												<UML:TaggedValue tag="ea_localid" value="13600"/>
+												<UML:TaggedValue tag="ea_localid" value="14952"/>
 												<UML:TaggedValue tag="ea_sourceName" value="Eco-Drive Persistence"/>
 												<UML:TaggedValue tag="ea_targetName" value="NoSQL document-orientated storage"/>
 												<UML:TaggedValue tag="ea_sourceType" value="Component"/>
 												<UML:TaggedValue tag="ea_targetType" value="Package"/>
-												<UML:TaggedValue tag="ea_sourceID" value="13328"/>
+												<UML:TaggedValue tag="ea_sourceID" value="14687"/>
 												<UML:TaggedValue tag="ea_targetID" value="14555"/>
 												<UML:TaggedValue tag="src_visibility" value="Public"/>
 												<UML:TaggedValue tag="src_aggregation" value="0"/>
@@ -3718,12 +3768,12 @@
 												<UML:TaggedValue tag="seqno" value="0"/>
 												<UML:TaggedValue tag="headStyle" value="0"/>
 												<UML:TaggedValue tag="lineStyle" value="0"/>
-												<UML:TaggedValue tag="ea_localid" value="13564"/>
+												<UML:TaggedValue tag="ea_localid" value="14916"/>
 												<UML:TaggedValue tag="ea_sourceName" value="Transport Booking Persistence"/>
 												<UML:TaggedValue tag="ea_targetName" value="NoSQL document-orientated storage"/>
 												<UML:TaggedValue tag="ea_sourceType" value="Component"/>
 												<UML:TaggedValue tag="ea_targetType" value="Package"/>
-												<UML:TaggedValue tag="ea_sourceID" value="13392"/>
+												<UML:TaggedValue tag="ea_sourceID" value="14751"/>
 												<UML:TaggedValue tag="ea_targetID" value="14555"/>
 												<UML:TaggedValue tag="src_visibility" value="Public"/>
 												<UML:TaggedValue tag="src_aggregation" value="0"/>
@@ -3747,7 +3797,7 @@
 										</UML:Dependency>
 										<UML:Package name="Data Stream Analysis" xmi.id="EAPK_E35DCB8D_459A_45d1_A2B6_37E0C033B458" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 											<UML:ModelElement.stereotype>
-												<UML:Stereotype xmi.idref="EAID_6BC2F07B_61F0_49f4_A0A8_44741BB8EDA0"/>
+												<UML:Stereotype xmi.idref="EAID_BC6E46B4_6FCA_41fb_A0C1_E32D707C7D21"/>
 											</UML:ModelElement.stereotype>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="documentation" value="The Data Stream Analysis platform brings together a cluster of commodity computer servers or nodes to divide up and process a pre-programmed task.&#xA;Each node in the cluster has a Worker process that divides up the task amongst the available resources within the server. These tasks are programmed in modules designed to solve a specific problem. Modules are built as shared libraries allowing for changes to be made to the module so that it can be reloaded at run-time without interrupting the&#xA;operation of the platform.&#xA;Communication between the nodes is handled via the network layer that ensures the data needed to process each task is available on every node. The network layer also compresses and optimizes the data flow to reduce latency when transferring data.&#xA;Data is uploaded into the cluster using a client tool, in addition this tool can be used to launch processing tasks and download result data. delilah is available in two forms, a command line client and Qt based graphical interface.&#xA;There is also a delilah client library (C++ API), which can be used to communicate any application with Data Stream Analysis platform (for streaming operations)."/>
@@ -3774,7 +3824,7 @@
 										</UML:Package>
 										<UML:Package name="High-performance distributed file-system" xmi.id="EAPK_9EB7DD7E_F191_4701_BAE8_6B20B3A045C1" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 											<UML:ModelElement.stereotype>
-												<UML:Stereotype xmi.idref="EAID_6BC2F07B_61F0_49f4_A0A8_44741BB8EDA0"/>
+												<UML:Stereotype xmi.idref="EAID_BC6E46B4_6FCA_41fb_A0C1_E32D707C7D21"/>
 											</UML:ModelElement.stereotype>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="documentation" value="This generic enabler requires the use of a high-performance distributed file system based on Apache's Hadoop HDFS. This framework allows for the distributed processing of large data sets (&amp;gt; 0.5 Terabytes) across clusters of&#xA;computers using a simple programming model. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. In addition we will make use of an SQL-like interface what allows data exploration of data stored within the file-system."/>
@@ -3801,7 +3851,7 @@
 										</UML:Package>
 										<UML:Package name="NoSQL document-orientated storage" xmi.id="EAPK_E2C691EA_FA2E_4854_BEBD_E0DAB6280088" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 											<UML:ModelElement.stereotype>
-												<UML:Stereotype xmi.idref="EAID_6BC2F07B_61F0_49f4_A0A8_44741BB8EDA0"/>
+												<UML:Stereotype xmi.idref="EAID_BC6E46B4_6FCA_41fb_A0C1_E32D707C7D21"/>
 											</UML:ModelElement.stereotype>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="documentation" value="For data sets smaller than 0.5 Terabytes the GE will make use of a document orientated storage system based on NoSQL. the interface is to be compatible with MongoDB. This component will be used to provide a high-availability store for querying data."/>
@@ -3830,7 +3880,7 @@
 								</UML:Package>
 								<UML:Package name="Complex Event Processing (CEP)" xmi.id="EAPK_A907503B_AC11_40a3_A94C_37FE0E7680DE" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_6BC2F07B_61F0_49f4_A0A8_44741BB8EDA0"/>
+										<UML:Stereotype xmi.idref="EAID_BC6E46B4_6FCA_41fb_A0C1_E32D707C7D21"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="CEP analyses event data in real-time, generates immediate insight and enables instant response to changing conditions. Some functional requirements this technology addresses include event-based routing, observation, monitoring and event correlation. The technology and implementations of CEP provide means to expressively and flexibly define and maintain the event processing logic of the application, and in runtime it is designed to meet all the functional and nonfunctional requirements without taking a toll on the application performance, removing one issue from the application developer’s and system managers concerns."/>
@@ -3858,7 +3908,7 @@
 								</UML:Package>
 								<UML:Package name="Location" xmi.id="EAPK_B2C70B5E_5FF1_4440_B477_9AA14161E53B" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_6BC2F07B_61F0_49f4_A0A8_44741BB8EDA0"/>
+										<UML:Stereotype xmi.idref="EAID_BC6E46B4_6FCA_41fb_A0C1_E32D707C7D21"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="The Location Platform provides location-based services to two types of users:&#xA;• Third-party location clients&#xA;Typically yellow pages is one of many third-party location clients that can interact with the location platform over dedicated Mobile Location Protocol (MLP) interface standardized by Open Mobile Alliance (OMA). This interface facilitates many services to retrieve the position of a compatible target mobile terminal for various types of applications. The target mobile terminal position is retrieved using AGPS, WiFi and Cell-Id positioning technologies.&#xA;• Mobile end-users&#xA;When an end-user searches for its position using a compatible terminal via any kind of application requiring location information, the terminal connects to the location platform to exchange assistance data in order to compute or retrieve its position, as negotiated between the terminal and the platform. Moreover, some applications on the compatible terminal may include the sharing of location information with external third-parties, including other end-users."/>
@@ -4615,7 +4665,7 @@
 								</UML:Package>
 								<UML:Package name="Publish/Subscribe" xmi.id="EAPK_837DDA16_2191_400d_8E65_DE2DE8FD528B" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_6BC2F07B_61F0_49f4_A0A8_44741BB8EDA0"/>
+										<UML:Stereotype xmi.idref="EAID_BC6E46B4_6FCA_41fb_A0C1_E32D707C7D21"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="A fundamental principle supported by the Publish/Subscribe GE is that of achieving a total decoupling between Context Producers and Context Consumers. On one hand, this means that Context Producers publish data without knowing which Context Consumers will consume published data; therefore they don’t need to be connected to them. On the other hand, Context Consumers consume data of their interest, without this meaning they know which Context Producer has published a particular event: they are just interested in the event itself but not in who generated it. As a result, this GE it is an excellent bridge enabling external applications to manage events related to the Internet of the Things in a simpler way hiding the complexity of gathering measures from IoT resources (sensors) that might&#xA;be distributed or involving multiple low-level communication protocols."/>
@@ -5987,7 +6037,7 @@
 												<UML:TaggedValue tag="tpos" value="0"/>
 												<UML:TaggedValue tag="ea_localid" value="14581"/>
 												<UML:TaggedValue tag="ea_eleType" value="element"/>
-												<UML:TaggedValue tag="$ea_classified" value="{0F79B56D-A3FB-42f5-AADE-AA55A3996E6E},{0056334F-C0C3-4347-AC0B-B2101EB9E483}"/>
+												<UML:TaggedValue tag="$ea_classified" value="{0056334F-C0C3-4347-AC0B-B2101EB9E483},{0F79B56D-A3FB-42f5-AADE-AA55A3996E6E}"/>
 												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={EFBD2133-5150-490d-A07A-977C874DD153}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isIndirectlyInstantiated@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=true@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={A231F894-0411-4c26-A096-C0AD45118B2E}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 											</UML:ModelElement.taggedValue>
@@ -6039,7 +6089,7 @@
 												<UML:TaggedValue tag="tpos" value="0"/>
 												<UML:TaggedValue tag="ea_localid" value="14583"/>
 												<UML:TaggedValue tag="ea_eleType" value="element"/>
-												<UML:TaggedValue tag="$ea_classified" value="{BFB9DFC7-2C1F-48fa-846B-09783B86E948},{F5D23BE3-3701-4ddd-9629-8B382F3F4E96}"/>
+												<UML:TaggedValue tag="$ea_classified" value="{F5D23BE3-3701-4ddd-9629-8B382F3F4E96},{BFB9DFC7-2C1F-48fa-846B-09783B86E948}"/>
 												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={9A224C06-AB7E-4c2f-940E-E262FDEF1ED2}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isIndirectlyInstantiated@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=true@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={CA026E60-0E19-4ba6-9AAB-75C765E0B52E}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 											</UML:ModelElement.taggedValue>
@@ -6244,7 +6294,7 @@
 								</UML:Collaboration>
 								<UML:Package name="Connected Device Interface (CDI)" xmi.id="EAPK_547C70ED_FCAA_498c_B37E_8587B9F906D8" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_6BC2F07B_61F0_49f4_A0A8_44741BB8EDA0"/>
+										<UML:Stereotype xmi.idref="EAID_BC6E46B4_6FCA_41fb_A0C1_E32D707C7D21"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="The Connected Device Interface (CDI) Generic Enabler (GE) open specifications provide a set of application program interfaces (APIs) to access device features, including a detailed description of the set of functionality provided for applications which will execute on a device (On Device Access), along with detailing how connected devices can be accessed via a Remote Management service (via a REST API). APIs exposed by the CDI allow each app to get access to the device capabilities independently from the handset manufacturer, the OS vendor or the specific software embedded into the device. CDI will expose proper APIs to control all the capabilities and to get the related information of the connected device, e.g. battery power, network status, location systems, quality of service, media capabilities, phone available features and sensors, profile information, status information and remote management facilities.&#xA;The term “connected devices” refers to a broad range of networked electronic components, including Handsets (cellular phones, smart phones), Tablets, Media phones, Smart TVs, Set-Top-Boxes, In-Vehicle Infotainment, Information kiosks, each being able to connect to a communication network."/>
@@ -6289,7 +6339,7 @@
 												<UML:TaggedValue tag="tpos" value="0"/>
 												<UML:TaggedValue tag="ea_localid" value="14597"/>
 												<UML:TaggedValue tag="ea_eleType" value="element"/>
-												<UML:TaggedValue tag="$ea_classified" value="{3E4E3D1A-65C8-4015-9C92-07264DBF5A94},{496FD932-3476-4aae-A536-48DB3935AE74},{7373F160-966F-4059-B90E-26315C062D9A}"/>
+												<UML:TaggedValue tag="$ea_classified" value="{496FD932-3476-4aae-A536-48DB3935AE74},{3E4E3D1A-65C8-4015-9C92-07264DBF5A94},{7373F160-966F-4059-B90E-26315C062D9A}"/>
 												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={C7677FC8-A70A-43b7-A1E9-A35E90C4BFDD}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isIndirectlyInstantiated@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=true@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={0362F9D7-065F-4632-8CF8-FBB1A2CB23D9}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 											</UML:ModelElement.taggedValue>
@@ -7870,7 +7920,7 @@
 								</UML:Comment>
 								<UML:Package name="Context-Based Security &amp; Compliance" xmi.id="EAPK_C5F03059_19DB_4458_9D07_44C3B14871C6" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_6BC2F07B_61F0_49f4_A0A8_44741BB8EDA0"/>
+										<UML:Stereotype xmi.idref="EAID_BC6E46B4_6FCA_41fb_A0C1_E32D707C7D21"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="The role of this Generic Enabler is support additional security requirements requested by a specific subset of applications as a result of the application of very specific regulatory constraints. This feature provides the security layer of FI-WARE context-aware capabilities that allows any of its instances to deal with dynamic and unpredictable context changes. The GE will accept security request from an end-user application and will select the best Optional Security Enabler to fulfill it by searching the best solution into the Security section from FI-WARE marketplace. At the same time that the security solution is deployed into the end-user environment the GE also instantiates a runtime monitor with the responsibility of detecting anomalous behavior or non-conformance. In case of a non-conformance detected the framework will take compensation actions for the automated adaptation of the deployed security mechanism to the changing context conditions The security requirement sent by the end-user applications to the GE could be expressed both by single security specifications and by references to a predefined rule, law or agreement stored in the rule repository offered by the GE. Security features offered by the services that the GE is going to get from the marketplace must by described by using USDL-SEC language."/>
@@ -7897,7 +7947,7 @@
 								</UML:Package>
 								<UML:Package name="Data Handling" xmi.id="EAPK_32C458BA_21C9_4e2b_A4B2_D643403FEC64" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_6BC2F07B_61F0_49f4_A0A8_44741BB8EDA0"/>
+										<UML:Stereotype xmi.idref="EAID_BC6E46B4_6FCA_41fb_A0C1_E32D707C7D21"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="The Data Handler GE is a privacy-friendly attribute-based access control system to (sensitive) data. It mainly focuses on revealing certain attributes according to specific prove conditions. It supports integrated data handling (two-sided detailed data handling), that takes into account specific preferences/policies expressed using the PPL language (Privacy Policy Language)[PPL]. The PPL is based on the XACML standard [XACML]. Data usage purpose must always be declared, as it is a relevant part of the policy that must be expressed, as well as downstream usage, i.e., whether one can disclose collected data with third parties. The PPL language supports the enforcement of a number of obligations, that are bound tightly to data. For instance, one can impose a specific retention period, as well as the production of user's notifications and/or logging under certain conditions."/>
@@ -8450,7 +8500,7 @@
 								</UML:Package>
 								<UML:Package name="Identity Management" xmi.id="EAPK_63ED53D1_966B_461c_9977_4A92B721AC5C" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_6BC2F07B_61F0_49f4_A0A8_44741BB8EDA0"/>
+										<UML:Stereotype xmi.idref="EAID_BC6E46B4_6FCA_41fb_A0C1_E32D707C7D21"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="Identity Management encompasses a number of aspects involved with users' access to networks, services and applications, including secure and private authentication from users to devices, networks and services, Authorisation &amp;amp; Trust management, User Profile management, Single Sign-On (SSO) to service domains and Identity Federation towards applications. The Identity Manager is the central component that provides a bridge between IdM systems at connectivity-level and application-level.&#xA;Identity Management is used in multiple scenarios spanning from Operator oriented scenarios towards Internet Service Providers (ISP). End users benefit from having simplified and easy access to services (User Centric Identity Management)."/>
@@ -8877,7 +8927,7 @@
 								</UML:Package>
 								<UML:Package name="Optional Security" xmi.id="EAPK_01E5C482_5287_4795_9C54_9507484484E8" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_6BC2F07B_61F0_49f4_A0A8_44741BB8EDA0"/>
+										<UML:Stereotype xmi.idref="EAID_BC6E46B4_6FCA_41fb_A0C1_E32D707C7D21"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="The Optional Security Enablers are services that can complement applications with security-specific vertical functionalities, that are not covered by Core Generic Enablers."/>
@@ -8904,7 +8954,7 @@
 								</UML:Package>
 								<UML:Package name="Privacy" xmi.id="EAPK_90817ACE_B8AE_49f2_ACFD_DF513DA24457" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_6BC2F07B_61F0_49f4_A0A8_44741BB8EDA0"/>
+										<UML:Stereotype xmi.idref="EAID_BC6E46B4_6FCA_41fb_A0C1_E32D707C7D21"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="The Privacy GE does not expose its own external interfaces directly; rather it enhances the functionality provided by the other generic enablers:&#xA;- Identity Management GE,&#xA;- Data Handling.GE"/>
@@ -8931,7 +8981,7 @@
 								</UML:Package>
 								<UML:Package name="Security Monitoring" xmi.id="EAPK_99DAF735_5219_44da_A5F0_E79044A9B58F" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_6BC2F07B_61F0_49f4_A0A8_44741BB8EDA0"/>
+										<UML:Stereotype xmi.idref="EAID_BC6E46B4_6FCA_41fb_A0C1_E32D707C7D21"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="The Security Monitoring GE is part of the overall Security Management System in FI-WARE and as such is part of each and every FI-WARE instance. The target users are: FI-WARE Instance Providers and FI-WARE Application/Service Providers.&#xA;Security monitoring is the first step towards understanding the real security state of a future internet environment and, hence, towards realizing the execution of services with desired security behaviour and detection of potential attacks or non-authorized usage.&#xA;This generic enabler deals with the security monitoring and beyond, up to pro-active cyber-security i.e. protection of “assets” at large. It allows to assess the real security state of a future internet environment and, hence, towards realizing the execution of services with desired security behaviour and detection of potential attacks or non-authorized usage."/>
@@ -8960,7 +9010,7 @@
 						</UML:Package>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_6BC2F07B_61F0_49f4_A0A8_44741BB8EDA0" name="subsystem" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_BC6E46B4_6FCA_41fb_A0C1_E32D707C7D21" name="subsystem" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 			</UML:Namespace.ownedElement>
@@ -8995,7 +9045,7 @@
 				<UML:TaggedValue tag="version" value="1.0"/>
 				<UML:TaggedValue tag="author" value="Thales"/>
 				<UML:TaggedValue tag="created_date" value="2012-05-10 16:03:05"/>
-				<UML:TaggedValue tag="modified_date" value="2012-05-29 16:35:59"/>
+				<UML:TaggedValue tag="modified_date" value="2012-05-31 13:47:23"/>
 				<UML:TaggedValue tag="package" value="EAPK_F3E4E281_4442_4a86_80F6_9B5141F7F30C"/>
 				<UML:TaggedValue tag="type" value="Component"/>
 				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
@@ -9003,33 +9053,35 @@
 				<UML:TaggedValue tag="tpos" value="1"/>
 				<UML:TaggedValue tag="ea_localid" value="1469"/>
 				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=795;DocSize.cy=1138;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<UML:TaggedValue tag="styleex" value="SaveTag=C42E1360;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=1FA00BC6;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 			</UML:ModelElement.taggedValue>
 			<UML:Diagram.element>
-				<UML:DiagramElement geometry="Left=525;Top=850;Right=538;Bottom=890;" subject="EAID_9724417E_38CA_4bd1_AA5D_98E323457862" seqno="1" style="DUID=17EFB4B3;LBL=CX=27:CY=13:OX=-5:OY=-16:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=453;Top=850;Right=466;Bottom=890;" subject="EAID_CC2ABC01_7CAA_4223_88E4_81C255847214" seqno="2" style="DUID=B72AE0D6;LBL=CX=37:CY=13:OX=-13:OY=-14:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=365;Top=850;Right=378;Bottom=890;" subject="EAID_8935298A_FF54_4b94_86E0_C3E90FF8628D" seqno="3" style="DUID=72A6BE0B;LBL=CX=58:CY=13:OX=-11:OY=-15:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=283;Top=850;Right=296;Bottom=890;" subject="EAID_EE415EFB_D2FE_46ef_844E_08B48289B827" seqno="4" style="DUID=2603A6C7;LBL=CX=54:CY=13:OX=-16:OY=-15:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=87;Top=981;Right=206;Bottom=1050;" subject="EAID_4486CB96_0E4B_40bc_B4E4_B4CBC697E2B7" seqno="5" style="DUID=67BA0240;"/>
-				<UML:DiagramElement geometry="Left=261;Top=889;Right=571;Bottom=959;" subject="EAID_5BC91805_47DF_46fb_B480_9F4A1E232AEF" seqno="6" style="DUID=E0C36480;"/>
-				<UML:DiagramElement geometry="Left=81;Top=889;Right=201;Bottom=959;" subject="EAID_C71DC4C6_84BE_4339_B15A_6E49884C4A80" seqno="7" style="DUID=4B5AA9DF;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
-				<UML:DiagramElement geometry="Left=31;Top=799;Right=621;Bottom=1095;" subject="EAID_738E3387_EBE2_41d5_8987_042DB9B9B65D" seqno="8" style="DUID=D28DF43E;"/>
-				<UML:DiagramElement geometry="Left=30;Top=90;Right=620;Bottom=760;" subject="EAID_69BA45B5_49FD_43ab_99E3_3AB99EF3E907" seqno="9" style="DUID=389CD99B;"/>
-				<UML:DiagramElement geometry="Left=260;Top=650;Right=380;Bottom=720;" subject="EAID_C8985AFE_C0B7_4be1_980F_9BAE1D5601CB" seqno="10" style="DUID=2D1D3CA2;"/>
-				<UML:DiagramElement geometry="Left=80;Top=650;Right=200;Bottom=720;" subject="EAID_0DF616BF_B766_420d_97CE_957389152127" seqno="11" style="DUID=442B4825;"/>
-				<UML:DiagramElement geometry="Left=450;Top=520;Right=570;Bottom=590;" subject="EAID_C973DDB9_90C8_40dd_B5F5_A96D7673974C" seqno="12" style="DUID=00D137DE;"/>
-				<UML:DiagramElement geometry="Left=260;Top=520;Right=380;Bottom=590;" subject="EAID_194E201D_4DEE_4ac6_A6F9_CBF7E4EC09F3" seqno="13" style="DUID=8B3347C8;"/>
-				<UML:DiagramElement geometry="Left=80;Top=520;Right=200;Bottom=590;" subject="EAID_87064EA7_6B63_4935_9878_354D278EBF59" seqno="14" style="DUID=5A9A4795;"/>
-				<UML:DiagramElement geometry="Left=450;Top=390;Right=579;Bottom=460;" subject="EAID_E137B479_32DE_4187_BEF1_75F402EA29CF" seqno="15" style="DUID=91C7431B;"/>
-				<UML:DiagramElement geometry="Left=260;Top=390;Right=388;Bottom=460;" subject="EAID_BF02FD4E_DD7F_4db9_9C5C_09AEA5691402" seqno="16" style="DUID=C93DD177;"/>
-				<UML:DiagramElement geometry="Left=80;Top=390;Right=200;Bottom=460;" subject="EAID_3F18DFFB_7554_4a17_A411_C6D563A9D36A" seqno="17" style="DUID=896FE6B1;"/>
-				<UML:DiagramElement geometry="Left=450;Top=260;Right=570;Bottom=330;" subject="EAID_F5BD3331_1B7D_483b_BCA8_C66720ED622D" seqno="18" style="DUID=9A8D74BB;"/>
-				<UML:DiagramElement geometry="Left=260;Top=260;Right=380;Bottom=330;" subject="EAID_DF7B1BF5_F553_4d65_869F_B43991E4F385" seqno="19" style="DUID=6DC9B203;"/>
-				<UML:DiagramElement geometry="Left=80;Top=260;Right=200;Bottom=330;" subject="EAID_E2C35A39_3DC6_4b2f_BDFF_5827B6991F82" seqno="20" style="DUID=660B62FB;"/>
-				<UML:DiagramElement geometry="Left=450;Top=140;Right=570;Bottom=210;" subject="EAID_D8530F7B_85D9_45f3_9DA4_B81F8E0B5919" seqno="21" style="DUID=F7BA50F7;"/>
-				<UML:DiagramElement geometry="Left=260;Top=140;Right=380;Bottom=210;" subject="EAID_92543A03_51D0_451a_8E1E_A31DDC639704" seqno="22" style="DUID=65D19F67;"/>
-				<UML:DiagramElement geometry="Left=80;Top=140;Right=200;Bottom=210;" subject="EAID_40997ADA_5A94_4c4d_AE49_A9AB6542CFA7" seqno="23" style="DUID=EEDAB3AD;"/>
-				<UML:DiagramElement geometry="Left=50;Top=30;Right=580;Bottom=70;" subject="EAID_884154E8_0A48_4933_90E1_7EB007EEF138" seqno="24" style="DUID=85B8B648;font=Arial;fontsz=120;bold=1;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=187;Top=1049;Right=200;Bottom=1089;" subject="EAID_EF37F46D_6BAB_4f4d_AF22_EB879D513971" seqno="1" style="DUID=B85387BD;LBL=CX=51:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=103;Top=1049;Right=116;Bottom=1089;" subject="EAID_58DD6358_B101_42f3_9A44_8675B270B244" seqno="2" style="DUID=CAD8F5B9;LBL=CX=85:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=525;Top=850;Right=538;Bottom=890;" subject="EAID_9724417E_38CA_4bd1_AA5D_98E323457862" seqno="3" style="DUID=17EFB4B3;LBL=CX=27:CY=13:OX=-5:OY=-16:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=453;Top=850;Right=466;Bottom=890;" subject="EAID_CC2ABC01_7CAA_4223_88E4_81C255847214" seqno="4" style="DUID=B72AE0D6;LBL=CX=37:CY=13:OX=-13:OY=-14:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=365;Top=850;Right=378;Bottom=890;" subject="EAID_8935298A_FF54_4b94_86E0_C3E90FF8628D" seqno="5" style="DUID=72A6BE0B;LBL=CX=58:CY=13:OX=-11:OY=-15:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=283;Top=850;Right=296;Bottom=890;" subject="EAID_EE415EFB_D2FE_46ef_844E_08B48289B827" seqno="6" style="DUID=2603A6C7;LBL=CX=54:CY=13:OX=-16:OY=-15:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=87;Top=981;Right=206;Bottom=1050;" subject="EAID_4486CB96_0E4B_40bc_B4E4_B4CBC697E2B7" seqno="7" style="DUID=67BA0240;"/>
+				<UML:DiagramElement geometry="Left=261;Top=889;Right=571;Bottom=959;" subject="EAID_5BC91805_47DF_46fb_B480_9F4A1E232AEF" seqno="8" style="DUID=E0C36480;"/>
+				<UML:DiagramElement geometry="Left=90;Top=888;Right=210;Bottom=958;" subject="EAID_C71DC4C6_84BE_4339_B15A_6E49884C4A80" seqno="9" style="DUID=4B5AA9DF;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=31;Top=799;Right=621;Bottom=1107;" subject="EAID_738E3387_EBE2_41d5_8987_042DB9B9B65D" seqno="10" style="DUID=D28DF43E;"/>
+				<UML:DiagramElement geometry="Left=30;Top=90;Right=620;Bottom=760;" subject="EAID_69BA45B5_49FD_43ab_99E3_3AB99EF3E907" seqno="11" style="DUID=389CD99B;"/>
+				<UML:DiagramElement geometry="Left=260;Top=650;Right=380;Bottom=720;" subject="EAID_C8985AFE_C0B7_4be1_980F_9BAE1D5601CB" seqno="12" style="DUID=2D1D3CA2;"/>
+				<UML:DiagramElement geometry="Left=80;Top=650;Right=200;Bottom=720;" subject="EAID_0DF616BF_B766_420d_97CE_957389152127" seqno="13" style="DUID=442B4825;"/>
+				<UML:DiagramElement geometry="Left=450;Top=520;Right=570;Bottom=590;" subject="EAID_C973DDB9_90C8_40dd_B5F5_A96D7673974C" seqno="14" style="DUID=00D137DE;"/>
+				<UML:DiagramElement geometry="Left=260;Top=520;Right=380;Bottom=590;" subject="EAID_194E201D_4DEE_4ac6_A6F9_CBF7E4EC09F3" seqno="15" style="DUID=8B3347C8;"/>
+				<UML:DiagramElement geometry="Left=80;Top=520;Right=200;Bottom=590;" subject="EAID_87064EA7_6B63_4935_9878_354D278EBF59" seqno="16" style="DUID=5A9A4795;"/>
+				<UML:DiagramElement geometry="Left=450;Top=390;Right=579;Bottom=460;" subject="EAID_E137B479_32DE_4187_BEF1_75F402EA29CF" seqno="17" style="DUID=91C7431B;"/>
+				<UML:DiagramElement geometry="Left=260;Top=390;Right=388;Bottom=460;" subject="EAID_BF02FD4E_DD7F_4db9_9C5C_09AEA5691402" seqno="18" style="DUID=C93DD177;"/>
+				<UML:DiagramElement geometry="Left=80;Top=390;Right=200;Bottom=460;" subject="EAID_3F18DFFB_7554_4a17_A411_C6D563A9D36A" seqno="19" style="DUID=896FE6B1;"/>
+				<UML:DiagramElement geometry="Left=450;Top=260;Right=570;Bottom=330;" subject="EAID_F5BD3331_1B7D_483b_BCA8_C66720ED622D" seqno="20" style="DUID=9A8D74BB;"/>
+				<UML:DiagramElement geometry="Left=260;Top=260;Right=380;Bottom=330;" subject="EAID_DF7B1BF5_F553_4d65_869F_B43991E4F385" seqno="21" style="DUID=6DC9B203;"/>
+				<UML:DiagramElement geometry="Left=80;Top=260;Right=200;Bottom=330;" subject="EAID_E2C35A39_3DC6_4b2f_BDFF_5827B6991F82" seqno="22" style="DUID=660B62FB;"/>
+				<UML:DiagramElement geometry="Left=450;Top=140;Right=570;Bottom=210;" subject="EAID_D8530F7B_85D9_45f3_9DA4_B81F8E0B5919" seqno="23" style="DUID=F7BA50F7;"/>
+				<UML:DiagramElement geometry="Left=260;Top=140;Right=380;Bottom=210;" subject="EAID_92543A03_51D0_451a_8E1E_A31DDC639704" seqno="24" style="DUID=65D19F67;"/>
+				<UML:DiagramElement geometry="Left=80;Top=140;Right=200;Bottom=210;" subject="EAID_40997ADA_5A94_4c4d_AE49_A9AB6542CFA7" seqno="25" style="DUID=EEDAB3AD;"/>
+				<UML:DiagramElement geometry="Left=50;Top=30;Right=580;Bottom=70;" subject="EAID_884154E8_0A48_4933_90E1_7EB007EEF138" seqno="26" style="DUID=85B8B648;font=Arial;fontsz=120;bold=1;italic=0;ul=0;charset=0;pitch=34;"/>
 			</UML:Diagram.element>
 		</UML:Diagram>
 		<UML:Diagram name="Cloud" xmi.id="EAID_13E11AE6_91EB_4fdf_A1EA_FC677C0BD14D" diagramType="ComponentDiagram" owner="EAPK_EB59C34A_7C95_4e4f_BF7D_3AE4774E9630" toolName="Enterprise Architect 2.5">
@@ -9555,7 +9607,7 @@
 				<UML:TaggedValue tag="diagram_guid" value="EAID_E1DDDC81_BD98_4ba5_97EA_097C8C19EAE5"/>
 			</UML:ModelElement.taggedValue>
 		</UML:DiagramElement>
-		<UML:DiagramElement geometry="Left=423;Top=1061;Right=583;Bottom=1131;" subject="EAID_E2C691EA_FA2E_4854_BEBD_E0DAB6280088" seqno="24" style="DUID=CB14EC85;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;">
+		<UML:DiagramElement geometry="Left=423;Top=1061;Right=583;Bottom=1131;" subject="EAID_E2C691EA_FA2E_4854_BEBD_E0DAB6280088" seqno="25" style="DUID=CB14EC85;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;">
 			<UML:ModelElement.taggedValue>
 				<UML:TaggedValue tag="diagram_guid" value="EAID_A1414142_0149_45d1_9185_BF736D08C209"/>
 			</UML:ModelElement.taggedValue>
