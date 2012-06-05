@@ -13,12 +13,12 @@
 				<UML:Package name="D4.13 Good Transport Operators Enablers" xmi.id="EAPK_31431BB8_F866_4422_984D_D5A057D50491" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="parent" value="EAPK_5EE4C1A2_9BC2_4be2_A4AA_CDB9F16BED99"/>
-						<UML:TaggedValue tag="ea_package_id" value="2017"/>
+						<UML:TaggedValue tag="ea_package_id" value="2055"/>
 						<UML:TaggedValue tag="created" value="2012-02-23 12:24:54"/>
 						<UML:TaggedValue tag="modified" value="2012-02-23 12:28:46"/>
 						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 						<UML:TaggedValue tag="xmlpath" value="D4.13 Good Transport Operators Enablers.xml"/>
-						<UML:TaggedValue tag="lastloaddate" value="2012-05-02 14:14:51"/>
+						<UML:TaggedValue tag="lastloaddate" value="2012-05-23 19:04:52"/>
 						<UML:TaggedValue tag="lastsavedate" value="2012-03-16 13:44:53"/>
 						<UML:TaggedValue tag="isprotected" value="FALSE"/>
 						<UML:TaggedValue tag="usedtd" value="FALSE"/>
@@ -35,6 +35,62 @@
 						<UML:TaggedValue tag="tpos" value="10"/>
 					</UML:ModelElement.taggedValue>
 					<UML:Namespace.ownedElement>
+						<UML:Node xmi.id="EAID_09FB843E_3900_46a1_A640_66E075536B62" visibility="public" namespace="EAPK_31431BB8_F866_4422_984D_D5A057D50491" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="storage"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Node"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="classifier" value="EAID_78897DF5_D51D_4827_B6EB_D7A40367A254"/>
+								<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
+								<UML:TaggedValue tag="classname" value="Database Server"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-05 08:49:24"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-05 08:49:24"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="D4.13 Good Transport Operators Enablers"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="yt09787"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="storage"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="14797"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={B7F04BB6-FDF0-4d4d-9F61-BDC37610D8DA}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=storage;GUID={4BBCCA8B-ECA5-43e8-9E7F-6BFAC9E9601B};@ENDSTEREO;$DES;$CLT={09FB843E-3900-46a1-A640-66E075536B62}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Node>
+						<UML:Component xmi.id="EAID_121E34E0_46AE_45ba_89C0_E4DDB9314E6A" visibility="public" namespace="EAPK_31431BB8_F866_4422_984D_D5A057D50491" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="classifier" value="EAID_8EA2C722_4AC7_4b62_955A_2D2EDBDB9840"/>
+								<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
+								<UML:TaggedValue tag="owner" value="EAID_CE7FE976_75B4_4f40_A6A5_02934DE391D7"/>
+								<UML:TaggedValue tag="classname" value="Transport Booking Persistence"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-05 09:06:43"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-05 09:07:01"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="D4.13 Good Transport Operators Enablers"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="yt09787"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="14804"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
 						<UML:Collaboration xmi.id="EAID_31431BB8_F866_4422_984D_D5A057D50491_Collaboration" name="Collaborations">
 							<UML:Namespace.ownedElement>
 								<UML:ClassifierRole name="UC2A.22: Analyze Load" xmi.id="EAID_135A768F_C671_47c0_8F13_6541371D142A" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
@@ -46,8 +102,8 @@
 										<UML:TaggedValue tag="version" value="1.0"/>
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
-										<UML:TaggedValue tag="date_created" value="2012-05-02 14:15:16"/>
-										<UML:TaggedValue tag="date_modified" value="2012-05-02 14:15:16"/>
+										<UML:TaggedValue tag="date_created" value="2012-05-23 19:05:31"/>
+										<UML:TaggedValue tag="date_modified" value="2012-05-23 19:05:31"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_135A768F_C671_47c0_8F13_6541371D142A"/>
@@ -57,7 +113,7 @@
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="2110"/>
+										<UML:TaggedValue tag="ea_localid" value="2185"/>
 										<UML:TaggedValue tag="ea_eleType" value="package"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
@@ -71,8 +127,8 @@
 										<UML:TaggedValue tag="version" value="1.0"/>
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
-										<UML:TaggedValue tag="date_created" value="2012-05-02 14:15:17"/>
-										<UML:TaggedValue tag="date_modified" value="2012-05-02 14:15:17"/>
+										<UML:TaggedValue tag="date_created" value="2012-05-23 19:05:33"/>
+										<UML:TaggedValue tag="date_modified" value="2012-05-23 19:05:33"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_4AA7568B_0B6F_4b8a_B78D_8E09D825E7CA"/>
@@ -82,7 +138,7 @@
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="2111"/>
+										<UML:TaggedValue tag="ea_localid" value="2187"/>
 										<UML:TaggedValue tag="ea_eleType" value="package"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
@@ -96,8 +152,8 @@
 										<UML:TaggedValue tag="version" value="1.0"/>
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
-										<UML:TaggedValue tag="date_created" value="2012-05-02 14:15:15"/>
-										<UML:TaggedValue tag="date_modified" value="2012-05-02 14:15:15"/>
+										<UML:TaggedValue tag="date_created" value="2012-05-23 19:05:30"/>
+										<UML:TaggedValue tag="date_modified" value="2012-05-23 19:05:30"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_5B7CF722_0CBA_4b3f_9588_55D14C0BC7C8"/>
@@ -107,7 +163,7 @@
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="2109"/>
+										<UML:TaggedValue tag="ea_localid" value="2184"/>
 										<UML:TaggedValue tag="ea_eleType" value="package"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
@@ -121,8 +177,8 @@
 										<UML:TaggedValue tag="version" value="1.0"/>
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
-										<UML:TaggedValue tag="date_created" value="2012-05-02 14:15:13"/>
-										<UML:TaggedValue tag="date_modified" value="2012-05-02 14:15:13"/>
+										<UML:TaggedValue tag="date_created" value="2012-05-23 19:05:28"/>
+										<UML:TaggedValue tag="date_modified" value="2012-05-23 19:05:28"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_5C621CD9_722C_442f_A62D_7B8FAC6483FA"/>
@@ -132,7 +188,7 @@
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="2107"/>
+										<UML:TaggedValue tag="ea_localid" value="2182"/>
 										<UML:TaggedValue tag="ea_eleType" value="package"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
@@ -146,8 +202,8 @@
 										<UML:TaggedValue tag="version" value="1.0"/>
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
-										<UML:TaggedValue tag="date_created" value="2012-05-02 14:15:18"/>
-										<UML:TaggedValue tag="date_modified" value="2012-05-02 14:15:18"/>
+										<UML:TaggedValue tag="date_created" value="2012-05-23 19:05:34"/>
+										<UML:TaggedValue tag="date_modified" value="2012-05-23 19:05:34"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_61198647_03EC_4dcc_9E11_B38778296FBC"/>
@@ -157,7 +213,7 @@
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="2112"/>
+										<UML:TaggedValue tag="ea_localid" value="2188"/>
 										<UML:TaggedValue tag="ea_eleType" value="package"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
@@ -171,8 +227,8 @@
 										<UML:TaggedValue tag="version" value="1.0"/>
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
-										<UML:TaggedValue tag="date_created" value="2012-05-04 13:55:48"/>
-										<UML:TaggedValue tag="date_modified" value="2012-05-04 13:55:48"/>
+										<UML:TaggedValue tag="date_created" value="2012-05-23 19:05:32"/>
+										<UML:TaggedValue tag="date_modified" value="2012-05-23 19:05:32"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_94C17149_A2E4_4d4e_999A_4B2153EE6642"/>
@@ -182,9 +238,36 @@
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="2160"/>
+										<UML:TaggedValue tag="ea_localid" value="2186"/>
 										<UML:TaggedValue tag="ea_eleType" value="package"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Part1" xmi.id="EAID_9C7151C4_7442_45ec_8A81_D2663C0D7118" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Part"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
+										<UML:TaggedValue tag="owner" value="EAID_504AC152_F402_4be2_A282_31A022CFEA6B"/>
+										<UML:TaggedValue tag="date_created" value="2012-06-05 08:50:28"/>
+										<UML:TaggedValue tag="date_modified" value="2012-06-05 08:50:30"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="D4.13 Good Transport Operators Enablers"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="yt09787"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="propertyType" value="{EA2BC6BF-84E5-4d03-BE32-BB0AFD6687E9}"/>
+										<UML:TaggedValue tag="ea_localid" value="14798"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={0694164D-2ACE-446a-A209-C4291CF3490D}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=isReference@ENDNAME;@TYPE=boolean@ENDTYPE;@VALU=0@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={9C7151C4-7442-45ec-8A81-D2663C0D7118}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 									</UML:ModelElement.taggedValue>
 								</UML:ClassifierRole>
 								<UML:ClassifierRole name="UC2A.05: Add transport resource" xmi.id="EAID_9F1F0C6D_F558_4528_89C2_496476C1C357" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
@@ -196,8 +279,8 @@
 										<UML:TaggedValue tag="version" value="1.0"/>
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
-										<UML:TaggedValue tag="date_created" value="2012-05-02 14:15:14"/>
-										<UML:TaggedValue tag="date_modified" value="2012-05-02 14:15:14"/>
+										<UML:TaggedValue tag="date_created" value="2012-05-23 19:05:29"/>
+										<UML:TaggedValue tag="date_modified" value="2012-05-23 19:05:29"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_9F1F0C6D_F558_4528_89C2_496476C1C357"/>
@@ -207,7 +290,7 @@
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="2108"/>
+										<UML:TaggedValue tag="ea_localid" value="2183"/>
 										<UML:TaggedValue tag="ea_eleType" value="package"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
@@ -231,7 +314,7 @@
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="12829"/>
+										<UML:TaggedValue tag="ea_localid" value="12931"/>
 										<UML:TaggedValue tag="ea_eleType" value="element"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
 									</UML:ModelElement.taggedValue>
@@ -245,8 +328,8 @@
 										<UML:TaggedValue tag="version" value="1.0"/>
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
-										<UML:TaggedValue tag="date_created" value="2012-05-02 14:15:19"/>
-										<UML:TaggedValue tag="date_modified" value="2012-05-02 14:15:19"/>
+										<UML:TaggedValue tag="date_created" value="2012-05-29 07:46:32"/>
+										<UML:TaggedValue tag="date_modified" value="2012-05-29 07:46:32"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_F068974E_5EB1_4695_830B_C996EC3606A1"/>
@@ -256,7 +339,7 @@
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="2113"/>
+										<UML:TaggedValue tag="ea_localid" value="2318"/>
 										<UML:TaggedValue tag="ea_eleType" value="package"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
@@ -264,6 +347,278 @@
 							</UML:Namespace.ownedElement>
 							<UML:Collaboration.interaction/>
 						</UML:Collaboration>
+						<UML:Component xmi.id="EAID_13CE5F96_87A1_4441_82F7_9BB44D5D67E0" visibility="public" namespace="EAPK_31431BB8_F866_4422_984D_D5A057D50491" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="classifier" value="EAID_8EA2C722_4AC7_4b62_955A_2D2EDBDB9840"/>
+								<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
+								<UML:TaggedValue tag="owner" value="EAID_EA60C460_F4EA_44ab_BAFE_1F925953D2DD"/>
+								<UML:TaggedValue tag="classname" value="Transport Booking Persistence"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-05 09:08:30"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-05 09:08:45"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="D4.13 Good Transport Operators Enablers"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="yt09787"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="14808"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Component xmi.id="EAID_1B55BBDD_CB25_4ae4_8D44_8017109FABB8" visibility="public" namespace="EAPK_31431BB8_F866_4422_984D_D5A057D50491" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="classifier" value="EAID_2E859886_E85F_47e6_98D2_9F09645D9CA9"/>
+								<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
+								<UML:TaggedValue tag="owner" value="EAID_504AC152_F402_4be2_A282_31A022CFEA6B"/>
+								<UML:TaggedValue tag="classname" value="Transport Booker API"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-05 09:09:49"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-05 09:13:01"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="D4.13 Good Transport Operators Enablers"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="yt09787"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="14812"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Node name="city2db" xmi.id="EAID_1C4BA5D7_DAA6_4171_A020_EF4EC992D5D8" visibility="public" namespace="EAPK_31431BB8_F866_4422_984D_D5A057D50491" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="storage"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Node"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="classifier" value="EAID_78897DF5_D51D_4827_B6EB_D7A40367A254"/>
+								<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
+								<UML:TaggedValue tag="classname" value="Database Server"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-05 09:03:05"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-05 09:03:12"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="D4.13 Good Transport Operators Enablers"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="yt09787"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="storage"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="14802"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={0D62B2D5-24ED-4858-885F-D36E597D9C03}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=storage;GUID={4BBCCA8B-ECA5-43e8-9E7F-6BFAC9E9601B};@ENDSTEREO;$DES;$CLT={1C4BA5D7-DAA6-4171-A020-EF4EC992D5D8}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Node>
+						<UML:Dependency client="EAID_CE7FE976_75B4_4f40_A6A5_02934DE391D7" supplier="EAID_1C4BA5D7_DAA6_4171_A020_EF4EC992D5D8" xmi.id="EAID_499FE734_6EAC_414a_AF52_5DB04F6F3438" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="14975"/>
+								<UML:TaggedValue tag="ea_sourceName" value="city2"/>
+								<UML:TaggedValue tag="ea_targetName" value="city2db"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Node"/>
+								<UML:TaggedValue tag="ea_targetType" value="Node"/>
+								<UML:TaggedValue tag="ea_sourceID" value="14801"/>
+								<UML:TaggedValue tag="ea_targetID" value="14802"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Association xmi.id="EAID_E84ACF90_001B_40c2_9D1B_EB70DE9ADF32" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="CommunicationPath"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="14980"/>
+								<UML:TaggedValue tag="ea_sourceName" value="city1db"/>
+								<UML:TaggedValue tag="ea_targetName" value="city2db"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Node"/>
+								<UML:TaggedValue tag="ea_targetType" value="Node"/>
+								<UML:TaggedValue tag="ea_sourceID" value="14800"/>
+								<UML:TaggedValue tag="ea_targetID" value="14802"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_6F980910_E885_4dac_9742_809085B6975E">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+										<UML:TaggedValue tag="ea_end" value="source"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_1C4BA5D7_DAA6_4171_A020_EF4EC992D5D8">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+										<UML:TaggedValue tag="ea_end" value="target"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Association name="MongoDB auto sharding" xmi.id="EAID_F3097856_A68A_43d7_BDB7_E6A5242D8983" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="CommunicationPath"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="14981"/>
+								<UML:TaggedValue tag="ea_sourceName" value="city2db"/>
+								<UML:TaggedValue tag="ea_targetName" value="city1db"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Node"/>
+								<UML:TaggedValue tag="ea_targetType" value="Node"/>
+								<UML:TaggedValue tag="ea_sourceID" value="14802"/>
+								<UML:TaggedValue tag="ea_targetID" value="14800"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mt" value="MongoDB auto sharding"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_1C4BA5D7_DAA6_4171_A020_EF4EC992D5D8">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+										<UML:TaggedValue tag="ea_end" value="source"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_6F980910_E885_4dac_9742_809085B6975E">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+										<UML:TaggedValue tag="ea_end" value="target"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Component xmi.id="EAID_2AA0486C_B1E0_4ee7_9BD3_8ACB51B3128E" visibility="public" namespace="EAPK_31431BB8_F866_4422_984D_D5A057D50491" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="classifier" value="EAID_EA2BC6BF_84E5_4d03_BE32_BB0AFD6687E9"/>
+								<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
+								<UML:TaggedValue tag="owner" value="EAID_504AC152_F402_4be2_A282_31A022CFEA6B"/>
+								<UML:TaggedValue tag="classname" value="Transport Resource Mgmt HMI"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-05 09:09:31"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-05 09:09:49"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="D4.13 Good Transport Operators Enablers"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="yt09787"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="14811"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Component xmi.id="EAID_382CE26A_3A62_4d29_B61B_CFAE3282E2EB" visibility="public" namespace="EAPK_31431BB8_F866_4422_984D_D5A057D50491" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="classifier" value="EAID_B5EAF642_81DF_462d_B227_1BC50DCE6B33"/>
+								<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
+								<UML:TaggedValue tag="owner" value="EAID_EA60C460_F4EA_44ab_BAFE_1F925953D2DD"/>
+								<UML:TaggedValue tag="classname" value="Transport Resource Persistence"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-05 09:08:45"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-05 16:04:53"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="D4.13 Good Transport Operators Enablers"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="yt09787"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="14809"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Component xmi.id="EAID_3B12A218_7653_41c7_9759_9C1121A1C9ED" visibility="public" namespace="EAPK_31431BB8_F866_4422_984D_D5A057D50491" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="classifier" value="EAID_89CF9C52_59A3_486c_9F5C_639A96AC0857"/>
+								<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
+								<UML:TaggedValue tag="owner" value="EAID_504AC152_F402_4be2_A282_31A022CFEA6B"/>
+								<UML:TaggedValue tag="classname" value="Vehicle Transport Management Interface"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-05 09:10:11"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-05 09:10:33"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="D4.13 Good Transport Operators Enablers"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="yt09787"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="14813"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
 						<UML:Node name="Transport Exchange" xmi.id="EAID_4FFEB6E8_47B3_44e1_9FB6_B6B4332C5037" visibility="public" namespace="EAPK_31431BB8_F866_4422_984D_D5A057D50491" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
@@ -284,7 +639,7 @@
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="12624"/>
+								<UML:TaggedValue tag="ea_localid" value="12918"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
@@ -300,13 +655,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="13486"/>
+								<UML:TaggedValue tag="ea_localid" value="13177"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Telematics System"/>
 								<UML:TaggedValue tag="ea_targetName" value="Transport Exchange"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Device"/>
 								<UML:TaggedValue tag="ea_targetType" value="Node"/>
-								<UML:TaggedValue tag="ea_sourceID" value="12625"/>
-								<UML:TaggedValue tag="ea_targetID" value="12624"/>
+								<UML:TaggedValue tag="ea_sourceID" value="12919"/>
+								<UML:TaggedValue tag="ea_targetID" value="12918"/>
 								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
@@ -338,12 +693,12 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="13488"/>
+								<UML:TaggedValue tag="ea_localid" value="13176"/>
 								<UML:TaggedValue tag="ea_targetName" value="Transport Exchange"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Device"/>
 								<UML:TaggedValue tag="ea_targetType" value="Node"/>
-								<UML:TaggedValue tag="ea_sourceID" value="12626"/>
-								<UML:TaggedValue tag="ea_targetID" value="12624"/>
+								<UML:TaggedValue tag="ea_sourceID" value="12923"/>
+								<UML:TaggedValue tag="ea_targetID" value="12918"/>
 								<UML:TaggedValue tag="privatedata5" value="SX=4;SY=67;EX=39;EY=9;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
@@ -375,13 +730,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="13573"/>
+								<UML:TaggedValue tag="ea_localid" value="13175"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Transport Planning System"/>
 								<UML:TaggedValue tag="ea_targetName" value="Transport Exchange"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Node"/>
 								<UML:TaggedValue tag="ea_targetType" value="Node"/>
-								<UML:TaggedValue tag="ea_sourceID" value="12831"/>
-								<UML:TaggedValue tag="ea_targetID" value="12624"/>
+								<UML:TaggedValue tag="ea_sourceID" value="12921"/>
+								<UML:TaggedValue tag="ea_targetID" value="12918"/>
 								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
@@ -402,6 +757,105 @@
 								</UML:AssociationEnd>
 							</UML:Association.connection>
 						</UML:Association>
+						<UML:Node name="frontend" xmi.id="EAID_504AC152_F402_4be2_A282_31A022CFEA6B" visibility="public" namespace="EAPK_31431BB8_F866_4422_984D_D5A057D50491" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Node"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="classifier" value="EAID_DC613066_8EAE_4e84_8125_A24553836F77"/>
+								<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
+								<UML:TaggedValue tag="classname" value="Application Server"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-05 08:47:04"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-05 08:48:31"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="D4.13 Good Transport Operators Enablers"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="yt09787"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="14795"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Node>
+						<UML:Dependency client="EAID_504AC152_F402_4be2_A282_31A022CFEA6B" supplier="EAID_CE7FE976_75B4_4f40_A6A5_02934DE391D7" xmi.id="EAID_3DB3CB7B_3445_48f1_8BD0_47C2EDF59BA3" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="14979"/>
+								<UML:TaggedValue tag="ea_sourceName" value="frontend"/>
+								<UML:TaggedValue tag="ea_targetName" value="city2"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Node"/>
+								<UML:TaggedValue tag="ea_targetType" value="Node"/>
+								<UML:TaggedValue tag="ea_sourceID" value="14795"/>
+								<UML:TaggedValue tag="ea_targetID" value="14801"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency client="EAID_504AC152_F402_4be2_A282_31A022CFEA6B" supplier="EAID_EA60C460_F4EA_44ab_BAFE_1F925953D2DD" xmi.id="EAID_C2898C34_ACB6_4b79_A962_76115E9FA8FB" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="14978"/>
+								<UML:TaggedValue tag="ea_sourceName" value="frontend"/>
+								<UML:TaggedValue tag="ea_targetName" value="city1"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Node"/>
+								<UML:TaggedValue tag="ea_targetType" value="Node"/>
+								<UML:TaggedValue tag="ea_sourceID" value="14795"/>
+								<UML:TaggedValue tag="ea_targetID" value="14796"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
 						<UML:Node name="Telematics System" xmi.id="EAID_52BD166B_BA75_46c6_8A62_DAAC2D31851E" visibility="public" namespace="EAPK_31431BB8_F866_4422_984D_D5A057D50491" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
@@ -422,7 +876,7 @@
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="12625"/>
+								<UML:TaggedValue tag="ea_localid" value="12919"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
@@ -438,13 +892,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="13572"/>
+								<UML:TaggedValue tag="ea_localid" value="13174"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Transport Planning System"/>
 								<UML:TaggedValue tag="ea_targetName" value="Telematics System"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Node"/>
 								<UML:TaggedValue tag="ea_targetType" value="Device"/>
-								<UML:TaggedValue tag="ea_sourceID" value="12831"/>
-								<UML:TaggedValue tag="ea_targetID" value="12625"/>
+								<UML:TaggedValue tag="ea_sourceID" value="12921"/>
+								<UML:TaggedValue tag="ea_targetID" value="12919"/>
 								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
@@ -476,13 +930,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="13487"/>
+								<UML:TaggedValue tag="ea_localid" value="13173"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Telematics System"/>
 								<UML:TaggedValue tag="ea_targetName" value="Eco Drive"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Device"/>
 								<UML:TaggedValue tag="ea_targetType" value="Node"/>
-								<UML:TaggedValue tag="ea_sourceID" value="12625"/>
-								<UML:TaggedValue tag="ea_targetID" value="12629"/>
+								<UML:TaggedValue tag="ea_sourceID" value="12919"/>
+								<UML:TaggedValue tag="ea_targetID" value="12920"/>
 								<UML:TaggedValue tag="privatedata5" value="SX=-48;SY=-156;EX=-1;EY=16;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
@@ -523,11 +977,130 @@
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="12629"/>
+								<UML:TaggedValue tag="ea_localid" value="12920"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Node>
+						<UML:Node name="city1db" xmi.id="EAID_6F980910_E885_4dac_9742_809085B6975E" visibility="public" namespace="EAPK_31431BB8_F866_4422_984D_D5A057D50491" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="storage"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Node"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="classifier" value="EAID_78897DF5_D51D_4827_B6EB_D7A40367A254"/>
+								<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
+								<UML:TaggedValue tag="classname" value="Database Server"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-05 09:02:04"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-05 09:02:21"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="D4.13 Good Transport Operators Enablers"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="yt09787"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="storage"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="14800"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={65B0CFFA-D411-4ec8-9E34-09C03305AA47}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=storage;GUID={4BBCCA8B-ECA5-43e8-9E7F-6BFAC9E9601B};@ENDSTEREO;$DES;$CLT={6F980910-E885-4dac-9742-809085B6975E}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Node>
+						<UML:Dependency client="EAID_EA60C460_F4EA_44ab_BAFE_1F925953D2DD" supplier="EAID_6F980910_E885_4dac_9742_809085B6975E" xmi.id="EAID_E847EC98_E0DF_440d_AB88_C0C3ED0C8CA9" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="14974"/>
+								<UML:TaggedValue tag="ea_sourceName" value="city1"/>
+								<UML:TaggedValue tag="ea_targetName" value="city1db"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Node"/>
+								<UML:TaggedValue tag="ea_targetType" value="Node"/>
+								<UML:TaggedValue tag="ea_sourceID" value="14796"/>
+								<UML:TaggedValue tag="ea_targetID" value="14800"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Component xmi.id="EAID_7A92A62B_F880_4735_8B3F_2B8BF874D686" visibility="public" namespace="EAPK_31431BB8_F866_4422_984D_D5A057D50491" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="classifier" value="EAID_C09E6BE7_E5A1_4550_9E24_C26D73AC35AD"/>
+								<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
+								<UML:TaggedValue tag="owner" value="EAID_504AC152_F402_4be2_A282_31A022CFEA6B"/>
+								<UML:TaggedValue tag="classname" value="Transport Booking Manager"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-05 09:11:08"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-05 09:13:01"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="D4.13 Good Transport Operators Enablers"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="yt09787"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="14816"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Component xmi.id="EAID_92148BB5_122F_4c96_AB5D_CC32990710FA" visibility="public" namespace="EAPK_31431BB8_F866_4422_984D_D5A057D50491" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="classifier" value="EAID_AE35974A_AEF9_4b50_BA12_0C2000C9D793"/>
+								<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
+								<UML:TaggedValue tag="owner" value="EAID_CE7FE976_75B4_4f40_A6A5_02934DE391D7"/>
+								<UML:TaggedValue tag="classname" value="Itinerary Persistence"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-05 09:07:31"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-05 09:07:46"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="D4.13 Good Transport Operators Enablers"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="yt09787"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="14806"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
 						<UML:Node name="Transport Planning System" xmi.id="EAID_9AA2E946_1389_4576_870E_0EAF00B3FE7A" visibility="public" namespace="EAPK_31431BB8_F866_4422_984D_D5A057D50491" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
@@ -548,7 +1121,7 @@
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="12831"/>
+								<UML:TaggedValue tag="ea_localid" value="12921"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
@@ -564,12 +1137,12 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="13574"/>
+								<UML:TaggedValue tag="ea_localid" value="13172"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Transport Planning System"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Node"/>
 								<UML:TaggedValue tag="ea_targetType" value="Device"/>
-								<UML:TaggedValue tag="ea_sourceID" value="12831"/>
-								<UML:TaggedValue tag="ea_targetID" value="12626"/>
+								<UML:TaggedValue tag="ea_sourceID" value="12921"/>
+								<UML:TaggedValue tag="ea_targetID" value="12923"/>
 								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
@@ -614,10 +1187,164 @@
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="stereotype" value="server"/>
 								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="12830"/>
+								<UML:TaggedValue tag="ea_localid" value="12922"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={B9D750B9-0D81-45bc-8EF7-2C35A0F65234}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=server;GUID={2A6D7607-F606-4ad4-AD05-562E82B401AD};@ENDSTEREO;$DES;$CLT={9B42FA3E-F1FE-40f9-9FF4-C45BBA515578}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Node>
+						<UML:Component xmi.id="EAID_A4E3C1B6_EA50_4a42_8D12_59ACB24482CB" visibility="public" namespace="EAPK_31431BB8_F866_4422_984D_D5A057D50491" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="classifier" value="EAID_5F09578F_3347_4df8_98FA_FE29BD9FCE1A"/>
+								<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
+								<UML:TaggedValue tag="owner" value="EAID_CE7FE976_75B4_4f40_A6A5_02934DE391D7"/>
+								<UML:TaggedValue tag="classname" value="Itinerary Processor"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-05 09:06:27"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-05 09:13:01"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="D4.13 Good Transport Operators Enablers"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="yt09787"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="14803"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Class name="Port1" xmi.id="EAID_B147E462_D31B_4e45_96BC_B2A657A02934" visibility="public" namespace="EAPK_31431BB8_F866_4422_984D_D5A057D50491" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
+								<UML:TaggedValue tag="owner" value="EAID_504AC152_F402_4be2_A282_31A022CFEA6B"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-05 08:50:41"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-05 08:50:43"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="D4.13 Good Transport Operators Enablers"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="yt09787"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="propertyType" value="{EA2BC6BF-84E5-4d03-BE32-BB0AFD6687E9}"/>
+								<UML:TaggedValue tag="ea_localid" value="14799"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Component xmi.id="EAID_B31CA7D1_6E5C_4da7_A0F0_FE15682DEBDA" visibility="public" namespace="EAPK_31431BB8_F866_4422_984D_D5A057D50491" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="classifier" value="EAID_B5EAF642_81DF_462d_B227_1BC50DCE6B33"/>
+								<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
+								<UML:TaggedValue tag="owner" value="EAID_CE7FE976_75B4_4f40_A6A5_02934DE391D7"/>
+								<UML:TaggedValue tag="classname" value="Transport Resource Persistence"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-05 09:07:01"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-05 16:05:32"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="D4.13 Good Transport Operators Enablers"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="yt09787"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="14805"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Component xmi.id="EAID_B5819310_44CD_46d3_AC79_14BFD2801C1D" visibility="public" namespace="EAPK_31431BB8_F866_4422_984D_D5A057D50491" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="classifier" value="EAID_C98C8AB7_9099_44d6_9794_D446C41887F6"/>
+								<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
+								<UML:TaggedValue tag="owner" value="EAID_504AC152_F402_4be2_A282_31A022CFEA6B"/>
+								<UML:TaggedValue tag="classname" value="Transport Resource Manager"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-05 09:10:48"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-05 09:11:08"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="D4.13 Good Transport Operators Enablers"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="yt09787"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="14815"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Component xmi.id="EAID_BD128E99_6117_4d26_8345_A93B2DA29CD4" visibility="public" namespace="EAPK_31431BB8_F866_4422_984D_D5A057D50491" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="classifier" value="EAID_AE35974A_AEF9_4b50_BA12_0C2000C9D793"/>
+								<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
+								<UML:TaggedValue tag="owner" value="EAID_EA60C460_F4EA_44ab_BAFE_1F925953D2DD"/>
+								<UML:TaggedValue tag="classname" value="Itinerary Persistence"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-05 09:09:11"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-05 09:09:31"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="D4.13 Good Transport Operators Enablers"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="yt09787"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="14810"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Node name="city2" xmi.id="EAID_CE7FE976_75B4_4f40_A6A5_02934DE391D7" visibility="public" namespace="EAPK_31431BB8_F866_4422_984D_D5A057D50491" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Node"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="classifier" value="EAID_DC613066_8EAE_4e84_8125_A24553836F77"/>
+								<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
+								<UML:TaggedValue tag="classname" value="Application Server"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-05 09:02:48"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-05 09:07:56"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="D4.13 Good Transport Operators Enablers"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="yt09787"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="14801"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Node>
 						<UML:Node xmi.id="EAID_D6D7B2AC_6EA3_4762_8CE4_90A00CBF40BA" visibility="public" namespace="EAPK_31431BB8_F866_4422_984D_D5A057D50491" isRoot="false" isLeaf="false" isAbstract="false">
@@ -640,11 +1367,88 @@
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="12626"/>
+								<UML:TaggedValue tag="ea_localid" value="12923"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Node>
+						<UML:Node name="city1" xmi.id="EAID_EA60C460_F4EA_44ab_BAFE_1F925953D2DD" visibility="public" namespace="EAPK_31431BB8_F866_4422_984D_D5A057D50491" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Node"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="classifier" value="EAID_DC613066_8EAE_4e84_8125_A24553836F77"/>
+								<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
+								<UML:TaggedValue tag="classname" value="Application Server"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-05 08:48:41"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-05 09:02:13"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="D4.13 Good Transport Operators Enablers"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="yt09787"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="14796"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Node>
+						<UML:Component xmi.id="EAID_EB9B47FD_651C_4cf6_8C80_1437ECD6F4A5" visibility="public" namespace="EAPK_31431BB8_F866_4422_984D_D5A057D50491" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="classifier" value="EAID_5F09578F_3347_4df8_98FA_FE29BD9FCE1A"/>
+								<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
+								<UML:TaggedValue tag="owner" value="EAID_EA60C460_F4EA_44ab_BAFE_1F925953D2DD"/>
+								<UML:TaggedValue tag="classname" value="Itinerary Processor"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-05 09:08:20"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-05 09:13:01"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="D4.13 Good Transport Operators Enablers"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="yt09787"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="14807"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Component xmi.id="EAID_F5C91AE4_CD96_4da0_8661_18F1BFEDD4CE" visibility="public" namespace="EAPK_31431BB8_F866_4422_984D_D5A057D50491" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="classifier" value="EAID_F5D23BE3_3701_4ddd_9629_8B382F3F4E96"/>
+								<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
+								<UML:TaggedValue tag="owner" value="EAID_504AC152_F402_4be2_A282_31A022CFEA6B"/>
+								<UML:TaggedValue tag="classname" value="Consignee API"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-05 09:10:33"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-05 09:13:01"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="D4.13 Good Transport Operators Enablers"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="yt09787"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="14814"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
 						<UML:Package name="UC2A.01: Add transport request" xmi.id="EAPK_5C621CD9_722C_442f_A62D_7B8FAC6483FA" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="parent" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
@@ -652,7 +1456,7 @@
 								<UML:TaggedValue tag="modified" value="2012-04-26 16:46:30"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="UC2A.01 Add transport request.xml"/>
-								<UML:TaggedValue tag="lastloaddate" value="2012-05-02 14:15:14"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-05-23 19:05:28"/>
 								<UML:TaggedValue tag="lastsavedate" value="2012-05-02 14:15:13"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -678,7 +1482,7 @@
 								<UML:TaggedValue tag="modified" value="2012-04-26 16:47:29"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="UC2A.05 Add transport resource.xml"/>
-								<UML:TaggedValue tag="lastloaddate" value="2012-05-02 14:15:15"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-05-23 19:05:29"/>
 								<UML:TaggedValue tag="lastsavedate" value="2012-05-02 14:15:14"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -704,7 +1508,7 @@
 								<UML:TaggedValue tag="modified" value="2012-04-26 16:49:19"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="UC2A.17 Process incoming capacity notification.xml"/>
-								<UML:TaggedValue tag="lastloaddate" value="2012-05-02 14:15:16"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-05-23 19:05:31"/>
 								<UML:TaggedValue tag="lastsavedate" value="2012-05-02 14:15:15"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -730,7 +1534,7 @@
 								<UML:TaggedValue tag="modified" value="2012-04-26 16:54:19"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="UC2A.22 Analyze Load.xml"/>
-								<UML:TaggedValue tag="lastloaddate" value="2012-05-02 14:15:17"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-05-23 19:05:31"/>
 								<UML:TaggedValue tag="lastsavedate" value="2012-05-02 14:15:16"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -756,7 +1560,7 @@
 								<UML:TaggedValue tag="modified" value="2012-04-26 16:53:22"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="UC2B.05 Change drop point.xml"/>
-								<UML:TaggedValue tag="lastloaddate" value="2012-05-04 13:55:48"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-05-23 19:05:33"/>
 								<UML:TaggedValue tag="lastsavedate" value="2012-04-27 08:44:09"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -782,7 +1586,7 @@
 								<UML:TaggedValue tag="modified" value="2012-04-26 16:50:30"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="UC2C.12 Prepare and suggest itineraries.xml"/>
-								<UML:TaggedValue tag="lastloaddate" value="2012-05-02 14:15:18"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-05-23 19:05:34"/>
 								<UML:TaggedValue tag="lastsavedate" value="2012-05-02 14:15:17"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -808,7 +1612,7 @@
 								<UML:TaggedValue tag="modified" value="2012-04-26 16:51:29"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="UC2D.01 Receive traffic light signal phase information.xml"/>
-								<UML:TaggedValue tag="lastloaddate" value="2012-05-02 14:15:19"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-05-23 19:05:35"/>
 								<UML:TaggedValue tag="lastsavedate" value="2012-05-02 14:15:18"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -834,7 +1638,7 @@
 								<UML:TaggedValue tag="modified" value="2012-04-26 16:52:29"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="UC2D.16 Exchange eco-drive data with portal.xml"/>
-								<UML:TaggedValue tag="lastloaddate" value="2012-05-02 14:15:20"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-05-29 07:46:33"/>
 								<UML:TaggedValue tag="lastsavedate" value="2012-05-02 14:15:19"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -867,9 +1671,9 @@
 				<UML:TaggedValue tag="type" value="Deployment"/>
 				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
 				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
-				<UML:TaggedValue tag="ea_localid" value="1335"/>
+				<UML:TaggedValue tag="ea_localid" value="1320"/>
 				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=2;PPgs.cy=1;DocSize.cx=795;DocSize.cy=1138;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<UML:TaggedValue tag="styleex" value="SaveTag=03477225;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=D4C98B6A;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 			</UML:ModelElement.taggedValue>
 			<UML:Diagram.element>
 				<UML:DiagramElement geometry="Left=494;Top=949;Right=758;Bottom=1132;" subject="EAID_9AA2E946_1389_4576_870E_0EAF00B3FE7A" seqno="1" style="DUID=34DEFE7F;"/>
@@ -886,15 +1690,57 @@
 				<UML:DiagramElement geometry="Left=846;Top=644;Right=1147;Bottom=780;" subject="EAID_D6D7B2AC_6EA3_4762_8CE4_90A00CBF40BA" seqno="12" style="DUID=96E2F698;"/>
 				<UML:DiagramElement geometry="Left=85;Top=97;Right=516;Bottom=410;" subject="EAID_52BD166B_BA75_46c6_8A62_DAAC2D31851E" seqno="13" style="DUID=E179CC71;"/>
 				<UML:DiagramElement geometry="Left=786;Top=135;Right=1139;Bottom=375;" subject="EAID_4FFEB6E8_47B3_44e1_9FB6_B6B4332C5037" seqno="14" style="DUID=AA1CE1A6;"/>
-				<UML:DiagramElement geometry="EDGE=4;SX=1;SY=1;EX=1;EY=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_A057607D_A22A_4eae_B06A_23294067EC84" style="Mode=3;EOID=FB065C29;SOID=A88DB111;Color=-1;LWidth=0;Hidden=1;"/>
 				<UML:DiagramElement geometry="EDGE=3;SX=2;SY=2;EX=-1;EY=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_63A1E8B9_24C0_4ca4_9FB8_F00969AC2224" style="Mode=3;EOID=FB065C29;SOID=195AFA2E;Color=-1;LWidth=0;Hidden=1;"/>
-				<UML:DiagramElement geometry="SX=-48;SY=-156;EX=-1;EY=16;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_AF30B6F1_377D_4de0_BF9E_E4536B24FB5A" style="Mode=3;EOID=98BD6685;SOID=E179CC71;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="EDGE=4;SX=1;SY=1;EX=1;EY=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_A057607D_A22A_4eae_B06A_23294067EC84" style="Mode=3;EOID=FB065C29;SOID=A88DB111;Color=-1;LWidth=0;Hidden=1;"/>
 				<UML:DiagramElement geometry="EDGE=1;SX=0;SY=1;EX=0;EY=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_598D3A49_9ADA_4940_9ABD_1E6271055753" style="Mode=3;EOID=195AFA2E;SOID=D8D1AB54;Color=-1;LWidth=0;Hidden=1;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_731565E0_8598_4855_BE50_073B79A69A7D" style="Mode=3;EOID=96E2F698;SOID=34DEFE7F;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_1A3D6E3F_3E7A_490b_A184_A1368728B15E" style="Mode=3;EOID=E179CC71;SOID=34DEFE7F;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_E5AA4239_E553_4321_9538_1F419F57C50D" style="Mode=3;EOID=AA1CE1A6;SOID=34DEFE7F;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_2DFABCBC_589A_49a6_BD6B_8BD9B0B0CEE2" style="Mode=3;EOID=AA1CE1A6;SOID=E179CC71;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=4;SY=67;EX=39;EY=9;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_97DD1B67_B396_4262_812E_B7E12BC2F784" style="Mode=3;EOID=AA1CE1A6;SOID=96E2F698;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_2DFABCBC_589A_49a6_BD6B_8BD9B0B0CEE2" style="Mode=3;EOID=AA1CE1A6;SOID=E179CC71;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_1A3D6E3F_3E7A_490b_A184_A1368728B15E" style="Mode=3;EOID=E179CC71;SOID=34DEFE7F;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_731565E0_8598_4855_BE50_073B79A69A7D" style="Mode=3;EOID=96E2F698;SOID=34DEFE7F;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=-48;SY=-156;EX=-1;EY=16;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_AF30B6F1_377D_4de0_BF9E_E4536B24FB5A" style="Mode=3;EOID=98BD6685;SOID=E179CC71;Color=-1;LWidth=0;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="Transport Exchange Portal" xmi.id="EAID_2DE005C4_9A39_4a94_ABC6_87AE40FC3024" diagramType="DeploymentDiagram" owner="EAPK_31431BB8_F866_4422_984D_D5A057D50491" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="yt09787"/>
+				<UML:TaggedValue tag="created_date" value="2012-06-05 08:46:37"/>
+				<UML:TaggedValue tag="modified_date" value="2012-06-05 16:07:11"/>
+				<UML:TaggedValue tag="package" value="EAPK_31431BB8_F866_4422_984D_D5A057D50491"/>
+				<UML:TaggedValue tag="type" value="Deployment"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
+				<UML:TaggedValue tag="ea_localid" value="1491"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=2;PPgs.cy=1;DocSize.cx=795;DocSize.cy=1138;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=D6639B0F;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=262;Top=255;Right=362;Bottom=310;" subject="EAID_7A92A62B_F880_4735_8B3F_2B8BF874D686" seqno="1" style="DUID=F187301F;"/>
+				<UML:DiagramElement geometry="Left=262;Top=162;Right=387;Bottom=227;" subject="EAID_B5819310_44CD_46d3_AC79_14BFD2801C1D" seqno="2" style="DUID=9C3E0F41;"/>
+				<UML:DiagramElement geometry="Left=78;Top=436;Right=178;Bottom=491;" subject="EAID_F5C91AE4_CD96_4da0_8661_18F1BFEDD4CE" seqno="3" style="DUID=3541FC9D;"/>
+				<UML:DiagramElement geometry="Left=78;Top=339;Right=221;Bottom=404;" subject="EAID_3B12A218_7653_41c7_9759_9C1121A1C9ED" seqno="4" style="DUID=B92D2FAA;"/>
+				<UML:DiagramElement geometry="Left=78;Top=257;Right=224;Bottom=312;" subject="EAID_1B55BBDD_CB25_4ae4_8D44_8017109FABB8" seqno="5" style="DUID=7A4EB4DC;"/>
+				<UML:DiagramElement geometry="Left=78;Top=159;Right=230;Bottom=224;" subject="EAID_2AA0486C_B1E0_4ee7_9BD3_8ACB51B3128E" seqno="6" style="DUID=5B865BE8;"/>
+				<UML:DiagramElement geometry="Left=699;Top=280;Right=803;Bottom=335;" subject="EAID_BD128E99_6117_4d26_8345_A93B2DA29CD4" seqno="7" style="DUID=E2D6AC16;"/>
+				<UML:DiagramElement geometry="Left=567;Top=277;Right=670;Bottom=342;" subject="EAID_382CE26A_3A62_4d29_B61B_CFAE3282E2EB" seqno="8" style="DUID=71770DA1;"/>
+				<UML:DiagramElement geometry="Left=693;Top=177;Right=793;Bottom=242;" subject="EAID_13CE5F96_87A1_4441_82F7_9BB44D5D67E0" seqno="9" style="DUID=AF556CB8;"/>
+				<UML:DiagramElement geometry="Left=562;Top=177;Right=662;Bottom=232;" subject="EAID_EB9B47FD_651C_4cf6_8C80_1437ECD6F4A5" seqno="10" style="DUID=42593F02;"/>
+				<UML:DiagramElement geometry="Left=716;Top=689;Right=820;Bottom=744;" subject="EAID_92148BB5_122F_4c96_AB5D_CC32990710FA" seqno="11" style="DUID=6BB534D9;"/>
+				<UML:DiagramElement geometry="Left=591;Top=687;Right=694;Bottom=752;" subject="EAID_B31CA7D1_6E5C_4da7_A0F0_FE15682DEBDA" seqno="12" style="DUID=C31E0A1F;"/>
+				<UML:DiagramElement geometry="Left=711;Top=588;Right=811;Bottom=653;" subject="EAID_121E34E0_46AE_45ba_89C0_E4DDB9314E6A" seqno="13" style="DUID=3E6CDCD6;"/>
+				<UML:DiagramElement geometry="Left=584;Top=586;Right=684;Bottom=641;" subject="EAID_A4E3C1B6_EA50_4a42_8D12_59ACB24482CB" seqno="14" style="DUID=61766743;"/>
+				<UML:DiagramElement geometry="Left=997;Top=631;Right=1097;Bottom=686;" subject="EAID_1C4BA5D7_DAA6_4171_A020_EF4EC992D5D8" seqno="15" style="DUID=C018E893;"/>
+				<UML:DiagramElement geometry="Left=563;Top=542;Right=835;Bottom=772;" subject="EAID_CE7FE976_75B4_4f40_A6A5_02934DE391D7" seqno="16" style="DUID=4363DB33;"/>
+				<UML:DiagramElement geometry="Left=992;Top=220;Right=1092;Bottom=275;" subject="EAID_6F980910_E885_4dac_9742_809085B6975E" seqno="17" style="DUID=75261F31;"/>
+				<UML:DiagramElement geometry="Left=15;Top=123;Right=401;Bottom=546;" subject="EAID_504AC152_F402_4be2_A282_31A022CFEA6B" seqno="18" style="DUID=757EED1E;"/>
+				<UML:DiagramElement geometry="Left=546;Top=123;Right=827;Bottom=375;" subject="EAID_EA60C460_F4EA_44ab_BAFE_1F925953D2DD" seqno="19" style="DUID=299A095C;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_E84ACF90_001B_40c2_9D1B_EB70DE9ADF32" style="Mode=3;EOID=C018E893;SOID=75261F31;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_499FE734_6EAC_414a_AF52_5DB04F6F3438" style="Mode=3;EOID=C018E893;SOID=4363DB33;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_3DB3CB7B_3445_48f1_8BD0_47C2EDF59BA3" style="Mode=3;EOID=4363DB33;SOID=757EED1E;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_E847EC98_E0DF_440d_AB88_C0C3ED0C8CA9" style="Mode=3;EOID=75261F31;SOID=299A095C;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=21;SY=4;EX=21;EY=4;EDGE=1;$LLB=;LLT=;LMT=CX=74:CY=26:OX=0:OY=1:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_F3097856_A68A_43d7_BDB7_E6A5242D8983" style="Mode=3;EOID=75261F31;SOID=C018E893;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_C2898C34_ACB6_4b79_A962_76115E9FA8FB" style="Mode=3;EOID=299A095C;SOID=757EED1E;Color=-1;LWidth=0;Hidden=0;"/>
 			</UML:Diagram.element>
 		</UML:Diagram>
 	</XMI.content>
