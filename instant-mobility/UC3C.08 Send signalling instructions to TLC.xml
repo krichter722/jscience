@@ -35,7 +35,16 @@
 						<UML:TaggedValue tag="tpos" value="4"/>
 						<UML:TaggedValue tag="gentype" value="Java"/>
 					</UML:ModelElement.taggedValue>
-					<UML:Namespace.ownedElement/>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_58864AB2_84F4_44cc_8435_ECCC3EE45916_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement/>
+							<UML:Collaboration.interaction>
+								<UML:Interaction>
+									<UML:Interaction.message/>
+								</UML:Interaction>
+							</UML:Collaboration.interaction>
+						</UML:Collaboration>
+					</UML:Namespace.ownedElement>
 				</UML:Package>
 			</UML:Namespace.ownedElement>
 		</UML:Model>
@@ -55,9 +64,7 @@
 				<UML:TaggedValue tag="styleex" value="SaveTag=52EDE937;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=0;INT_ARGS=;INT_RET=;INT_ATT=;SeqTopMargin=50;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 			</UML:ModelElement.taggedValue>
 			<UML:Diagram.element>
-				<UML:DiagramElement geometry="Left=313;Top=50;Right=469;Bottom=390;" subject="EAID_28E8BE3E_7C75_48dd_B604_EEEBF4D4D1E4" seqno="1" style="DUID=B9D1A4E0;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
-				<UML:DiagramElement geometry="Left=59;Top=50;Right=192;Bottom=390;" subject="EAID_850F4CB7_9E3A_4b91_9D59_591AB4FE1E69" seqno="2" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;DUID=3E28F1C7;"/>
-				<UML:DiagramElement geometry="SX=0;SY=-4;EX=0;EY=0;$LLB=;LLT=;LMT=CX=129:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_F46EF598_2F9D_4355_855E_721AF8F261B3" style=";Hidden=0;"/>
+				<UML:DiagramElement geometry="Left=59;Top=50;Right=192;Bottom=390;" subject="EAID_850F4CB7_9E3A_4b91_9D59_591AB4FE1E69" seqno="1" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;DUID=3E28F1C7;"/>
 			</UML:Diagram.element>
 		</UML:Diagram>
 	</XMI.content>
