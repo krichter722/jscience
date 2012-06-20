@@ -259,7 +259,7 @@
 												<UML:TaggedValue tag="mt" value="provide_position()"/>
 											</UML:ModelElement.taggedValue>
 										</UML:Message>
-										<UML:Message name="ask_position()" xmi.id="EAID_9E1FD62B_995C_4bf5_8DCB_AA283BF4A052" visibility="public" sender="EAID_C44D6B00_1E81_4a11_83A3_7360EAC22629" receiver="EAID_3EB91CB1_CE0F_49ff_98FB_2EF3EFB986EE">
+										<UML:Message name="request_position()" xmi.id="EAID_9E1FD62B_995C_4bf5_8DCB_AA283BF4A052" visibility="public" sender="EAID_C44D6B00_1E81_4a11_83A3_7360EAC22629" receiver="EAID_3EB91CB1_CE0F_49ff_98FB_2EF3EFB986EE">
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="style" value="1"/>
 												<UML:TaggedValue tag="ea_type" value="Sequence"/>
@@ -298,7 +298,7 @@
 												<UML:TaggedValue tag="stateflags" value="Activation=0;"/>
 												<UML:TaggedValue tag="virtualInheritance" value="0"/>
 												<UML:TaggedValue tag="diagram" value="EAID_D668971D_8811_4896_A418_E308C175DA33"/>
-												<UML:TaggedValue tag="mt" value="ask_position()"/>
+												<UML:TaggedValue tag="mt" value="request_position()"/>
 											</UML:ModelElement.taggedValue>
 										</UML:Message>
 										<UML:Message name="provide_direction()" xmi.id="EAID_04676725_C1FF_4dbe_BA92_8CC070321D0D" visibility="public" sender="EAID_C44D6B00_1E81_4a11_83A3_7360EAC22629" receiver="EAID_C9525F3F_1F4C_4113_8630_260CBE1EB44C">
