@@ -996,6 +996,7 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -1084,7 +1085,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=-22;EY=-26;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -1122,7 +1122,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -1160,7 +1159,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -1671,6 +1669,7 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -1708,6 +1707,7 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -1745,6 +1745,7 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -1782,6 +1783,7 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -2188,6 +2190,7 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -2677,6 +2680,7 @@
 						</UML:Component>
 						<UML:Component name="Road data processor" xmi.id="EAID_D0306C48_2594_46d4_ADDB_0BA3C9910116" visibility="public" namespace="EAPK_F3E4E281_4442_4a86_80F6_9B5141F7F30C" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Receives information regarding roads and traffic and computes the optimal path for the vehicle.&#xA;This component can be partially covered with the intelligence provided by the Complex Event Processing GE and the Big Data GE."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Component"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
@@ -2684,7 +2688,7 @@
 								<UML:TaggedValue tag="isActive" value="false"/>
 								<UML:TaggedValue tag="package" value="EAPK_F3E4E281_4442_4a86_80F6_9B5141F7F30C"/>
 								<UML:TaggedValue tag="date_created" value="2012-06-19 08:52:10"/>
-								<UML:TaggedValue tag="date_modified" value="2012-06-19 08:54:21"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-20 10:33:16"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="FI-WARE"/>
@@ -4546,7 +4550,7 @@
 								</UML:Comment>
 								<UML:Package name="Accounting GE" xmi.id="EAPK_DC81B6CB_8CE2_4af5_AD57_34F4D4F26D91" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_698E115C_DD53_498d_A1D9_59D23F70E979"/>
+										<UML:Stereotype xmi.idref="EAID_17985456_276E_43af_AFA9_57CDC407D74E"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Accounting GE&lt;/b&gt;, allowing to keep records about resource usage, which can be then used for billing purposes."/>
@@ -4573,7 +4577,7 @@
 								</UML:Package>
 								<UML:Package name="Audit GE" xmi.id="EAPK_C383C1A5_0C0C_4d92_B41A_4341E66F291B" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_698E115C_DD53_498d_A1D9_59D23F70E979"/>
+										<UML:Stereotype xmi.idref="EAID_17985456_276E_43af_AFA9_57CDC407D74E"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Audit GE&lt;/b&gt;, allowing to keep track of all the activities in the cloud for auditing purposes."/>
@@ -4600,7 +4604,7 @@
 								</UML:Package>
 								<UML:Package name="Cloud Broker GE" xmi.id="EAPK_AF3BD688_9C22_463d_A9FF_01568CD510F8" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_698E115C_DD53_498d_A1D9_59D23F70E979"/>
+										<UML:Stereotype xmi.idref="EAID_17985456_276E_43af_AFA9_57CDC407D74E"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Cloud Broker GE&lt;/b&gt;, allowing to leverage GEs deployed in another Cloud in a federated or hybrid fashion."/>
@@ -4627,7 +4631,7 @@
 								</UML:Package>
 								<UML:Package name="Cloud Edge Resource Management GE" xmi.id="EAPK_D59B6BA1_34D0_46cf_BC5B_F62CBDD7776F" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_698E115C_DD53_498d_A1D9_59D23F70E979"/>
+										<UML:Stereotype xmi.idref="EAID_17985456_276E_43af_AFA9_57CDC407D74E"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Cloud Edge Resource Management GE&lt;/b&gt;, enabling end-to-end provisioning and life cycle management of cloud applications which comprise run-time components designed to run on Cloud Edge devices. The hosting&#xA;capabilities on such Cloud Edge devices are provided by &lt;b&gt;Cloud Proxy GE.&lt;/b&gt;"/>
@@ -4654,7 +4658,7 @@
 								</UML:Package>
 								<UML:Package name="Data Center Resource Management (DCRM) GE" xmi.id="EAPK_66891BE4_E48D_4410_B8B3_5AB29F2EF22E" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_698E115C_DD53_498d_A1D9_59D23F70E979"/>
+										<UML:Stereotype xmi.idref="EAID_17985456_276E_43af_AFA9_57CDC407D74E"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Data Center Resource Maangement (DCRM) GE&lt;/b&gt;, offering provisioning and life cycle management of virtualized resources (compute, storage, network) associated with virtual machines."/>
@@ -4681,7 +4685,7 @@
 								</UML:Package>
 								<UML:Package name="Identity Management GE" xmi.id="EAPK_92720692_1CA4_461c_8E84_5C7426ED2BEC" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_698E115C_DD53_498d_A1D9_59D23F70E979"/>
+										<UML:Stereotype xmi.idref="EAID_17985456_276E_43af_AFA9_57CDC407D74E"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Identity Management GE&lt;/b&gt;, providing a unified management of users, roles and tokens, that can be used by other GEs for authentication and authorization purposes."/>
@@ -4708,7 +4712,7 @@
 								</UML:Package>
 								<UML:Package name="Monitoring GE" xmi.id="EAPK_EBC4E89A_C94C_46e3_B65C_CE0B6E742829" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_698E115C_DD53_498d_A1D9_59D23F70E979"/>
+										<UML:Stereotype xmi.idref="EAID_17985456_276E_43af_AFA9_57CDC407D74E"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Monitoring GE&lt;/b&gt;, collecting metrics associated with each of the Core GEs, and offering them to GEs which are interested to consume such metrics. For example, Service Management GE consumes metrics associated with&#xA;KPIs of the various service components in order to drive auto-scaling decisions. In the future, more advanced metrics-related capabilities will be provided, such as processing (before it is delivered to the consumer), archival and analysis of metrics."/>
@@ -4735,7 +4739,7 @@
 								</UML:Package>
 								<UML:Package name="Object Storage GE" xmi.id="EAPK_A6B781EA_54E2_4e38_A71D_0AE15833B94D" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_698E115C_DD53_498d_A1D9_59D23F70E979"/>
+										<UML:Stereotype xmi.idref="EAID_17985456_276E_43af_AFA9_57CDC407D74E"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Object Storage GE&lt;/b&gt;, offering provisioning and life cycle management of object-based storage containers and elements."/>
@@ -4893,7 +4897,7 @@
 								</UML:Package>
 								<UML:Package name="PaaS Management GE" xmi.id="EAPK_B9940725_A310_4bb7_AA33_55CF4903D684" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_698E115C_DD53_498d_A1D9_59D23F70E979"/>
+										<UML:Stereotype xmi.idref="EAID_17985456_276E_43af_AFA9_57CDC407D74E"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="&lt;b&gt;PaaS Management GE&lt;/b&gt;, offering provisioning and life cycle management of middleware-level containers, such as Web, Database, etc."/>
@@ -4920,7 +4924,7 @@
 								</UML:Package>
 								<UML:Package name="Service Management (SM) GE" xmi.id="EAPK_8DEC0D69_AE2B_42e3_99FD_D756BD026A26" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_698E115C_DD53_498d_A1D9_59D23F70E979"/>
+										<UML:Stereotype xmi.idref="EAID_17985456_276E_43af_AFA9_57CDC407D74E"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Service Management GE&lt;/b&gt;, offering provisioning and life cycle management of composite services comprising several resources provided by on of the above GEs. In the first release of FI-WARE, Service Management GE&#xA;will consume resources provided by Data Center Resource Management GE, via the corresponding APIs."/>
@@ -5310,13 +5314,12 @@
 										<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 										<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 										<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-										<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 										<UML:TaggedValue tag="virtualInheritance" value="0"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Dependency>
 								<UML:Package name="Multimedia Analysis" xmi.id="EAPK_7D2EAC28_EC23_4409_865E_A9E7970E06F2" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_698E115C_DD53_498d_A1D9_59D23F70E979"/>
+										<UML:Stereotype xmi.idref="EAID_17985456_276E_43af_AFA9_57CDC407D74E"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="The target users of the Multimedia Analysis GE are all applications that want to extract meaningful information from multimedia content (image, audio, video, etc.) of any kind and that need to automatically find characteristics in multimedia data bases on given tasks and (decision) rules. The GE can work for previously stored multimedia data as well as for multimedia data streams (e.g., received from a camera in real time)."/>
@@ -5343,7 +5346,7 @@
 								</UML:Package>
 								<UML:Package name="Query Broker" xmi.id="EAPK_5BEC7E36_7CD1_4290_AB99_C4ED2EDB20D9" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_698E115C_DD53_498d_A1D9_59D23F70E979"/>
+										<UML:Stereotype xmi.idref="EAID_17985456_276E_43af_AFA9_57CDC407D74E"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="One way for interoperable media retrieval is the introduction of a mediator or middleware system abstracting the communication, namely a QueryBroker which acts as middleware and mediator between multimedia clients and retrieval systems improving its collaboration remarkable. A QueryBroker accepts complex multi-part and multimodal queries from one or more clients and maps/distributes those to multiple connected MMRS. As a fact, implementation complexity is reduced at the client side as only one communication partner needs to be addressed. Hence, result aggregation and query distribution is rolled easing client development additionally. However, the actual retrieval process of the multimedia data is performed inside the connected data stores."/>
@@ -5633,7 +5636,7 @@
 								</UML:Package>
 								<UML:Package name="Semantic Annotation" xmi.id="EAPK_E561275E_A2FB_4022_9514_BAD5D4F303BC" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_698E115C_DD53_498d_A1D9_59D23F70E979"/>
+										<UML:Stereotype xmi.idref="EAID_17985456_276E_43af_AFA9_57CDC407D74E"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="This GE provides a general purpose text analyzer to identify and disambiguate LOD (Linked Open Data) resources related to the entities in the text. It is build following a modular approach to optimize and distribute text processing &amp;amp; LOD sources (plug-in). Also it allows RDF triple generation that easily links to LOD resources."/>
@@ -5660,7 +5663,7 @@
 								</UML:Package>
 								<UML:Package name="Semantic Support" xmi.id="EAPK_7D156685_18A8_4ddd_B2A8_9FB7F2E8BFB3" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_698E115C_DD53_498d_A1D9_59D23F70E979"/>
+										<UML:Stereotype xmi.idref="EAID_17985456_276E_43af_AFA9_57CDC407D74E"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="The Semantic Web Application Support enabler aims at providing an effective environment for developers to implement and deploy high quality Semantic Web-based applications.&#xA;The Semantic Application Support enabler addresses data management problems (engineering and technical), by providing:&#xA;• An infrastructure for metadata publishing, retrieving and subscription that meets industry requirements like scalability, distribution and security. From now and so on, we will refer to this infrastructure as SWAS Infrastructure.&#xA;• A set of tools for infrastructure and data management, supporting most adopted methodologies and best practices. We will refer to this tools as SWAS Engineering Environment."/>
@@ -5687,7 +5690,7 @@
 								</UML:Package>
 								<UML:Package name="Metadata Preprocessing" xmi.id="EAPK_025A0570_B2B3_40db_ABA8_A1A0F4BAFAFF" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_698E115C_DD53_498d_A1D9_59D23F70E979"/>
+										<UML:Stereotype xmi.idref="EAID_17985456_276E_43af_AFA9_57CDC407D74E"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="Target users are all stakeholders that need to convert metadata formats or need to generate objects (as instantiation of classes) that carry metadata information. The requirements to transform metadata typically stem from the fact that in real life various components implementing different metadata formats need to inter-work. However, typically products from different vendors are plugged together. In this case, the Metadata Preprocessing GE acts as a mediator between the various products."/>
@@ -6506,7 +6509,7 @@
 								</UML:Package>
 								<UML:Package name="BigData" xmi.id="EAPK_B710D1B8_91BE_488c_B813_8E634B756FD4" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_698E115C_DD53_498d_A1D9_59D23F70E979"/>
+										<UML:Stereotype xmi.idref="EAID_17985456_276E_43af_AFA9_57CDC407D74E"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="Big Data Analysis is the process of using new tools to provide insights in to data previously considered too big or complex, given the current state of technology. The Big Data Analysis GE is made up of a number assets that allow an end user or developer to unlock the information within the data. The"/>
@@ -6831,7 +6834,7 @@
 										</UML:Dependency>
 										<UML:Package name="Data Stream Analysis" xmi.id="EAPK_E35DCB8D_459A_45d1_A2B6_37E0C033B458" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 											<UML:ModelElement.stereotype>
-												<UML:Stereotype xmi.idref="EAID_698E115C_DD53_498d_A1D9_59D23F70E979"/>
+												<UML:Stereotype xmi.idref="EAID_17985456_276E_43af_AFA9_57CDC407D74E"/>
 											</UML:ModelElement.stereotype>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="documentation" value="The Data Stream Analysis platform brings together a cluster of commodity computer servers or nodes to divide up and process a pre-programmed task.&#xA;Each node in the cluster has a Worker process that divides up the task amongst the available resources within the server. These tasks are programmed in modules designed to solve a specific problem. Modules are built as shared libraries allowing for changes to be made to the module so that it can be reloaded at run-time without interrupting the&#xA;operation of the platform.&#xA;Communication between the nodes is handled via the network layer that ensures the data needed to process each task is available on every node. The network layer also compresses and optimizes the data flow to reduce latency when transferring data.&#xA;Data is uploaded into the cluster using a client tool, in addition this tool can be used to launch processing tasks and download result data. delilah is available in two forms, a command line client and Qt based graphical interface.&#xA;There is also a delilah client library (C++ API), which can be used to communicate any application with Data Stream Analysis platform (for streaming operations)."/>
@@ -6858,7 +6861,7 @@
 										</UML:Package>
 										<UML:Package name="High-performance distributed file-system" xmi.id="EAPK_9EB7DD7E_F191_4701_BAE8_6B20B3A045C1" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 											<UML:ModelElement.stereotype>
-												<UML:Stereotype xmi.idref="EAID_698E115C_DD53_498d_A1D9_59D23F70E979"/>
+												<UML:Stereotype xmi.idref="EAID_17985456_276E_43af_AFA9_57CDC407D74E"/>
 											</UML:ModelElement.stereotype>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="documentation" value="This generic enabler requires the use of a high-performance distributed file system based on Apache's Hadoop HDFS. This framework allows for the distributed processing of large data sets (&amp;gt; 0.5 Terabytes) across clusters of&#xA;computers using a simple programming model. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. In addition we will make use of an SQL-like interface what allows data exploration of data stored within the file-system."/>
@@ -6885,7 +6888,7 @@
 										</UML:Package>
 										<UML:Package name="NoSQL document-orientated storage" xmi.id="EAPK_E2C691EA_FA2E_4854_BEBD_E0DAB6280088" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 											<UML:ModelElement.stereotype>
-												<UML:Stereotype xmi.idref="EAID_698E115C_DD53_498d_A1D9_59D23F70E979"/>
+												<UML:Stereotype xmi.idref="EAID_17985456_276E_43af_AFA9_57CDC407D74E"/>
 											</UML:ModelElement.stereotype>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="documentation" value="For data sets smaller than 0.5 Terabytes the GE will make use of a document orientated storage system based on NoSQL. the interface is to be compatible with MongoDB. This component will be used to provide a high-availability store for querying data."/>
@@ -6914,7 +6917,7 @@
 								</UML:Package>
 								<UML:Package name="Complex Event Processing (CEP)" xmi.id="EAPK_A907503B_AC11_40a3_A94C_37FE0E7680DE" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_698E115C_DD53_498d_A1D9_59D23F70E979"/>
+										<UML:Stereotype xmi.idref="EAID_17985456_276E_43af_AFA9_57CDC407D74E"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="CEP analyses event data in real-time, generates immediate insight and enables instant response to changing conditions. Some functional requirements this technology addresses include event-based routing, observation, monitoring and event correlation. The technology and implementations of CEP provide means to expressively and flexibly define and maintain the event processing logic of the application, and in runtime it is designed to meet all the functional and nonfunctional requirements without taking a toll on the application performance, removing one issue from the application developer’s and system managers concerns."/>
@@ -6942,7 +6945,7 @@
 								</UML:Package>
 								<UML:Package name="Location" xmi.id="EAPK_B2C70B5E_5FF1_4440_B477_9AA14161E53B" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_698E115C_DD53_498d_A1D9_59D23F70E979"/>
+										<UML:Stereotype xmi.idref="EAID_17985456_276E_43af_AFA9_57CDC407D74E"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="The Location Platform provides location-based services to two types of users:&#xA;• Third-party location clients&#xA;Typically yellow pages is one of many third-party location clients that can interact with the location platform over dedicated Mobile Location Protocol (MLP) interface standardized by Open Mobile Alliance (OMA). This interface facilitates many services to retrieve the position of a compatible target mobile terminal for various types of applications. The target mobile terminal position is retrieved using AGPS, WiFi and Cell-Id positioning technologies.&#xA;• Mobile end-users&#xA;When an end-user searches for its position using a compatible terminal via any kind of application requiring location information, the terminal connects to the location platform to exchange assistance data in order to compute or retrieve its position, as negotiated between the terminal and the platform. Moreover, some applications on the compatible terminal may include the sharing of location information with external third-parties, including other end-users."/>
@@ -7789,7 +7792,7 @@
 								</UML:Package>
 								<UML:Package name="Publish/Subscribe" xmi.id="EAPK_837DDA16_2191_400d_8E65_DE2DE8FD528B" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_698E115C_DD53_498d_A1D9_59D23F70E979"/>
+										<UML:Stereotype xmi.idref="EAID_17985456_276E_43af_AFA9_57CDC407D74E"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="A fundamental principle supported by the Publish/Subscribe GE is that of achieving a total decoupling between Context Producers and Context Consumers. On one hand, this means that Context Producers publish data without knowing which Context Consumers will consume published data; therefore they don’t need to be connected to them. On the other hand, Context Consumers consume data of their interest, without this meaning they know which Context Producer has published a particular event: they are just interested in the event itself but not in who generated it. As a result, this GE it is an excellent bridge enabling external applications to manage events related to the Internet of the Things in a simpler way hiding the complexity of gathering measures from IoT resources (sensors) that might&#xA;be distributed or involving multiple low-level communication protocols."/>
@@ -9418,7 +9421,7 @@
 								</UML:Collaboration>
 								<UML:Package name="Connected Device Interface (CDI)" xmi.id="EAPK_547C70ED_FCAA_498c_B37E_8587B9F906D8" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_698E115C_DD53_498d_A1D9_59D23F70E979"/>
+										<UML:Stereotype xmi.idref="EAID_17985456_276E_43af_AFA9_57CDC407D74E"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="The Connected Device Interface (CDI) Generic Enabler (GE) open specifications provide a set of application program interfaces (APIs) to access device features, including a detailed description of the set of functionality provided for applications which will execute on a device (On Device Access), along with detailing how connected devices can be accessed via a Remote Management service (via a REST API). APIs exposed by the CDI allow each app to get access to the device capabilities independently from the handset manufacturer, the OS vendor or the specific software embedded into the device. CDI will expose proper APIs to control all the capabilities and to get the related information of the connected device, e.g. battery power, network status, location systems, quality of service, media capabilities, phone available features and sensors, profile information, status information and remote management facilities.&#xA;The term “connected devices” refers to a broad range of networked electronic components, including Handsets (cellular phones, smart phones), Tablets, Media phones, Smart TVs, Set-Top-Boxes, In-Vehicle Infotainment, Information kiosks, each being able to connect to a communication network."/>
@@ -11210,7 +11213,7 @@
 								</UML:Comment>
 								<UML:Package name="Context-Based Security &amp; Compliance" xmi.id="EAPK_C5F03059_19DB_4458_9D07_44C3B14871C6" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_698E115C_DD53_498d_A1D9_59D23F70E979"/>
+										<UML:Stereotype xmi.idref="EAID_17985456_276E_43af_AFA9_57CDC407D74E"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="The role of this Generic Enabler is support additional security requirements requested by a specific subset of applications as a result of the application of very specific regulatory constraints. This feature provides the security layer of FI-WARE context-aware capabilities that allows any of its instances to deal with dynamic and unpredictable context changes. The GE will accept security request from an end-user application and will select the best Optional Security Enabler to fulfill it by searching the best solution into the Security section from FI-WARE marketplace. At the same time that the security solution is deployed into the end-user environment the GE also instantiates a runtime monitor with the responsibility of detecting anomalous behavior or non-conformance. In case of a non-conformance detected the framework will take compensation actions for the automated adaptation of the deployed security mechanism to the changing context conditions The security requirement sent by the end-user applications to the GE could be expressed both by single security specifications and by references to a predefined rule, law or agreement stored in the rule repository offered by the GE. Security features offered by the services that the GE is going to get from the marketplace must by described by using USDL-SEC language."/>
@@ -11237,7 +11240,7 @@
 								</UML:Package>
 								<UML:Package name="Data Handling" xmi.id="EAPK_32C458BA_21C9_4e2b_A4B2_D643403FEC64" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_698E115C_DD53_498d_A1D9_59D23F70E979"/>
+										<UML:Stereotype xmi.idref="EAID_17985456_276E_43af_AFA9_57CDC407D74E"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="The Data Handler GE is a privacy-friendly attribute-based access control system to (sensitive) data. It mainly focuses on revealing certain attributes according to specific prove conditions. It supports integrated data handling (two-sided detailed data handling), that takes into account specific preferences/policies expressed using the PPL language (Privacy Policy Language)[PPL]. The PPL is based on the XACML standard [XACML]. Data usage purpose must always be declared, as it is a relevant part of the policy that must be expressed, as well as downstream usage, i.e., whether one can disclose collected data with third parties. The PPL language supports the enforcement of a number of obligations, that are bound tightly to data. For instance, one can impose a specific retention period, as well as the production of user's notifications and/or logging under certain conditions."/>
@@ -11790,7 +11793,7 @@
 								</UML:Package>
 								<UML:Package name="Identity Management" xmi.id="EAPK_63ED53D1_966B_461c_9977_4A92B721AC5C" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_698E115C_DD53_498d_A1D9_59D23F70E979"/>
+										<UML:Stereotype xmi.idref="EAID_17985456_276E_43af_AFA9_57CDC407D74E"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="Identity Management encompasses a number of aspects involved with users' access to networks, services and applications, including secure and private authentication from users to devices, networks and services, Authorisation &amp;amp; Trust management, User Profile management, Single Sign-On (SSO) to service domains and Identity Federation towards applications. The Identity Manager is the central component that provides a bridge between IdM systems at connectivity-level and application-level.&#xA;Identity Management is used in multiple scenarios spanning from Operator oriented scenarios towards Internet Service Providers (ISP). End users benefit from having simplified and easy access to services (User Centric Identity Management)."/>
@@ -12217,7 +12220,7 @@
 								</UML:Package>
 								<UML:Package name="Optional Security" xmi.id="EAPK_01E5C482_5287_4795_9C54_9507484484E8" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_698E115C_DD53_498d_A1D9_59D23F70E979"/>
+										<UML:Stereotype xmi.idref="EAID_17985456_276E_43af_AFA9_57CDC407D74E"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="The Optional Security Enablers are services that can complement applications with security-specific vertical functionalities, that are not covered by Core Generic Enablers."/>
@@ -12244,7 +12247,7 @@
 								</UML:Package>
 								<UML:Package name="Privacy" xmi.id="EAPK_90817ACE_B8AE_49f2_ACFD_DF513DA24457" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_698E115C_DD53_498d_A1D9_59D23F70E979"/>
+										<UML:Stereotype xmi.idref="EAID_17985456_276E_43af_AFA9_57CDC407D74E"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="The Privacy GE does not expose its own external interfaces directly; rather it enhances the functionality provided by the other generic enablers:&#xA;- Identity Management GE,&#xA;- Data Handling.GE"/>
@@ -12271,7 +12274,7 @@
 								</UML:Package>
 								<UML:Package name="Security Monitoring" xmi.id="EAPK_99DAF735_5219_44da_A5F0_E79044A9B58F" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_698E115C_DD53_498d_A1D9_59D23F70E979"/>
+										<UML:Stereotype xmi.idref="EAID_17985456_276E_43af_AFA9_57CDC407D74E"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="The Security Monitoring GE is part of the overall Security Management System in FI-WARE and as such is part of each and every FI-WARE instance. The target users are: FI-WARE Instance Providers and FI-WARE Application/Service Providers.&#xA;Security monitoring is the first step towards understanding the real security state of a future internet environment and, hence, towards realizing the execution of services with desired security behaviour and detection of potential attacks or non-authorized usage.&#xA;This generic enabler deals with the security monitoring and beyond, up to pro-active cyber-security i.e. protection of “assets” at large. It allows to assess the real security state of a future internet environment and, hence, towards realizing the execution of services with desired security behaviour and detection of potential attacks or non-authorized usage."/>
@@ -12300,7 +12303,7 @@
 						</UML:Package>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_698E115C_DD53_498d_A1D9_59D23F70E979" name="subsystem" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_17985456_276E_43af_AFA9_57CDC407D74E" name="subsystem" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 			</UML:Namespace.ownedElement>
