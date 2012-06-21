@@ -13,21 +13,19 @@
 				<UML:Package name="Vehicle &amp; Handheld Device Hardware &amp; Firmware" xmi.id="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="documentation" value="T4.4 &amp;amp; T4.11"/>
-						<UML:TaggedValue tag="parent" value="EAPK_30434CB6_8EA0_44bf_9B48_30D0DA00C88C"/>
 						<UML:TaggedValue tag="created" value="2011-12-22 00:00:00"/>
 						<UML:TaggedValue tag="modified" value="2012-03-08 16:20:27"/>
 						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 						<UML:TaggedValue tag="xmlpath" value="Vehicle &amp; Handheld Device Hardware &amp; Firmware.xml"/>
-						<UML:TaggedValue tag="lastloaddate" value="2012-02-13 16:03:46"/>
+						<UML:TaggedValue tag="lastloaddate" value="2012-06-07 08:59:00"/>
 						<UML:TaggedValue tag="lastsavedate" value="2012-02-13 16:03:46"/>
 						<UML:TaggedValue tag="version" value="1.0"/>
 						<UML:TaggedValue tag="isprotected" value="FALSE"/>
 						<UML:TaggedValue tag="usedtd" value="FALSE"/>
-						<UML:TaggedValue tag="owner" value="Thales"/>
 						<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
 						<UML:TaggedValue tag="logxml" value="FALSE"/>
 						<UML:TaggedValue tag="tpos" value="3"/>
-						<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=SVN_IM;CRC=0;"/>
+						<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=SVN_IM;CheckedOutOffline=0;CRC=0;"/>
 						<UML:TaggedValue tag="batchsave" value="0"/>
 						<UML:TaggedValue tag="batchload" value="0"/>
 						<UML:TaggedValue tag="phase" value="1.0"/>
@@ -39,6 +37,646 @@
 						<UML:TaggedValue tag="gentype" value="Java"/>
 					</UML:ModelElement.taggedValue>
 					<UML:Namespace.ownedElement>
+						<UML:Component name="Energy consumption calculator" xmi.id="EAID_0983DB6E_36E0_4a42_94EC_4876D6B16F75" visibility="public" namespace="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Calculate energy consumption for each travel or globally.&#xA;Statistical data, consolidated from real time data from CAN bus e.g."/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-21 17:17:17"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-21 17:17:58"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Vehicle &amp; Handheld Device Hardware &amp; Firmware"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="06dcrlni"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="18243"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={3CF95EEF-FFCE-4666-BAE4-B0D2CEA67BB2}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isIndirectlyInstantiated@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=true@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={0983DB6E-36E0-4a42-94EC-4876D6B16F75}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Dependency client="EAID_1A8FB760_8461_431b_B857_E45FC8321EF1" supplier="EAID_0983DB6E_36E0_4a42_94EC_4876D6B16F75" xmi.id="EAID_0C8726CE_31F4_4115_BDD2_8B5AF64DA643" visibility="public">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="use"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="use"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="쳕se�"/>
+								<UML:TaggedValue tag="ea_localid" value="19117"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Mobile terminal cooperation module"/>
+								<UML:TaggedValue tag="ea_targetName" value="Energy consumption calculator"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Component"/>
+								<UML:TaggedValue tag="ea_targetType" value="Component"/>
+								<UML:TaggedValue tag="ea_sourceID" value="18242"/>
+								<UML:TaggedValue tag="ea_targetID" value="18243"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={64C84552-B6BD-4298-BC69-65ACCFEB6218}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$DES=@STEREO;Name=use;GUID={B2A49FD9-4316-4360-84D9-3E973216C424};@ENDSTEREO;$DES;$CLT={0C8726CE-31F4-4115-BDD2-8B5AF64DA643}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;쳕se�"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Component name="Wi-Fi" xmi.id="EAID_109CB23F_B7A4_4977_811B_89F0D5F1AD85" visibility="public" namespace="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-21 17:31:13"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-21 17:31:35"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Vehicle &amp; Handheld Device Hardware &amp; Firmware"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="06dcrlni"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="18252"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={633E2F0D-7140-4524-B4BC-91E878886567}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isIndirectlyInstantiated@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=true@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={109CB23F-B7A4-4977-811B-89F0D5F1AD85}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Component name="Mobile terminal cooperation module" xmi.id="EAID_1A8FB760_8461_431b_B857_E45FC8321EF1" visibility="public" namespace="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-21 17:16:36"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-21 17:16:39"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Vehicle &amp; Handheld Device Hardware &amp; Firmware"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="06dcrlni"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="18242"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={A482FA7B-602E-4ae6-A7AC-771FB935EAEC}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isIndirectlyInstantiated@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=true@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={1A8FB760-8461-431b-B857-E45FC8321EF1}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Dependency client="EAID_1A8FB760_8461_431b_B857_E45FC8321EF1" supplier="EAID_67E3A0E0_3766_431c_AE54_2876D8E38703" xmi.id="EAID_A819EDD6_1439_445f_80C1_FC3E02D6BFBE" visibility="public">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="use"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="use"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="쳕se�"/>
+								<UML:TaggedValue tag="ea_localid" value="19116"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Mobile terminal cooperation module"/>
+								<UML:TaggedValue tag="ea_targetName" value="Local Dynamic Map"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Component"/>
+								<UML:TaggedValue tag="ea_targetType" value="Component"/>
+								<UML:TaggedValue tag="ea_sourceID" value="18242"/>
+								<UML:TaggedValue tag="ea_targetID" value="18246"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={340DCB5F-4F21-464a-8B92-78ABCD430D62}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$DES=@STEREO;Name=use;GUID={B2A49FD9-4316-4360-84D9-3E973216C424};@ENDSTEREO;$DES;$CLT={A819EDD6-1439-445f-80C1-FC3E02D6BFBE}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;쳕se�"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency client="EAID_1A8FB760_8461_431b_B857_E45FC8321EF1" supplier="EAID_E18B3256_837E_4cc2_89C2_FB1CE4B3CBC7" xmi.id="EAID_FCBD4EC0_DAAF_4c9a_A920_790CC9983C18" visibility="public">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="use"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="use"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="쳕se�"/>
+								<UML:TaggedValue tag="ea_localid" value="19115"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Mobile terminal cooperation module"/>
+								<UML:TaggedValue tag="ea_targetName" value="Chronotachymeter"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Component"/>
+								<UML:TaggedValue tag="ea_targetType" value="Component"/>
+								<UML:TaggedValue tag="ea_sourceID" value="18242"/>
+								<UML:TaggedValue tag="ea_targetID" value="18244"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={63420CBA-3C4E-4792-80D3-EE1DB29FC986}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$DES=@STEREO;Name=use;GUID={B2A49FD9-4316-4360-84D9-3E973216C424};@ENDSTEREO;$DES;$CLT={FCBD4EC0-DAAF-4c9a-A920-790CC9983C18}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;쳕se�"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency client="EAID_3B5568D3_3054_4b96_B60E_4E0E37ED3F2C" supplier="EAID_1A8FB760_8461_431b_B857_E45FC8321EF1" xmi.id="EAID_04BC0AC4_22A0_4a0a_88AA_01F26F2FB282" visibility="public">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="use"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="use"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="쳕se�"/>
+								<UML:TaggedValue tag="ea_localid" value="19118"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Applications HMI "/>
+								<UML:TaggedValue tag="ea_targetName" value="Mobile terminal cooperation module"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Component"/>
+								<UML:TaggedValue tag="ea_targetType" value="Component"/>
+								<UML:TaggedValue tag="ea_sourceID" value="18238"/>
+								<UML:TaggedValue tag="ea_targetID" value="18242"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={40E7A0A1-252E-412b-B7E8-73F3CE8BF832}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$DES=@STEREO;Name=use;GUID={B2A49FD9-4316-4360-84D9-3E973216C424};@ENDSTEREO;$DES;$CLT={04BC0AC4-22A0-4a0a-88AA-01F26F2FB282}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;쳕se�"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Component name="Applications HMI " xmi.id="EAID_3B5568D3_3054_4b96_B60E_4E0E37ED3F2C" visibility="public" namespace="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-21 15:45:54"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-21 17:14:02"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Vehicle &amp; Handheld Device Hardware &amp; Firmware"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="06dcrlni"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="18238"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={ED2627A2-B510-4396-9171-56E58C469462}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isIndirectlyInstantiated@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=true@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={3B5568D3-3054-4b96-B60E-4E0E37ED3F2C}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Dependency client="EAID_3B5568D3_3054_4b96_B60E_4E0E37ED3F2C" supplier="EAID_9682FD1E_05CF_4330_A960_4D907A1362A8" xmi.id="EAID_62753A08_D3B3_411d_B8CE_E37E78C5B60B" visibility="public">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="use"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="use"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="쳕se�"/>
+								<UML:TaggedValue tag="ea_localid" value="19119"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Applications HMI "/>
+								<UML:TaggedValue tag="ea_targetName" value="OBU Touch screen"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Component"/>
+								<UML:TaggedValue tag="ea_targetType" value="Component"/>
+								<UML:TaggedValue tag="ea_sourceID" value="18238"/>
+								<UML:TaggedValue tag="ea_targetID" value="18249"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={86977B02-C380-45d4-B6BD-74D1411532EA}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$DES=@STEREO;Name=use;GUID={B2A49FD9-4316-4360-84D9-3E973216C424};@ENDSTEREO;$DES;$CLT={62753A08-D3B3-411d-B8CE-E37E78C5B60B}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;쳕se�"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Component name="Mobile router" xmi.id="EAID_3B85A92C_AC7A_4dd9_84AC_2696F3E66A00" visibility="public" namespace="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-21 17:16:14"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-21 17:16:16"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Vehicle &amp; Handheld Device Hardware &amp; Firmware"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="06dcrlni"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="18241"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={F603C1F9-4C58-46d7-8E9D-FF08E5D4351D}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isIndirectlyInstantiated@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=true@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={3B85A92C-AC7A-4dd9-84AC-2696F3E66A00}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Component name="NFC" xmi.id="EAID_3CFC6D84_F713_401f_8884_050C85E1FA8F" visibility="public" namespace="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-21 17:28:28"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-21 17:28:36"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Vehicle &amp; Handheld Device Hardware &amp; Firmware"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="06dcrlni"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="18248"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={16954B67-0C1B-4405-AD3D-2B06E44B3FC3}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isIndirectlyInstantiated@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=true@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={3CFC6D84-F713-401f-8884-050C85E1FA8F}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Collaboration xmi.id="EAID_B37F1096_E7AB_4c3c_8669_F691D8DD890B_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="On Board Units software enablers" xmi.id="EAID_4E70395E_AE4A_4bb5_9BC5_3FE8006767D7" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B"/>
+										<UML:TaggedValue tag="date_created" value="2012-06-21 17:20:33"/>
+										<UML:TaggedValue tag="date_modified" value="2012-06-21 17:21:29"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Vehicle &amp; Handheld Device Hardware &amp; Firmware"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="06dcrlni"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="18245"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Physical layer" xmi.id="EAID_9126491F_C2CA_4461_B49F_D2FDA1AAD5F9" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B"/>
+										<UML:TaggedValue tag="date_created" value="2012-06-21 17:27:59"/>
+										<UML:TaggedValue tag="date_modified" value="2012-06-21 17:28:05"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Vehicle &amp; Handheld Device Hardware &amp; Firmware"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="06dcrlni"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="18247"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+						<UML:Component name="Authentication module" xmi.id="EAID_5ED2371E_C269_423f_9E7F_DC1607D2F58E" visibility="public" namespace="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="To be able to identify accurate driver : insurance, toll, ..."/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-21 17:15:16"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-21 17:18:47"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Vehicle &amp; Handheld Device Hardware &amp; Firmware"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="06dcrlni"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="18239"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={BCCEF386-F53D-49a7-8BCE-6DAC30BB65C5}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isIndirectlyInstantiated@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=true@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={5ED2371E-C269-423f-9E7F-DC1607D2F58E}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Component name="Local Dynamic Map" xmi.id="EAID_67E3A0E0_3766_431c_AE54_2876D8E38703" visibility="public" namespace="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-21 17:25:01"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-21 17:25:04"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Vehicle &amp; Handheld Device Hardware &amp; Firmware"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="06dcrlni"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="18246"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={57515554-EE2F-4322-A8E6-E947ED4C43AC}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isIndirectlyInstantiated@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=true@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={67E3A0E0-3766-431c-AE54-2876D8E38703}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Component name="Geolocation Module" xmi.id="EAID_83B752C1_3E94_47ca_93F7_369CFAD5E39C" visibility="public" namespace="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-21 17:35:19"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-21 17:35:36"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Vehicle &amp; Handheld Device Hardware &amp; Firmware"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="06dcrlni"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="18254"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={4B5A5D1F-CD60-41ce-B242-9CA4C7A424F8}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isIndirectlyInstantiated@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=true@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={83B752C1-3E94-47ca-93F7-369CFAD5E39C}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Component name="GPS" xmi.id="EAID_8AD2EBC4_9CB7_4756_8BAA_E1D8E617B4E3" visibility="public" namespace="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-21 17:37:22"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-21 17:37:29"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Vehicle &amp; Handheld Device Hardware &amp; Firmware"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="06dcrlni"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="18256"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={969CF537-94D5-41b3-95C9-510CD9279408}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isIndirectlyInstantiated@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=true@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={8AD2EBC4-9CB7-4756-8BAA-E1D8E617B4E3}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Component name="Vehicle network interface" xmi.id="EAID_8D3A6558_AD19_4888_896F_27390977E372" visibility="public" namespace="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-21 17:36:34"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-21 17:37:02"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Vehicle &amp; Handheld Device Hardware &amp; Firmware"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="06dcrlni"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="18255"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={F056E739-E307-4471-BEFF-2746E8E6D268}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isIndirectlyInstantiated@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=true@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={8D3A6558-AD19-4888-896F-27390977E372}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Component name="Bluetooth" xmi.id="EAID_92F4FF67_4D71_4473_BAF4_82031CF69BEB" visibility="public" namespace="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-21 17:31:00"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-21 17:31:09"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Vehicle &amp; Handheld Device Hardware &amp; Firmware"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="06dcrlni"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="18251"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={6EBB188D-B9EF-4227-B10E-02F8C70830EA}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isIndirectlyInstantiated@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=true@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={92F4FF67-4D71-4473-BAF4-82031CF69BEB}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Component name="OBU Touch screen" xmi.id="EAID_9682FD1E_05CF_4330_A960_4D907A1362A8" visibility="public" namespace="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-21 17:30:23"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-21 17:30:26"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Vehicle &amp; Handheld Device Hardware &amp; Firmware"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="06dcrlni"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="18249"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={3DB0C120-87BA-480f-A06A-483B2B94D40D}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isIndirectlyInstantiated@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=true@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={9682FD1E-05CF-4330-A960-4D907A1362A8}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Component name="USB" xmi.id="EAID_A1F0181A_A58E_426b_B4FD_072C2C197E67" visibility="public" namespace="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-21 17:30:40"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-21 17:30:43"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Vehicle &amp; Handheld Device Hardware &amp; Firmware"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="06dcrlni"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="18250"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={46E0F815-D25E-4116-B899-F572CF721FEC}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isIndirectlyInstantiated@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=true@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={A1F0181A-A58E-426b-B4FD-072C2C197E67}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Component name="Chronotachymeter" xmi.id="EAID_E18B3256_837E_4cc2_89C2_FB1CE4B3CBC7" visibility="public" namespace="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Already exists"/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-21 17:19:02"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-21 17:19:10"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Vehicle &amp; Handheld Device Hardware &amp; Firmware"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="06dcrlni"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="18244"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={ECFA4AB8-4373-48e6-967F-2DFECD01040A}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isIndirectlyInstantiated@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=true@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={E18B3256-837E-4cc2-89C2-FB1CE4B3CBC7}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+						<UML:Component name="Geolocation module" xmi.id="EAID_E1C6BBAA_A3C1_4e6a_8FF2_EEBAD685F5AD" visibility="public" namespace="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-21 17:33:03"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-21 17:33:06"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Vehicle &amp; Handheld Device Hardware &amp; Firmware"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="06dcrlni"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="18253"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={82B26A55-77E5-40cc-85AF-BC5B5C2CFF07}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isIndirectlyInstantiated@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=true@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={E1C6BBAA-A3C1-4e6a-8FF2-EEBAD685F5AD}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
 						<UML:Association xmi.id="EAID_E8BF6A9D_CABE_4748_B64C_8FE9E073862D" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="style" value="3"/>
@@ -50,14 +688,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="13090"/>
+								<UML:TaggedValue tag="ea_localid" value="18592"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Personal Travel Companion"/>
 								<UML:TaggedValue tag="ea_targetName" value="Vehicle &amp; Handheld Device Hardware &amp; Firmware"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Package"/>
 								<UML:TaggedValue tag="ea_targetType" value="Package"/>
-								<UML:TaggedValue tag="ea_sourceID" value="12353"/>
-								<UML:TaggedValue tag="ea_targetID" value="12355"/>
-								<UML:TaggedValue tag="privatedata5" value="EDGE=3;SX=-23;SY=56;EX=-23;EY=41;"/>
+								<UML:TaggedValue tag="ea_sourceID" value="17543"/>
+								<UML:TaggedValue tag="ea_targetID" value="17035"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -81,17 +718,49 @@
 				</UML:Package>
 			</UML:Namespace.ownedElement>
 		</UML:Model>
-		<UML:DiagramElement geometry="Left=920;Top=360;Right=1195;Bottom=442;" subject="EAID_B37F1096_E7AB_4c3c_8669_F691D8DD890B" seqno="6" style="DUID=A0A98D0B;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;">
+		<UML:Diagram name="On-Board Unit" xmi.id="EAID_5109830B_FF85_457d_A999_EB6D996F7A66" diagramType="ComponentDiagram" owner="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B" toolName="Enterprise Architect 2.5">
 			<UML:ModelElement.taggedValue>
-				<UML:TaggedValue tag="diagram_guid" value="EAID_9C59F828_0EC5_4715_A4EE_F4C3DFF70CD1"/>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="06dcrlni"/>
+				<UML:TaggedValue tag="created_date" value="2012-06-21 15:30:12"/>
+				<UML:TaggedValue tag="modified_date" value="2012-06-21 17:51:02"/>
+				<UML:TaggedValue tag="package" value="EAPK_B37F1096_E7AB_4c3c_8669_F691D8DD890B"/>
+				<UML:TaggedValue tag="type" value="Component"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
+				<UML:TaggedValue tag="ea_localid" value="1833"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=2;PPgs.cy=1;DocSize.cx=795;DocSize.cy=1134;ShowDetails=0;Orientation=P;Zoom=105;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 			</UML:ModelElement.taggedValue>
-		</UML:DiagramElement>
-		<UML:DiagramElement geometry="EDGE=3;SX=-23;SY=56;EX=-23;EY=41;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;" subject="EAID_E8BF6A9D_CABE_4748_B64C_8FE9E073862D" style="Mode=3;EOID=A0A98D0B;SOID=1F623088;Color=-1;LWidth=0;">
-			<UML:ModelElement.taggedValue>
-				<UML:TaggedValue tag="diagram_guid" value="EAID_9C59F828_0EC5_4715_A4EE_F4C3DFF70CD1"/>
-				<UML:TaggedValue tag="hidden" value="0"/>
-			</UML:ModelElement.taggedValue>
-		</UML:DiagramElement>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=748;Top=435;Right=858;Bottom=495;" subject="EAID_8AD2EBC4_9CB7_4756_8BAA_E1D8E617B4E3" seqno="1" style="DUID=4B5A4F17;"/>
+				<UML:DiagramElement geometry="Left=748;Top=519;Right=858;Bottom=579;" subject="EAID_8D3A6558_AD19_4888_896F_27390977E372" seqno="2" style="DUID=4EBF9719;"/>
+				<UML:DiagramElement geometry="Left=512;Top=299;Right=622;Bottom=359;" subject="EAID_83B752C1_3E94_47ca_93F7_369CFAD5E39C" seqno="3" style="DUID=9C2204BA;"/>
+				<UML:DiagramElement geometry="Left=239;Top=498;Right=349;Bottom=558;" subject="EAID_E1C6BBAA_A3C1_4e6a_8FF2_EEBAD685F5AD" seqno="4" style="DUID=21D78412;"/>
+				<UML:DiagramElement geometry="Left=749;Top=351;Right=859;Bottom=411;" subject="EAID_109CB23F_B7A4_4977_811B_89F0D5F1AD85" seqno="5" style="DUID=3DB53E9B;"/>
+				<UML:DiagramElement geometry="Left=748;Top=265;Right=858;Bottom=325;" subject="EAID_92F4FF67_4D71_4473_BAF4_82031CF69BEB" seqno="6" style="DUID=5D7B97F0;"/>
+				<UML:DiagramElement geometry="Left=748;Top=183;Right=858;Bottom=243;" subject="EAID_A1F0181A_A58E_426b_B4FD_072C2C197E67" seqno="7" style="DUID=35B2DAF2;"/>
+				<UML:DiagramElement geometry="Left=748;Top=114;Right=858;Bottom=174;" subject="EAID_9682FD1E_05CF_4330_A960_4D907A1362A8" seqno="8" style="DUID=8E6914A6;"/>
+				<UML:DiagramElement geometry="Left=748;Top=33;Right=858;Bottom=93;" subject="EAID_3CFC6D84_F713_401f_8884_050C85E1FA8F" seqno="9" style="DUID=5EAF7F72;"/>
+				<UML:DiagramElement geometry="Left=509;Top=213;Right=619;Bottom=273;" subject="EAID_67E3A0E0_3766_431c_AE54_2876D8E38703" seqno="10" style="DUID=FFBD5DE9;"/>
+				<UML:DiagramElement geometry="Left=32;Top=343;Right=199;Bottom=399;" subject="EAID_BFD4CD81_6986_4472_931E_E6CA1856C5F4" seqno="11" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;DUID=504E3059;"/>
+				<UML:DiagramElement geometry="Left=61;Top=491;Right=171;Bottom=551;" subject="EAID_E18B3256_837E_4cc2_89C2_FB1CE4B3CBC7" seqno="12" style="DUID=F6B11B04;"/>
+				<UML:DiagramElement geometry="Left=61;Top=133;Right=171;Bottom=198;" subject="EAID_0983DB6E_36E0_4a42_94EC_4876D6B16F75" seqno="13" style="DUID=EAFBD92E;"/>
+				<UML:DiagramElement geometry="Left=271;Top=322;Right=381;Bottom=382;" subject="EAID_1A8FB760_8461_431b_B857_E45FC8321EF1" seqno="14" style="DUID=D3BDC041;"/>
+				<UML:DiagramElement geometry="Left=358;Top=210;Right=468;Bottom=270;" subject="EAID_3B85A92C_AC7A_4dd9_84AC_2696F3E66A00" seqno="15" style="DUID=757CD17F;"/>
+				<UML:DiagramElement geometry="Left=386;Top=58;Right=498;Bottom=118;" subject="EAID_5ED2371E_C269_423f_9E7F_DC1607D2F58E" seqno="16" style="DUID=2808E250;"/>
+				<UML:DiagramElement geometry="Left=214;Top=151;Right=324;Bottom=211;" subject="EAID_3B5568D3_3054_4b96_B60E_4E0E37ED3F2C" seqno="17" style="DUID=46BD0836;"/>
+				<UML:DiagramElement geometry="Left=50;Top=246;Right=177;Bottom=290;" subject="EAID_2003CC10_2517_4f27_94AA_921F074C94CA" seqno="18" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;DUID=CE0F61AD;"/>
+				<UML:DiagramElement geometry="Left=21;Top=16;Right=645;Bottom=615;" subject="EAID_4E70395E_AE4A_4bb5_9BC5_3FE8006767D7" seqno="19" style="DUID=34AAB1E4;"/>
+				<UML:DiagramElement geometry="Left=678;Top=11;Right=934;Bottom=612;" subject="EAID_9126491F_C2CA_4461_B49F_D2FDA1AAD5F9" seqno="20" style="DUID=6D7B54A0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=30:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_62753A08_D3B3_411d_B8CE_E37E78C5B60B" style="Mode=3;EOID=8E6914A6;SOID=46BD0836;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=30:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_A819EDD6_1439_445f_80C1_FC3E02D6BFBE" style="Mode=3;EOID=FFBD5DE9;SOID=D3BDC041;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_5EB8AD01_26BD_4682_8A96_70156495100B" style="Mode=3;EOID=504E3059;SOID=CE0F61AD;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=CX=30:CY=14:OX=7:OY=1:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_FCBD4EC0_DAAF_4c9a_A920_790CC9983C18" style="Mode=3;EOID=F6B11B04;SOID=D3BDC041;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=30:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_0C8726CE_31F4_4115_BDD2_8B5AF64DA643" style="Mode=3;EOID=EAFBD92E;SOID=D3BDC041;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=CX=30:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_04BC0AC4_22A0_4a0a_88AA_01F26F2FB282" style="Mode=3;EOID=D3BDC041;SOID=46BD0836;Color=-1;LWidth=0;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
 	</XMI.content>
 	<XMI.difference/>
 	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
