@@ -10,12 +10,12 @@
 		<UML:Model name="EA Model" xmi.id="MX_EAID_DA86285E_BE9D_4fe2_B069_C505DADA9B4D">
 			<UML:Namespace.ownedElement>
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
-				<UML:Package name="Public Transport Manager" xmi.id="EAPK_DA86285E_BE9D_4fe2_B069_C505DADA9B4D" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+				<UML:Package name="Public Transport" xmi.id="EAPK_DA86285E_BE9D_4fe2_B069_C505DADA9B4D" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="documentation" value="T4.5 &amp;amp; T4.12"/>
 						<UML:TaggedValue tag="parent" value="EAPK_30434CB6_8EA0_44bf_9B48_30D0DA00C88C"/>
 						<UML:TaggedValue tag="created" value="2012-02-17 18:00:31"/>
-						<UML:TaggedValue tag="modified" value="2012-03-08 09:14:41"/>
+						<UML:TaggedValue tag="modified" value="2012-07-06 14:19:45"/>
 						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 						<UML:TaggedValue tag="xmlpath" value="Public Transport Manager.xml"/>
 						<UML:TaggedValue tag="lastloaddate" value="2012-05-23 19:05:09"/>
@@ -54,7 +54,7 @@
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_0539A35D_95D7_4cd0_9AD0_3946A0A41DDD"/>
-										<UML:TaggedValue tag="package_name" value="Public Transport Manager"/>
+										<UML:TaggedValue tag="package_name" value="Public Transport"/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="author" value="Thales"/>
 										<UML:TaggedValue tag="complexity" value="1"/>
@@ -85,7 +85,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="conditional" value=" &#xA;«use»"/>
 								<UML:TaggedValue tag="ea_localid" value="17769"/>
-								<UML:TaggedValue tag="ea_sourceName" value="Public Transport Manager"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Public Transport"/>
 								<UML:TaggedValue tag="ea_targetName" value="Multi Modal Travel"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Package"/>
 								<UML:TaggedValue tag="ea_targetType" value="Package"/>
@@ -112,10 +112,7 @@
 								<UML:TaggedValue tag="mb" value=" &#xA;«use»"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
-						<UML:Dependency client="EAPK_DA86285E_BE9D_4fe2_B069_C505DADA9B4D" supplier="EAPK_3A93B0DC_46C9_4468_A403_4CB088B8D69A" xmi.id="EAID_F0E6157A_B2C6_42d5_AC06_A91D37BF9678" visibility="public">
-							<UML:ModelElement.stereotype>
-								<UML:Stereotype name="use"/>
-							</UML:ModelElement.stereotype>
+						<UML:Dependency client="EAPK_DA86285E_BE9D_4fe2_B069_C505DADA9B4D" supplier="EAPK_3A93B0DC_46C9_4468_A403_4CB088B8D69A" xmi.id="EAID_E7A5B76F_9CCD_4af1_A7EA_C9443475429E" visibility="public">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Dependency"/>
@@ -124,12 +121,10 @@
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
-								<UML:TaggedValue tag="stereotype" value="use"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;«use»"/>
-								<UML:TaggedValue tag="ea_localid" value="17781"/>
-								<UML:TaggedValue tag="ea_sourceName" value="Public Transport Manager"/>
+								<UML:TaggedValue tag="ea_localid" value="20959"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Public Transport"/>
 								<UML:TaggedValue tag="ea_targetName" value="Multi-Modal Mobility"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Package"/>
 								<UML:TaggedValue tag="ea_targetType" value="Package"/>
@@ -151,9 +146,7 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={A1DC0752-17DF-4ce6-ABFB-08A3696D2F7B}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$DES=@STEREO;Name=use;GUID={B2A49FD9-4316-4360-84D9-3E973216C424};@ENDSTEREO;$DES;$CLT={F0E6157A-B2C6-42d5-AC06-A91D37BF9678}$CLT;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;«use»"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
 						<UML:Package name="Public Transport Broker" xmi.id="EAPK_0539A35D_95D7_4cd0_9AD0_3946A0A41DDD" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
@@ -178,7 +171,7 @@
 				</UML:Package>
 			</UML:Namespace.ownedElement>
 		</UML:Model>
-		<UML:DiagramElement geometry="Left=24;Top=257;Right=240;Bottom=337;" subject="EAID_DA86285E_BE9D_4fe2_B069_C505DADA9B4D" seqno="5" style="DUID=4C90CF52;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;">
+		<UML:DiagramElement geometry="Left=80;Top=240;Right=296;Bottom=320;" subject="EAID_DA86285E_BE9D_4fe2_B069_C505DADA9B4D" seqno="5" style="DUID=4C90CF52;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;">
 			<UML:ModelElement.taggedValue>
 				<UML:TaggedValue tag="diagram_guid" value="EAID_9C59F828_0EC5_4715_A4EE_F4C3DFF70CD1"/>
 			</UML:ModelElement.taggedValue>
@@ -188,7 +181,7 @@
 				<UML:TaggedValue tag="diagram_guid" value="EAID_355DF141_C59B_4baa_B170_1D13ECD8F366"/>
 			</UML:ModelElement.taggedValue>
 		</UML:DiagramElement>
-		<UML:DiagramElement geometry="EDGE=3;$LLB=;LLT=;LMT=;LMB=CX=28:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;" subject="EAID_F0E6157A_B2C6_42d5_AC06_A91D37BF9678" style="Mode=3;EOID=4DB8DF68;SOID=4C90CF52;Color=-1;LWidth=0;">
+		<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;" subject="EAID_E7A5B76F_9CCD_4af1_A7EA_C9443475429E" style="Mode=3;EOID=4DB8DF68;SOID=4C90CF52;Color=-1;LWidth=0;">
 			<UML:ModelElement.taggedValue>
 				<UML:TaggedValue tag="diagram_guid" value="EAID_9C59F828_0EC5_4715_A4EE_F4C3DFF70CD1"/>
 				<UML:TaggedValue tag="hidden" value="0"/>
