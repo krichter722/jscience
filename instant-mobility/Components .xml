@@ -90,7 +90,7 @@
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
 								</UML:ClassifierRole>
-								<UML:ClassifierRole name="Payment" xmi.id="EAID_712D442D_2035_484f_86B0_34F8394EBCE6" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+								<UML:ClassifierRole name="Mobile Payment" xmi.id="EAID_712D442D_2035_484f_86B0_34F8394EBCE6" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="isAbstract" value="false"/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
@@ -100,7 +100,7 @@
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_30434CB6_8EA0_44bf_9B48_30D0DA00C88C"/>
 										<UML:TaggedValue tag="date_created" value="2012-07-06 14:15:48"/>
-										<UML:TaggedValue tag="date_modified" value="2012-07-06 14:19:14"/>
+										<UML:TaggedValue tag="date_modified" value="2012-07-09 09:35:15"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_712D442D_2035_484f_86B0_34F8394EBCE6"/>
@@ -193,7 +193,7 @@
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
 								</UML:ClassifierRole>
-								<UML:ClassifierRole name="Public Transport" xmi.id="EAID_DA86285E_BE9D_4fe2_B069_C505DADA9B4D" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+								<UML:ClassifierRole name="Transport Manager" xmi.id="EAID_DA86285E_BE9D_4fe2_B069_C505DADA9B4D" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="T4.5 &amp;amp; T4.12"/>
 										<UML:TaggedValue tag="isAbstract" value="false"/>
@@ -204,7 +204,7 @@
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_30434CB6_8EA0_44bf_9B48_30D0DA00C88C"/>
 										<UML:TaggedValue tag="date_created" value="2012-06-19 08:16:53"/>
-										<UML:TaggedValue tag="date_modified" value="2012-07-06 14:19:45"/>
+										<UML:TaggedValue tag="date_modified" value="2012-07-09 09:42:48"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_DA86285E_BE9D_4fe2_B069_C505DADA9B4D"/>
@@ -583,7 +583,7 @@
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="20957"/>
-								<UML:TaggedValue tag="ea_sourceName" value="Payment"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Mobile Payment"/>
 								<UML:TaggedValue tag="ea_targetName" value="Multi-Modal Mobility"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Package"/>
 								<UML:TaggedValue tag="ea_targetType" value="Package"/>
@@ -664,7 +664,7 @@
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="20959"/>
-								<UML:TaggedValue tag="ea_sourceName" value="Public Transport"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Transport Manager"/>
 								<UML:TaggedValue tag="ea_targetName" value="Multi-Modal Mobility"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Package"/>
 								<UML:TaggedValue tag="ea_targetType" value="Package"/>
@@ -702,7 +702,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="20958"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Personal Travel Companion"/>
-								<UML:TaggedValue tag="ea_targetName" value="Payment"/>
+								<UML:TaggedValue tag="ea_targetName" value="Mobile Payment"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Package"/>
 								<UML:TaggedValue tag="ea_targetType" value="Package"/>
 								<UML:TaggedValue tag="ea_sourceID" value="18554"/>
@@ -1091,7 +1091,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="conditional" value=" &#xA;«use»"/>
 								<UML:TaggedValue tag="ea_localid" value="17769"/>
-								<UML:TaggedValue tag="ea_sourceName" value="Public Transport"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Transport Manager"/>
 								<UML:TaggedValue tag="ea_targetName" value="Multi Modal Travel"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Package"/>
 								<UML:TaggedValue tag="ea_targetType" value="Package"/>
@@ -1118,11 +1118,11 @@
 								<UML:TaggedValue tag="mb" value=" &#xA;«use»"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
-						<UML:Package name="Payment" xmi.id="EAPK_712D442D_2035_484f_86B0_34F8394EBCE6" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+						<UML:Package name="Mobile Payment" xmi.id="EAPK_712D442D_2035_484f_86B0_34F8394EBCE6" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="parent" value="EAPK_30434CB6_8EA0_44bf_9B48_30D0DA00C88C"/>
 								<UML:TaggedValue tag="created" value="2012-07-06 14:15:48"/>
-								<UML:TaggedValue tag="modified" value="2012-07-06 14:19:14"/>
+								<UML:TaggedValue tag="modified" value="2012-07-09 09:35:15"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="Payment Manager.xml"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
@@ -1247,12 +1247,12 @@
 								<UML:TaggedValue tag="ea_stype" value="Public"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Package>
-						<UML:Package name="Public Transport" xmi.id="EAPK_DA86285E_BE9D_4fe2_B069_C505DADA9B4D" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+						<UML:Package name="Transport Manager" xmi.id="EAPK_DA86285E_BE9D_4fe2_B069_C505DADA9B4D" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="T4.5 &amp;amp; T4.12"/>
 								<UML:TaggedValue tag="parent" value="EAPK_30434CB6_8EA0_44bf_9B48_30D0DA00C88C"/>
 								<UML:TaggedValue tag="created" value="2012-02-17 18:00:31"/>
-								<UML:TaggedValue tag="modified" value="2012-07-06 14:19:45"/>
+								<UML:TaggedValue tag="modified" value="2012-07-09 09:42:48"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="Public Transport Manager.xml"/>
 								<UML:TaggedValue tag="lastloaddate" value="2012-05-23 19:05:09"/>
@@ -1265,7 +1265,7 @@
 								<UML:TaggedValue tag="tpos" value="4"/>
 								<UML:TaggedValue tag="batchsave" value="0"/>
 								<UML:TaggedValue tag="batchload" value="0"/>
-								<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=SVN_IM;"/>
+								<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=SVN_IM;CheckedOutTo=T0100257;"/>
 								<UML:TaggedValue tag="savedasstub" value="true"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="status" value="Proposed"/>
@@ -1337,17 +1337,17 @@
 				<UML:TaggedValue tag="version" value="1.0"/>
 				<UML:TaggedValue tag="author" value="Cédric"/>
 				<UML:TaggedValue tag="created_date" value="2012-03-08 10:02:09"/>
-				<UML:TaggedValue tag="modified_date" value="2012-07-06 14:27:24"/>
+				<UML:TaggedValue tag="modified_date" value="2012-07-09 10:22:37"/>
 				<UML:TaggedValue tag="package" value="EAPK_30434CB6_8EA0_44bf_9B48_30D0DA00C88C"/>
 				<UML:TaggedValue tag="type" value="Deployment"/>
 				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
 				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
 				<UML:TaggedValue tag="ea_localid" value="1619"/>
 				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=799;DocSize.cy=1150;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<UML:TaggedValue tag="styleex" value="SaveTag=2D6CE266;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=294EEA1D;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 			</UML:ModelElement.taggedValue>
 			<UML:Diagram.element>
-				<UML:DiagramElement geometry="Left=460;Top=210;Right=630;Bottom=290;" subject="EAID_712D442D_2035_484f_86B0_34F8394EBCE6" seqno="1" style="DUID=B58F84D7;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=460;Top=210;Right=648;Bottom=290;" subject="EAID_712D442D_2035_484f_86B0_34F8394EBCE6" seqno="1" style="DUID=B58F84D7;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
 				<UML:DiagramElement geometry="Left=10;Top=20;Right=780;Bottom=180;" subject="EAID_C89C4B09_EDD5_4748_A18C_5F51D5162343" seqno="2" style="DUID=9FBB1457;"/>
 				<UML:DiagramElement geometry="Left=10;Top=380;Right=182;Bottom=550;" subject="EAID_2F44255C_8795_441a_BE4B_533F6DE07B0B" seqno="3" style="DUID=A86BA0D0;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
 				<UML:DiagramElement geometry="Left=200;Top=620;Right=420;Bottom=810;" subject="EAID_CCDF7169_C536_48e5_8FC1_081090000FDE" seqno="4" style="DUID=A9F13466;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
