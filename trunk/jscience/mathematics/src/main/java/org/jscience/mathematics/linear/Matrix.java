@@ -1,6 +1,6 @@
 /*
  * JScience - Java(TM) Tools and Libraries for the Advancement of Sciences.
- * Copyright (C) 2006 - JScience (http://jscience.org/)
+ * Copyright (C) 2014 - JScience (http://jscience.org/)
  * All rights reserved.
  * 
  * Permission to use, copy, modify, and distribute this software is
@@ -11,6 +11,7 @@ package org.jscience.mathematics.linear;
 import java.util.Comparator;
 import java.util.List;
 
+import javolution.lang.ValueType;
 import javolution.util.Index;
 
 import org.jscience.mathematics.structure.Field;
@@ -18,38 +19,36 @@ import org.jscience.mathematics.structure.Ring;
 import org.jscience.mathematics.structure.VectorSpace;
 
 /**
- * <p> A rectangular table of elements of a ring-like algebraic structure.</p>
+ * <p> A rectangular table of elements of a ring-like algebraic structure
+ *     (immutable).</p>
  *     
- * <p> Matrices' instances can be produced through factory methods of
- *     the {@link Matrices} class.  
+ * <p> New matrices' instances can be produced through factory methods of
+ *     the {@link Matrices} class (the abstract factory pattern is used 
+ *     because several matrices specializations exist).  
  * [code]
- * // Creates a dense matrix (2x3) of 64 bits floating points numbers.
- * Matrix<Float64> M0 = Matrices.valueOf(
- *    Vectors.valueOf(1.1, 1.2, 1.3),
- *    Vectors.valueOf(2.1, 2.2, 2.3));
+ * // Creates a dense matrix (2x3) of 64 bits floating points numbers (GPU Accelerated)
+ * FloatMatrix M0 = Matrices.floatMatrix(
+ *      Vectors.floatVector(1.1, 1.2, 1.3), 
+ *      Vectors.floatVector(2.1, 2.2, 2.3));
  *
- * // Creates a dense matrix (2x2) of rational numbers.
- * Matrix<Rational> M1 = Matrices.valueOf(
- *     Vectors.valueOf(Rational.valueOf(23, 45), Rational.valueOf(33, 75)),
- *     Vectors.valueOf(Rational.valueOf(15, 31), Rational.valueOf(-20, 45)));
+ * // Creates a dense matrix of 64 bits floating points complex numbers (GPU accelerated).
+ * ComplexMatrix M1 = Matrices.complexMatrix(complexVector1, complexVector2);
+ * 
+ * // Creates a dense matrix of rational numbers.
+ * DenseMatrix<Rational> M2 = Matrices.denseMatrix(denseVector1, denseVector2);
  *
- * // Creates a upper triangular matrix (2x2) of rational numbers.
- * Matrix<Rational> M2 = Matrices.valueOf(
- *     Vectors.valueOf(Rational.valueOf(23, 45), Rational.valueOf(33, 75)),
- *     Vectors.valueOf(2, Index.listOf(1), Rational.valueOf(-20, 45))); // Sparse.
- *
- * // Creates a upper band matrix (3x3) of decimal numbers.
- * Matrix<Decimal> M5 = Matrices.valueOf(
- *      Vectors.valueOf(3, Index.rangeOf(0,2), Decimal.valueOf("1.1"), Decimal.valueOf("1.2")), 
- *      Vectors.valueOf(3, Index.rangeOf(1,3), Decimal.valueOf("2.2"), Decimal.valueOf("2.3")),
- *      Vectors.valueOf(3, Index.rangeOf(2,3), Decimal.valueOf("3.3")));
- *      
- * // Creates a diagonal matrix (2x2) of decimal numbers.
- * Matrix<Decimal> M6 = 
- *     Vectors.valueOf(Decimal.valueOf("3.3"), Decimal.valueOf("-0.3")).asDiagonal();
- *
- * // Creates an identity matrix (4x4) of 64 bits complex numbers.
- * Matrix<Complex<Float64>> IDENTITY = Vectors.valueOf(4, Complex.ONE).asDiagonal();
+ * // Creates a sparse matrix of decimal numbers.
+ * SparseMatrix<Decimal> M3 = Matrices.sparseMatrix(sparseVector1, sparseVector2); 
+ *     
+ * // Converts a sparse matrix to a dense matrix.
+ * DenseMatrix<Decimal> M4 = Matrices.denseMatrix(M3);
+ * 
+ * // Converts a dense matrix to a sparse matrix.
+ * SparseMatrix<Rational> M5 = Matrices.sparseMatrix(M2, Rational.ZERO);
+ * 
+ * // Creates a diagonal matrix from a vector.
+ * FloatMatrix M6 = Vectors.floatVector(2.3, 4.5).asDiagonal();
+ * ComplexMatrix IDENTITY = Vectors.complexVector(Complex.ONE, Complex.ONE).asDiagonal();
  * [/code]
  *      
  * <p> Non-commutative field multiplication is supported. Invertible square 
@@ -58,12 +57,12 @@ import org.jscience.mathematics.structure.VectorSpace;
  *     equations with matrix coefficients.</p>
  *     
  * @author <a href="mailto:jean-marie@dautelle.com">Jean-Marie Dautelle</a>
- * @version 3.3, December 24, 2006
+ * @version 5.0, January 26, 2014
  * @see <a href="http://en.wikipedia.org/wiki/Matrix_%28mathematics%29">
  *      Wikipedia: Matrix (mathematics)</a>
  */
-public interface Matrix<F extends Field<F> >
-         extends VectorSpace<Matrix<F>, F>, Ring<Matrix<F> > {
+public interface Matrix<F extends Field<F>>
+         extends VectorSpace<Matrix<F>,F>, Ring<Matrix<F>>, ValueType<Matrix<F>> {
 
     /**
      * Returns the number of rows <code>m</code> for this matrix.

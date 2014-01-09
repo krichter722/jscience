@@ -1,6 +1,6 @@
 /*
  * JScience - Java(TM) Tools and Libraries for the Advancement of Sciences.
- * Copyright (C) 2006 - JScience (http://jscience.org/)
+ * Copyright (C) 2014 - JScience (http://jscience.org/)
  * All rights reserved.
  * 
  * Permission to use, copy, modify, and distribute this software is
@@ -15,69 +15,60 @@ import java.util.Comparator;
 import java.util.List;
 
 import javolution.lang.Realtime;
-import javolution.util.FastTable;
+import javolution.lang.ValueType;
 import javolution.util.Index;
 
 import org.jscience.mathematics.structure.Field;
 import org.jscience.mathematics.structure.VectorSpace;
 
 /**
- * <p> An immutable element of a vector space.</p>
- *
- * <p> Vector's instances can be produced through factory methods of
- *     the {@link Vectors} class.
+ * <p> An element of a <a href="http://en.wikipedia.org/wiki/Vector_space">
+ *      vector space</a> (immutable).</p>
+ *      
+ * <p> New vectors' instances can be produced through factory methods of
+ *     the {@link Vectors} class (the abstract factory pattern is used 
+ *     because several vectors specializations exist).  
  * [code]
- * // Creates a dense vector of 64 bits floating points numbers.
- * Vector<Float64> V0 = Vectors.valueOf(1.1, 1.2, 1.3);
+ * // Creates a dense vector of 64 bits floating points numbers (GPU accelerated).
+ * FloatVector V0 = Vectors.floatVector(1.1, 1.2, 1.3);
  *
+ * // Creates a dense vector of 64 bits floating points complex numbers (GPU accelerated).
+ * ComplexVector V1 = Vectors.complexVector(new double[]{1.1, 1.2, 1.3}, new double[] {O.1, O.2, O.3});
+ * 
  * // Creates a dense vector of rational numbers.
- * Vector<Rational> V1 = Vectors.valueOf(
- *     Rational.valueOf(23, 45), Rational.valueOf(33, 75));
+ * DenseVector<Rational> V2 = Vectors.denseVector(Rational.of(23, 45), Rational.of(33, 75));
  *
- * // Creates a sparse vector { null, null, null, 2.1, null, null, null, -7.7 } 
- * // of decimal numbers.
- * Vector<Decimal> V2 = Vectors.valueOf(8, Index.listOf(3, 7),
+ * // Creates a sparse vector {0,0,0,2.1,0,0,0,-7.7} of decimal numbers.
+ * SparseVector<Decimal> V3 = Vectors.sparseVector(8, Decimal.ZERO, Index.listOf(3, 7), 
  *     Decimal.valueOf("2.1"), Decimal.valueOf("-7.7"));
+ *     
+ * // Converts a sparse vector to a dense vector.
+ * DenseVector<Decimal> V4 = Vectors.denseVector(V3);
+ * 
+ * // Converts a dense vector to a sparse vector.
+ * SparseVector<Rational> V5 = Vectors.sparseVector(V2, Rational.ZERO);
  * [/code]</p>
  * 
  * <p> JScience modules may provide additional vector/matrix specializations.
  * [code]
- * interface Amount<F extends Field<F>, Q extends Quantity> extends Field<Amount<F,?>> {
- *     F value() {...}
- *     Unit<Q> unit() {...}
+ * // Physics vector with numerics values all stated using the same unit.
+ * abstract class AmountVector<N extends NumericField<N>, Q extends Quantity> implements Vector<Amount<N, ?>> {
+ *     static <N extends NumericField<N>, Q extends Quantity> AmountVector<N, Q> of(Vector<N> value, Unit<Q> unit) { ... }
+ *     static <Q extends Quantity> AmountVector<Float64, Q> of(Unit<Q> unit, double... elements) { // Convenience method.
+ *         return AmountVector.of(Vectors.of(elements), unit);
+ *     }
+ *     Vector<N> getValue() {...}
+ *     Unit<Q> getUnit() {...}
  * }
  * ... 
- * Amount<Float64, Mass> weight = Amounts.valueOf(83.2, KILOGRAM);
- * Amount<Float64, Duration> time = Amounts.valueOf(12.3, SECOND);
- * AmountVector<Float64> V1 = Amounts.valueOf(weight, time);
- * AmountVector<Float64> V2 = Amounts.valueOf(2, Index.listOf(0), time); // Sparse.
- * AmountMatrix<Float64> M = Amounts.valueOf(V1, V2);
+ * AmountVector<Float64, Velocity> velocity3D = AmountVector.of(METER_PER_SECOND, 1.2, 3.4 -5.7);
  * [/code]</p>
  * 
  * @author <a href="mailto:jean-marie@dautelle.com">Jean-Marie Dautelle</a>
- * @version 5.0, December 12, 2009
- * @see <a href="http://en.wikipedia.org/wiki/Vector_space">
- *      Wikipedia: Vector Space</a>
+ * @version 5.0, January 26, 2014
+ * @see <a href="http://en.wikipedia.org/wiki/Vector_space">Wikipedia: Vector Space</a>
  */
-public interface Vector<F extends Field<F>> extends VectorSpace<Vector<F>, F> {
-
-	/**
-	 * Indicates if all the elements of this vector are different from 
-	 * {@code null}.
-	 */
-	boolean isDense();
-
-	/**
-	 * Returns the elements of this vector different from {@code null}.
-	 */
-	FastTable<F> getData();
-
-	/**
-	 * Returns the indices of this vector {@link #getData() data}. 
-	 * If this vector {@link #isDense} then 
-	 * {@code Index.rangeOf(0, getDimension())} is returned.
-	 */
-	FastTable<Index> getIndices();
+public interface Vector<F extends Field<F>> extends VectorSpace<Vector<F>, F>, ValueType<Vector<F>> {
 
 	/**
 	 * Returns this vector as a single column matrix.
@@ -90,10 +81,10 @@ public interface Vector<F extends Field<F>> extends VectorSpace<Vector<F>, F> {
 	Matrix<F> asRow();
 
 	/**
-	 * Returns this vector as diagonal of a square matrix.
+	 * Returns the square matrix having this vector as the diagonal.
 	 */
 	Matrix<F> asDiagonal();
-	
+
 	/**
 	* Indicates if this vector is equal to the object specified.
 	*
